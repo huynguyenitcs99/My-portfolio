@@ -17,8 +17,8 @@ export default function Home() {
     <>
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       <About />
-      <Certificates />
       <Projects />
+      <Certificates />
       <Experience />
       <Skills />
       <ChatWidget showChat={showChat} setShowChat={setShowChat} />
