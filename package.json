@@ -2,16 +2,16 @@
   "name": "my_portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://huynguyenitcs99.github.io/My-portfolio",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build && next export",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "npm run build && gh-pages -d out"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "framer-motion": "^12.6.3",
-    "gh-pages": "^6.3.0",
     "lucide-react": "^0.487.0",
     "next": "15.2.4",
     "react": "^19.0.0",
@@ -23,6 +23,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
