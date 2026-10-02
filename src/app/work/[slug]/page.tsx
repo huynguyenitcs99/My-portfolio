@@ -1,129 +1,132 @@
-import { notFound } from "next/navigation";
-import { CustomMDX } from "@/components/mdx";
-import { getPosts } from "@/app/utils/utils";
-import { AvatarGroup, Button, Column, Flex, Heading, SmartImage, Text } from "@/once-ui/components";
-import { baseURL } from "@/app/resources";
-import { person } from "@/app/resources/content";
-import { formatDate } from "@/app/utils/formatDate";
-import ScrollToHash from "@/components/ScrollToHash";
+import Image from "next/image";
+import Link from "next/link";
+import type { Metadata } from "next";
+import { notFound, permanentRedirect } from "next/navigation";
+import { projects, legacySlugs } from "@/content/projects";
+import { AgentArtwork, MenuArtwork, SlideArtwork } from "@/components/artwork";
 
-interface WorkParams {
-  params: {
-    slug: string;
-  };
+type Props = { params: Promise<{ slug: string }> };
+export function generateStaticParams() {
+  return projects.map((project) => ({ slug: project.slug }));
 }
-
-export async function generateStaticParams(): Promise<{ slug: string }[]> {
-  const posts = getPosts(["src", "app", "work", "projects"]);
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
-}
-
-export function generateMetadata({ params: { slug } }: WorkParams) {
-  let post = getPosts(["src", "app", "work", "projects"]).find((post) => post.slug === slug);
-
-  if (!post) {
-    return;
-  }
-
-  let {
-    title,
-    publishedAt: publishedTime,
-    summary: description,
-    images,
-    image,
-    team,
-  } = post.metadata;
-  let ogImage = image ? `https://${baseURL}${image}` : `https://${baseURL}/og?title=${title}`;
-
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const project = projects.find((p) => p.slug === slug);
+  if (!project) return { title: "Project not found" };
   return {
-    title,
-    description,
-    images,
-    team,
+    title: project.title,
+    description: project.summary,
+    alternates: { canonical: `/work/${slug}` },
     openGraph: {
-      title,
-      description,
-      type: "article",
-      publishedTime,
-      url: `https://${baseURL}/work/${post.slug}`,
-      images: [
-        {
-          url: ogImage,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [ogImage],
+      title: `${project.title} · Huy Nguyen`,
+      description: project.summary,
+      url: `/work/${slug}`,
     },
   };
 }
 
-export default function Project({ params }: WorkParams) {
-  let post = getPosts(["src", "app", "work", "projects"]).find((post) => post.slug === params.slug);
-
-  if (!post) {
-    notFound();
-  }
-
-  const avatars =
-    post.metadata.team?.map((person) => ({
-      src: person.avatar,
-    })) || [];
-
+export default async function CasePage({ params }: Props) {
+  const { slug } = await params;
+  if (Object.hasOwn(legacySlugs, slug))
+    permanentRedirect(`/work/${legacySlugs[slug]}`);
+  const project = projects.find((p) => p.slug === slug);
+  if (!project) notFound();
+  const next = projects[(projects.indexOf(project) + 1) % projects.length];
   return (
-    <Column as="section" maxWidth="m" horizontal="center" gap="l">
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            headline: post.metadata.title,
-            datePublished: post.metadata.publishedAt,
-            dateModified: post.metadata.publishedAt,
-            description: post.metadata.summary,
-            image: post.metadata.image
-              ? `https://${baseURL}${post.metadata.image}`
-              : `https://${baseURL}/og?title=${post.metadata.title}`,
-            url: `https://${baseURL}/work/${post.slug}`,
-            author: {
-              "@type": "Person",
-              name: person.name,
-            },
-          }),
-        }}
-      />
-      <Column maxWidth="xs" gap="16">
-        <Button href="/work" variant="tertiary" weight="default" size="s" prefixIcon="chevronLeft">
-          Projects
-        </Button>
-        <Heading variant="display-strong-s">{post.metadata.title}</Heading>
-      </Column>
-      {post.metadata.images.length > 0 && (
-        <SmartImage
-          priority
-          aspectRatio="16 / 9"
-          radius="m"
-          alt="image"
-          src={post.metadata.images[0]}
-        />
+    <main id="main" className="shell case-page">
+      <Link href="/work" className="case-back">
+        ← All work
+      </Link>
+      <header className="case-heading">
+        <p className="eyebrow">{project.eyebrow}</p>
+        <h1>
+          {project.title}
+          <em>.</em>
+        </h1>
+        <p>{project.intro}</p>
+      </header>
+      <dl className="case-meta">
+        <div>
+          <dt>My contribution</dt>
+          <dd>{project.role}</dd>
+        </div>
+        <div>
+          <dt>Context</dt>
+          <dd>{project.company}</dd>
+        </div>
+        <div>
+          <dt>Status</dt>
+          <dd>{project.status}</dd>
+        </div>
+      </dl>
+      <figure className="case-cover">
+        <div className="case-cover-media">
+          {project.image ? (
+            <Image
+              src={project.image}
+              alt={`${project.title} — existing public project media`}
+              fill
+              preload
+              sizes="(max-width: 700px) 92vw, 1240px"
+            />
+          ) : project.slug === "creative-studio" ? (
+            <MenuArtwork />
+          ) : project.slug === "daily-smith" ? (
+            <AgentArtwork />
+          ) : (
+            <SlideArtwork />
+          )}
+        </div>
+        <figcaption>
+          {project.image
+            ? "Existing public case media, retained from my earlier portfolio."
+            : "Illustrative concept graphic · not product output or a live demonstration."}
+        </figcaption>
+      </figure>
+      <div className="case-content">
+        {project.sections.map((section) => (
+          <section key={section.title}>
+            <h2>{section.title}</h2>
+            <p>{section.text}</p>
+          </section>
+        ))}
+        <div className="case-tags">
+          {project.tags.map((tag) => (
+            <span key={tag}>{tag}</span>
+          ))}
+        </div>
+        {project.link && (
+          <a
+            className="inline-link case-source"
+            href={project.link.href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {project.link.label} ↗
+          </a>
+        )}
+      </div>
+      {project.media && (
+        <div className="case-gallery">
+          {project.media.map((media) => (
+            <figure key={media.src}>
+              <div className="case-gallery-media">
+                <Image
+                  src={media.src}
+                  alt={media.caption}
+                  fill
+                  sizes="(max-width: 700px) 92vw, 46vw"
+                />
+              </div>
+              <figcaption>{media.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
       )}
-      <Column style={{ margin: "auto" }} as="article" maxWidth="xs">
-        <Flex gap="12" marginBottom="24" vertical="center">
-          {post.metadata.team && <AvatarGroup reverse avatars={avatars} size="m" />}
-          <Text variant="body-default-s" onBackground="neutral-weak">
-            {post.metadata.publishedAt && formatDate(post.metadata.publishedAt)}
-          </Text>
-        </Flex>
-        <CustomMDX source={post.content} />
-      </Column>
-      <ScrollToHash />
-    </Column>
+      <div className="case-next">
+        <span>Keep exploring</span>
+        <Link href={`/work/${next.slug}`}>{next.title} ↗</Link>
+      </div>
+    </main>
   );
 }

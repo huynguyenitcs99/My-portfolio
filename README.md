@@ -1,89 +1,41 @@
-# **Build your portfolio with Once UI's Magic Portfolio**
+# Huy Nguyen — Nekomata portfolio
 
-View the [demo here](https://demo.magic-portfolio.com).
+A personal portfolio for an AI engineer × creative builder. Next.js App Router, React, Motion and a lazy Remotion motion study. English copy, warm earth/plum identity, native scrolling and static mobile/reduced-motion fallbacks.
 
-![Magic Portfolio](public/images/cover.png)
+## Run
 
-
-# **Getting started**
-
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
-
-**1. Clone the repository**
-```
-git clone https://github.com/once-ui-system/magic-portfolio.git
-```
-
-**2. Install dependencies**
-```
-npm install
-```
-
-**3. Run dev server**
-```
+```sh
+npm ci
 npm run dev
 ```
 
-**4. Edit config**
-```
-src/app/resources/config
-```
+Open http://localhost:3000. Production: `npm run build` then `npm start`.
 
-**5. Edit content**
-```
-src/app/resources/content
-```
+## Verify
 
-**6. Create blog posts / projects**
-```
-Add a new .mdx file to src/app/blog/posts or src/app/work/projects
+```sh
+npm run lint
+npm run typecheck
+npm run build
+python scripts/check-site.py --screenshots
 ```
 
-# **Features**
+The browser check uses Python Playwright and `/usr/bin/chromium` in the current workspace. Run it against the production server. It checks the scroll overview, mobile overflow/images, reduced motion, keyboard navigation, contact, routes/redirects and JavaScript-disabled content.
 
-## **Once UI**
-- All tokens, components & features of [Once UI](https://once-ui.com)
+## Motion
 
-## **SEO**
-- Automatic open-graph and X image generation with next/og
-- Automatic schema and metadata generation based on the content file
+`npm run studio` opens the authored `NekomataBrandStudy` composition in Remotion Studio without opening a browser automatically. `npm run compositions` lists it. The website loads the Player near the study and pauses when offscreen or the tab is hidden. Reduced motion uses a static graphic unless the visitor explicitly plays it.
 
-## **Design**
-- Responsive layout optimized for all screen sizes
-- Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
+DOM motion handles the short desktop card orbit/focus transition. Mobile uses ordinary stacked content. No scroll hijacking or mandatory selection.
 
-## **Content**
-- Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
-- Generate and display social links automatically
-- Set up password protection for URLs
+## Content and design
 
-## **Localization**
-- A localized version of Magic Portfolio is available with the next-intl library
-- To use localization, switch to the 'i18n' branch
+- [Storyboard](docs/design/storyboard.md), [visual concept board](docs/design/storyboard-v2.png)
+- [Approved spec](docs/superpowers/specs/2026-10-02-nekomata-portfolio.md)
+- [Implementation plan](docs/superpowers/plans/2026-10-02-nekomata-portfolio.md)
+- Typed content in `src/content/projects.ts`; old MDX sources in `content/archive`.
+- Accepted original logo in `public/images/brand/nekomata.png`. Kept unchanged; Next image/metadata rendering optimizes delivery.
 
-# **Authors**
+New graphics are illustrative. Creative Studio is a team product: Huy contributed the menu pipeline adaptation and visual DNA method. Daily Smith's AI pipeline is his PIC responsibility. Slide Design is in development. Earlier cases retain public media without unverified date/experience claims. Case study details should be updated with approved real outputs as those become available.
 
-Connect with us on Threads or LinkedIn.
-
-Lorant Toth: [Threads](https://www.threads.net/@lorant.one), [LinkedIn](https://www.linkedin.com/in/tothlorant/)  
-Zsofia Komaromi: [Threads](https://www.threads.net/@zsofia_kom), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
-
-Localization added by [François Hernandez](https://github.com/francoishernandez)
-
-# **Get involved**
-
-- Join the [Design Engineers Club on Discord](https://discord.com/invite/5EyAQ4eNdS) and share your portfolio with us!
-- Report a [bug](https://github.com/once-ui-system/magic-portfolio/issues/new?labels=bug&template=bug_report.md).
-
-# **License**
-
-Distributed under the CC BY-NC 4.0 License.
-- Commercial usage is not allowed.
-- Attribution is required.
-
-See `LICENSE.txt` for more information.
-
-# **Deploy with Vercel**
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fcover.png)
+Canonical host is the existing `huynguyenitcs99.vercel.app`. This workspace rebuild does not publish or deploy automatically.

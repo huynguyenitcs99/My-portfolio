@@ -1,69 +1,26 @@
-import { getPosts } from "@/app/utils/utils";
-import { Column } from "@/once-ui/components";
-import { Projects } from "@/components/work/Projects";
-import { baseURL } from "@/app/resources";
-import { person, work } from "@/app/resources/content";
-
-export async function generateMetadata() {
-  const title = work.title;
-  const description = work.description;
-  const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}`;
-
-  return {
-    title,
-    description,
-    openGraph: {
-      title,
-      description,
-      type: "website",
-      url: `https://${baseURL}/work/`,
-      images: [
-        {
-          url: ogImage,
-          alt: title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [ogImage],
-    },
-  };
-}
-
-export default function Work() {
-  let allProjects = getPosts(["src", "app", "work", "projects"]);
-
+import type { Metadata } from "next";
+import { ProjectGrid } from "@/components/project-grid";
+import { projects } from "@/content/projects";
+export const metadata: Metadata = {
+  title: "Selected work",
+  alternates: { canonical: "/work" },
+};
+export default function WorkPage() {
   return (
-    <Column maxWidth="m">
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            headline: work.title,
-            description: work.description,
-            url: `https://${baseURL}/projects`,
-            image: `${baseURL}/og?title=Design%20Projects`,
-            author: {
-              "@type": "Person",
-              name: person.name,
-            },
-            hasPart: allProjects.map((project) => ({
-              "@type": "CreativeWork",
-              headline: project.metadata.title,
-              description: project.metadata.summary,
-              url: `https://${baseURL}/projects/${project.slug}`,
-              image: `${baseURL}/${project.metadata.image}`,
-            })),
-          }),
-        }}
-      />
-      <Projects />
-    </Column>
+    <main id="main" className="shell work-page">
+      <header className="page-heading">
+        <p className="eyebrow">Agents / design / engineering</p>
+        <h1>
+          Ideas into
+          <br />
+          <em>things.</em>
+        </h1>
+        <p>
+          Current AI work and earlier engineering foundations. Each case
+          explains my part in the product, the approach and its public scope.
+        </p>
+      </header>
+      <ProjectGrid projects={projects} />
+    </main>
   );
 }

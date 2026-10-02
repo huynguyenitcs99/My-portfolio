@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Browser checks / Remotion cache
+/test-results/
+/docs/design/previews/*.json
+/.cache/
