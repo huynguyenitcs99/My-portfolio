@@ -1,6 +1,6 @@
 "use client";
 import { useRef } from "react";
-import { motion, useScroll, useTransform } from "motion/react";
+import { m, useScroll, useTransform } from "motion/react";
 import { usePrefersReducedMotion } from "./use-media-query";
 import { SlideArtwork } from "./artwork";
 
@@ -13,7 +13,7 @@ export function SlideStudy() {
   });
   const spread = useTransform(scrollYProgress, [0, 1], [0, 1]);
   return (
-    <motion.div
+    <m.div
       ref={ref}
       className="slide-study scroll-layers"
       style={
@@ -25,6 +25,6 @@ export function SlideStudy() {
         <span>Main PIC</span>
         <span>Concept illustration · unreleased</span>
       </div>
-    </motion.div>
+    </m.div>
   );
 }

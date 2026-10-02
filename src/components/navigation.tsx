@@ -33,19 +33,19 @@ export function Navigation() {
 
   return (
     <>
+      <noscript>
+        <style>{`.menu-toggle,.study-controls{display:none}.site-header{gap:12px}.brand>span{padding-right:0}.header-links{display:flex!important;gap:12px;font-size:10px}`}</style>
+      </noscript>
       <header className="site-header">
-        <Link href="/" className="brand" aria-label="Huy Nguyen home">
+        <Link href="/" className="brand" aria-label="HN — Huy Nguyen home">
           <Nekomata size={43} />
-          <span>
-            huy nguyen<span className="brand-period">.</span>
-          </span>
+          <span>HN</span>
         </Link>
         <nav className="header-links" aria-label="Primary navigation">
           <Link href="/#work">Work</Link>
           <Link href="/#playground">Playground</Link>
-          <Link href="/#contact">
-            Let’s talk <span aria-hidden="true">↗</span>
-          </Link>
+          <Link href="/#about">About</Link>
+          <Link href="/#contact">Contact</Link>
         </nav>
         <button
           ref={button}

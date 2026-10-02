@@ -1,373 +1,405 @@
 import Image from "next/image";
 import Link from "next/link";
-import { OrbitShowcase } from "@/components/orbit";
+import { Arrival, OrbitShowcase } from "@/components/orbit";
 import { Reveal } from "@/components/reveal";
-import { ProjectGrid } from "@/components/project-grid";
-import { Nekomata, TwinPaths } from "@/components/marks";
+import { Nekomata } from "@/components/marks";
 import { SlideStudy } from "@/components/slide-study";
 import { MotionStudy } from "@/components/motion-study";
-import { projects } from "@/content/projects";
+import { AtlasTile } from "@/components/artwork";
+import { contact } from "@/content/projects";
+import { UIIcon } from "@/components/ui-icon";
+
+const roots = [
+  [
+    "NextSight",
+    "nextsight",
+    "Industrial defect inspection using computer vision.",
+  ],
+  [
+    "Multi-camera ReID",
+    "multi-camera-reid",
+    "Person re-identification across multiple cameras.",
+  ],
+  [
+    "CrystalSound",
+    "crystalsound",
+    "Audio software integration for clearer sound.",
+  ],
+];
+const scenes = [
+  "Identity",
+  "Work",
+  "Visual DNA",
+  "Daily Smith",
+  "Slide Design",
+  "Engineering",
+  "Experiments",
+  "Contact",
+];
+const sceneIds = [
+  "identity",
+  "work",
+  "creative-method",
+  "daily-smith",
+  "slide-design",
+  "engineering",
+  "playground",
+  "contact",
+];
 
 export default function Home() {
   return (
-    <main id="main">
-      <section className="hero shell" aria-labelledby="hero-positioning">
-        <div className="hero-topline">
-          <span>
-            <i className="status-dot" /> AI Engineer at Vulcan Labs
-          </span>
-          <span>HO CHI MINH CITY, VIETNAM</span>
-        </div>
-        <div className="hero-name" aria-label="Huy Nguyen">
-          <span>HUY</span>
-          <span>
-            NGUYEN
-            <svg className="name-star" viewBox="0 0 60 60" aria-hidden="true">
-              {Array.from({ length: 8 }, (_, i) => (
-                <line
-                  key={i}
-                  x1="30"
-                  y1="8"
-                  x2="30"
-                  y2="20"
-                  transform={`rotate(${i * 45} 30 30)`}
-                  stroke="currentColor"
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                />
-              ))}
-            </svg>
-          </span>
-        </div>
-        <div className="hero-bottom">
-          <div className="hero-copy">
-            <h1 id="hero-positioning">
-              AI engineer.
-              <br />
-              <em>Creative builder.</em>
-            </h1>
-            <p>
-              I turn AI into things people can use.
-              <br />
-              From agents that understand context
-              <br />
-              to tools that open up creative possibilities.
-            </p>
-            <a className="pill-link" href="#work">
-              Explore my work <span aria-hidden="true">↓</span>
-            </a>
-          </div>
-          <div className="portrait-composition">
-            <div className="portrait-frame">
-              <Image
-                src="/images/avatar.jpg"
-                alt="Huy Nguyen"
-                fill
-                preload
-                sizes="(max-width: 600px) 42vw, 390px"
-              />
-            </div>
-            <span className="portrait-note">hi, I’m Huy.</span>
-            <span className="portrait-stamp">
-              <Nekomata size={88} />
-            </span>
-            <TwinPaths className="portrait-paths" />
-          </div>
-          <div className="hero-aside">
-            <span className="vertical-note">ENGINEERING × IMAGINATION</span>
-            <span className="hero-index">
-              A little curiosity.
-              <br />A lot of making.
-            </span>
-          </div>
-        </div>
-        <div className="hero-foot">
-          <span>LLM agents / generative design / creative tools</span>
-          <span>Keep scrolling. There’s more to the story. ↓</span>
-        </div>
-      </section>
-
+    <main id="main" className="story-home">
+      <Arrival />
       <OrbitShowcase />
-
       <section
         id="creative-method"
-        className="method-section shell"
+        className="story-scene method-scene shell"
         aria-labelledby="method-title"
       >
-        <Reveal className="method-heading">
-          <p className="eyebrow">The contribution behind the creative</p>
+        <div className="botanical-corner method-botanical" aria-hidden="true">
+          <Image src="/images/story/botanical.png" alt="" fill sizes="300px" />
+        </div>
+        <Reveal>
+          <p className="scene-kicker">03 / Visual DNA method</p>
           <h2 id="method-title">
-            A visual language.
+            Better guidelines.
             <br />
-            <em>Not just a prompt.</em>
+            Better visual coherence.
           </h2>
+          <p className="scene-subtitle">
+            A method first developed for menus, then adopted across other
+            formats.
+          </p>
         </Reveal>
-        <div className="method-body">
-          <div className="method-text">
-            <p className="large-copy">
-              A reference carries a whole design direction. I wanted the
-              pipeline to learn from that coherence.
-            </p>
-            <p>
-              I adapted the existing poster pipeline for menus, then researched
-              a method to extract visual DNA from reference images into JSONL
-              descriptions used as generation guidelines.
-            </p>
-            <p>
-              The original poster pipeline’s owner later adopted my approach for
-              posters, flyers, business cards and social content.
-            </p>
-            <span className="role-note">
-              My role: contributor · menu pipeline + visual DNA research
-            </span>
-            <Link className="inline-link" href="/work/creative-studio">
-              Read the approach <span aria-hidden="true">↗</span>
-            </Link>
-          </div>
-          <Reveal className="dna-diagram">
-            <div className="dna-step">
-              <small>01 / OBSERVE</small>
-              <div className="reference-stack">
-                <i />
-                <i />
-                <i />
-              </div>
-              <strong>Reference images</strong>
+        <div className="method-cards">
+          <Reveal className="method-card references-card">
+            <h3>Reference images</h3>
+            <div className="reference-mosaic">
+              {[0, 1, 2, 3].map((i) => (
+                <div
+                  className={`reference-detail reference-detail-${i}`}
+                  key={i}
+                >
+                  <Image
+                    src="/images/story/creative.png"
+                    alt={
+                      i === 0
+                        ? "Botanical menu concept details — illustrative visual references"
+                        : ""
+                    }
+                    fill
+                    sizes="(max-width: 600px) 200px, 420px"
+                  />
+                </div>
+              ))}
             </div>
-            <span className="flow-arrow" aria-hidden="true">
-              ↓
-            </span>
-            <div className="dna-step dna-step-json">
-              <small>02 / DESCRIBE</small>
-              <span className="json-glyph" aria-hidden="true">
-                {"{ : }"}
-              </span>
-              <strong>
-                DNA descriptions <span>(JSONL)</span>
-              </strong>
+          </Reveal>
+          <span className="method-arrow" aria-hidden="true">
+            →
+          </span>
+          <Reveal className="method-card json-card">
+            <h3>
+              DNA descriptions <span>(JSONL)</span>
+            </h3>
+            <pre aria-label="Illustrative description, not the production schema">
+              {
+                '{\n  "subject": "food_menu",\n  "style": "natural editorial",\n  "tone": "warm, textured",\n  "elements": ["botanical",\n               "paper"],\n  "typography": "serif"\n}'
+              }
+            </pre>
+            <small>Illustrative description</small>
+          </Reveal>
+          <span className="method-arrow" aria-hidden="true">
+            →
+          </span>
+          <Reveal className="method-card guidelines-card">
+            <h3>
+              Generation
+              <br />
+              guidelines
+            </h3>
+            <ul>
+              <li>Visual direction</li>
+              <li>Composition rules</li>
+              <li>Color palette</li>
+              <li>Typography notes</li>
+              <li>Element vocabulary</li>
+              <li>Usage guidance</li>
+            </ul>
+            <div className="guideline-leaf" aria-hidden="true">
+              <Image
+                src="/images/story/botanical.png"
+                alt=""
+                fill
+                sizes="100px"
+              />
             </div>
-            <span className="flow-arrow" aria-hidden="true">
-              ↓
-            </span>
-            <div className="dna-step">
-              <small>03 / GUIDE</small>
-              <div className="guideline-lines" aria-hidden="true">
-                <i />
-                <i />
-                <i />
-              </div>
-              <strong>Generation guidelines</strong>
-            </div>
-            <p className="diagram-caption">
-              Illustrative method overview · not a production schema
-            </p>
           </Reveal>
         </div>
-        <div className="method-formats">
-          <span>One approach. More creative formats.</span>
-          <div>
-            <span>Menus</span>
-            <span>Posters</span>
-            <span>Flyers</span>
-            <span>Business cards</span>
-            <span>Social</span>
-          </div>
+        <div className="method-context">
+          <p>
+            I ported the existing poster pipeline to menus, then researched
+            visual DNA extraction from reference images into JSONL descriptions
+            for generation guidelines. The poster pipeline’s owner later adopted
+            my approach for posters, flyers, business cards and social content.
+          </p>
+          <Link href="/work/creative-studio" className="inline-link">
+            Menu pipeline + visual DNA research · Contributor{" "}
+            <span aria-hidden="true">↗</span>
+          </Link>
         </div>
+        <p className="concept-note">
+          Method illustration · not a production schema or measured output
+          comparison
+        </p>
       </section>
-
       <section
         id="daily-smith"
-        className="daily-section"
+        className="story-scene daily-scene shell"
         aria-labelledby="daily-title"
       >
-        <div className="shell">
-          <div className="daily-heading">
-            <div>
-              <p className="eyebrow">02 — Daily Smith / Chat Smith</p>
-              <h2 id="daily-title">
-                From context
-                <br />
-                to <em>clarity.</em>
-              </h2>
-            </div>
-            <div className="daily-summary">
-              <span className="dark-tag">AI pipeline / LLM-agent PIC</span>
-              <p>
-                I design the AI pipeline and data flow that turn connected
-                information into a useful daily overview and follow-up
-                conversation.
-              </p>
-              <Link className="inline-link" href="/work/daily-smith">
-                Inside the pipeline <span aria-hidden="true">↗</span>
-              </Link>
-            </div>
-          </div>
-          <Reveal className="daily-flow">
-            <div className="source-group">
-              <span className="flow-label">CONNECTED CONTEXT</span>
-              <div className="source-pill">
-                <span aria-hidden="true">@</span>Email
+        <Image
+          className="daily-backdrop"
+          src="/images/story/daily.png"
+          alt=""
+          fill
+          sizes="(max-width: 800px) 100vw, 1240px"
+        />
+        <div className="daily-content">
+          <p className="scene-kicker">04 / Daily Smith — Chat Smith</p>
+          <h2 id="daily-title">
+            From context
+            <br />
+            to clarity.
+          </h2>
+          <p className="daily-role">
+            Daily Smith — AI pipeline / LLM-agent PIC
+          </p>
+          <div className="agent-flow">
+            <Reveal className="agent-sources">
+              <h3>
+                Sources <small>(Confirmed)</small>
+              </h3>
+              <div>
+                <UIIcon name="mail" />
+                Email
               </div>
-              <div className="source-pill">
-                <span aria-hidden="true">▦</span>Calendar
+              <div>
+                <UIIcon name="calendar" />
+                Calendar
               </div>
-              <small>MCP / provider tools</small>
-            </div>
-            <div className="flow-connector" aria-hidden="true">
-              <i />
-              <i />
-            </div>
-            <div className="context-core">
-              <span className="core-orbit" />
-              <span className="core-orbit second" />
+            </Reveal>
+            <div className="agent-engine">
               <span>
-                LLM
+                MCP / Provider tools
                 <br />
-                <b>context</b>
+                (Context processing)
               </span>
             </div>
-            <div className="flow-connector" aria-hidden="true">
-              <i />
-            </div>
-            <div className="daily-brief">
-              <span className="flow-label">A CLEARER DAY</span>
+            <Reveal className="agent-outputs">
+              <h3>Outputs</h3>
               <div>
-                <small>01</small>
-                <span>Daily priorities</span>
+                <UIIcon name="context" />
+                Context understanding
               </div>
               <div>
-                <small>02</small>
-                <span>Important emails & updates</span>
+                <UIIcon name="priorities" />
+                Daily priorities
               </div>
               <div>
-                <small>03</small>
-                <span>Information to pay attention to</span>
+                <UIIcon name="chat" />
+                Follow-up conversation
               </div>
-              <p>
-                Then, ask a follow-up. <span aria-hidden="true">↗</span>
-              </p>
-            </div>
-          </Reveal>
-          <div className="daily-caption">
-            <span>Connect → understand → prioritize → converse</span>
+            </Reveal>
+          </div>
+          <div className="daily-scene-foot">
+            <Link href="/work/daily-smith">
+              Inside the AI pipeline <span aria-hidden="true">↗</span>
+            </Link>
             <span>Illustrative flow · no private account data</span>
           </div>
         </div>
+        <span className="handwritten daily-hand" aria-hidden="true">
+          Same information.
+          <br />
+          Clearer thinking.
+        </span>
       </section>
-
       <section
         id="slide-design"
-        className="slide-section shell"
+        className="story-scene slide-scene shell"
         aria-labelledby="slide-title"
       >
-        <div className="slide-copy">
-          <p className="eyebrow">03 — Slide Design</p>
-          <span className="development-badge">
-            <i />
-            In development
-          </span>
-          <h2 id="slide-title">
-            An image.
-            <br />
-            <em>New possibilities.</em>
-          </h2>
-          <p className="large-copy">
-            From image-based slides
-            <br />
-            to editable slides.
-          </p>
-          <p>
-            I’m the main PIC for Slide Design. Image-to-editable conversion is
-            one module: a practical bridge between a visual idea and a slide
-            someone can keep working with.
-          </p>
-          <Link className="inline-link" href="/work/slide-design">
-            Explore the development note ↗
-          </Link>
+        <div className="slide-scene-heading">
+          <p className="scene-kicker">05 / Slide Design</p>
+          <div>
+            <h2 id="slide-title">Slide Design</h2>
+            <span className="development-badge">In development</span>
+          </div>
+          <p className="scene-subtitle">Main PIC · Concept preview</p>
         </div>
-        <SlideStudy />
+        <div className="slide-scene-body">
+          <div className="slide-scene-copy">
+            <h3>
+              From image
+              <br />
+              to editable slides.
+            </h3>
+            <p>
+              Turn static designs into structured, editable layers using AI.
+            </p>
+            <Link href="/work/slide-design" className="inline-link">
+              Development note ↗
+            </Link>
+          </div>
+          <SlideStudy />
+          <div className="editable-tags">
+            {["Text", "Image", "Shape", "Vector"].map((label, i) => (
+              <div key={label}>
+                <span aria-hidden="true">{["T", "▧", "□", "⌁"][i]}</span>
+                {label} layer
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
-
       <section
         id="engineering"
-        className="engineering-section shell"
+        className="story-scene roots-scene shell"
         aria-labelledby="engineering-title"
       >
-        <Reveal className="section-intro">
-          <p className="eyebrow">04 — Engineering roots</p>
-          <div>
-            <h2 id="engineering-title">
-              Built beyond
-              <br />
-              <em>the prototype.</em>
-            </h2>
-            <p>
-              The computer vision, audio and application work that shaped how I
-              build.
-            </p>
-          </div>
+        <Reveal>
+          <p className="scene-kicker">06 / Engineering roots</p>
+          <h2 id="engineering-title">Built on real engineering work.</h2>
         </Reveal>
-        <ProjectGrid projects={projects.slice(3)} />
+        <div className="roots-grid">
+          {roots.map(([title, slug, summary], i) => (
+            <Link href={`/work/${slug}`} className="root-card" key={slug}>
+              <h3>{title}</h3>
+              <AtlasTile source="engineering" index={i} />
+              <p>
+                {summary}
+                <span aria-hidden="true">↗</span>
+              </p>
+            </Link>
+          ))}
+        </div>
+        <p className="concept-note">
+          Illustrative covers · real project media and contribution details
+          inside each case study
+        </p>
       </section>
-
       <section
         id="playground"
-        className="playground-section shell"
+        className="story-scene gallery-scene shell"
         aria-labelledby="playground-title"
       >
-        <div className="playground-heading">
-          <p className="eyebrow">05 — Experiments & interests</p>
-          <h2 id="playground-title">
-            Serious curiosity.
-            <br />
-            <em>Room to play.</em>
-          </h2>
-          <p>
-            Creative coding, image and video tools, and workflows that make
-            designs editable. I like finding out what happens when engineering
-            meets a new medium.
+        <Reveal>
+          <p className="scene-kicker">07 / Experiments & interests</p>
+          <h2 id="playground-title">Things I’m exploring.</h2>
+          <p className="scene-subtitle">
+            Generative art, video editing, design tools and more.
           </p>
+        </Reveal>
+        <div className="gallery-composition">
+          <div className="creative-gallery">
+            {[0, 1, 2, 3, 4, 5].map((i) => (
+              <Reveal key={i} className="gallery-tile">
+                <AtlasTile index={i} />
+                {i === 4 && <MotionStudy />}
+              </Reveal>
+            ))}
+          </div>
+          <div className="cat-sticker">
+            <Nekomata size={180} />
+            <span className="handwritten">
+              Ideas
+              <br />
+              into
+              <br />
+              things.
+            </span>
+          </div>
         </div>
-        <MotionStudy />
-        <div className="interest-strip">
-          <span>Creative coding</span>
-          <span>Image & video tools</span>
-          <span>Design-to-editable workflows</span>
-          <span>Claude Code / Codex</span>
+        <div className="gallery-interests">
+          {[
+            "Generative art",
+            "Video editing",
+            "Design tools",
+            "Creative workflows",
+            "Experiments",
+            "More to come",
+          ].map((t) => (
+            <span key={t}>{t}</span>
+          ))}
         </div>
+        <p className="concept-note">
+          Personal concept artwork · the timeline tile is animated with Remotion
+        </p>
       </section>
-
       <section
         id="about"
-        className="about-section shell"
+        className="story-scene person-scene shell"
         aria-labelledby="about-title"
       >
-        <div className="about-mark">
-          <Nekomata size={320} />
-          <span>TWO TAILS. ONE CURIOUS MIND.</span>
+        <div className="botanical-corner person-botanical" aria-hidden="true">
+          <Image src="/images/story/botanical.png" alt="" fill sizes="250px" />
         </div>
-        <div className="about-copy">
-          <p className="eyebrow">The person behind the pipelines</p>
+        <div className="person-portrait">
+          <Image
+            src="/images/story/portrait.png"
+            alt="Huy Nguyen"
+            fill
+            sizes="(max-width: 600px) 85vw, 550px"
+          />
+          <span className="handwritten" aria-hidden="true">
+            Same curiosity.
+            <br />
+            More things.
+          </span>
+        </div>
+        <div className="person-copy" id="contact">
+          <p className="scene-kicker">08 / Person + contact</p>
           <h2 id="about-title">
             Curious by default.
             <br />
-            <em>Building by doing.</em>
+            Building by doing.
           </h2>
-          <p className="large-copy">I’m Huy, an AI engineer at Vulcan Labs.</p>
-          <p>
-            I build agents and generative AI pipelines, with a background in
-            computer vision and audio software. I’m drawn to the space where a
-            technical system becomes a useful creative tool.
+          <p className="person-byline">
+            <strong>Huy Nguyen</strong>
+            <span>AI engineer at Vulcan Labs</span>
           </p>
-          <p>
-            My Nekomata signature brings together a cat, Gemini’s duality and
-            two tails that look a little like connected ideas. Engineering and
-            imagination, in the same silhouette.
+          <p className="person-description">
+            I build agents and generative AI pipelines, with roots in computer
+            vision and audio software. I like making technical ideas useful,
+            visual and editable.
           </p>
-          <Link className="inline-link" href="/about">
-            A little more about me ↗
-          </Link>
+          <a className="hello-button" href={`mailto:${contact.email}`}>
+            Say hello <span aria-hidden="true">→</span>
+            <span className="hello-envelope">
+              <UIIcon name="mail" />
+            </span>
+          </a>
+          <div className="person-links">
+            <a
+              href={contact.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn ↗
+            </a>
+            <a href={`mailto:${contact.email}`}>Email ↗</a>
+            <Link href="/about">About me ↗</Link>
+          </div>
         </div>
+        <nav className="scene-index" aria-label="Story index">
+          {scenes.map((scene, i) => (
+            <a href={`#${sceneIds[i]}`} key={scene}>
+              <small>{String(i + 1).padStart(2, "0")}</small>
+              {scene}
+            </a>
+          ))}
+        </nav>
       </section>
     </main>
   );

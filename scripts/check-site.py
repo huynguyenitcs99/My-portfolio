@@ -64,22 +64,25 @@ with sync_playwright() as p:
 
         def orbit():
             page.evaluate('window.scrollTo(0,0)')
-            page.wait_for_function("!document.querySelector('.orbit-track').classList.contains('is-static')")
+            for target in ['work', 'daily-smith', 'slide-design']:
+                card=page.locator(f'.arrival-cards a[href="#{target}"]')
+                expect(card).to_be_visible()
+                assert card.bounding_box()['height']>=44
             track=page.locator('.orbit-track')
             dimensions=track.evaluate('(e)=>({top:e.getBoundingClientRect().top+scrollY,height:e.offsetHeight})')
-            page.evaluate('(y)=>window.scrollTo(0,y)',dimensions['top']-110)
+            page.evaluate('(y)=>window.scrollTo(0,y)',dimensions['top']-900)
             page.wait_for_timeout(250)
-            before=page.locator('.orbit-primary').bounding_box()['width']
-            page.evaluate('(y)=>window.scrollTo(0,y)',dimensions['top']+dimensions['height']-960)
+            before=page.locator('.orbit-primary').evaluate('(e)=>getComputedStyle(e).transform')
+            page.evaluate('(y)=>window.scrollTo(0,y)',dimensions['top']+dimensions['height']/2-480)
             page.wait_for_timeout(300)
-            after=page.locator('.orbit-primary').bounding_box()['width']
-            assert after>before*1.7, (before,after)
-            assert page.locator('.orbit-daily').evaluate('(e)=>e.inert')
-            assert page.locator('.orbit-slide').evaluate('(e)=>e.inert')
+            after=page.locator('.orbit-primary').evaluate('(e)=>getComputedStyle(e).transform')
+            assert after!=before, (before,after)
+            expect(page.get_by_role('heading',name='Creative Studio',exact=True)).to_be_visible()
+            expect(page.get_by_role('link',name='Explore the method')).to_be_visible()
             assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
             if args.screenshots:
                 page.screenshot(path=str(out/'desktop-card-focus.png'))
-        check('Native scroll expands the Creative card and removes covered links from focus',orbit)
+        check('Arrival exposes three projects; native scroll brings the Creative collage into focus',orbit)
 
         def study():
             page.locator('.motion-study').scroll_into_view_if_needed()
@@ -135,6 +138,8 @@ with sync_playwright() as p:
                 broken = tab.evaluate('Array.from(document.images).filter(i => i.complete && i.naturalWidth === 0).map(i=>i.src)')
                 assert not broken, broken
                 if args.screenshots:
+                    tab.evaluate("document.activeElement?.blur();document.documentElement.style.scrollBehavior='auto';window.scrollTo(0,0)")
+                    tab.wait_for_timeout(100)
                     tab.screenshot(path=str(out / f'home-{width}.png'), full_page=True)
                 context.close()
             check(f'{width}px: readable reduced-motion overview, loaded images, no horizontal overflow', mobile)
@@ -144,6 +149,8 @@ with sync_playwright() as p:
             tab = context.new_page()
             tab.goto(args.base_url, wait_until='networkidle')
             expect(tab.get_by_role('heading', name='AI engineer. Creative builder.')).to_be_visible()
+            expect(tab.locator('.header-links')).to_be_visible()
+            expect(tab.get_by_role('button', name='Open navigation')).not_to_be_visible()
             for anchor in ['creative-method', 'daily-smith', 'slide-design', 'contact']:
                 tab.locator(f'#{anchor}').scroll_into_view_if_needed()
                 expect(tab.locator(f'#{anchor}')).to_be_visible()

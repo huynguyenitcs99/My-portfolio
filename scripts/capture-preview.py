@@ -28,13 +28,8 @@ with sync_playwright() as p:
             const step=t=>{const p=Math.min(1,(t-start)/ms);const eased=p*p*(3-2*p);window.scrollTo(0,from+(y-from)*eased);if(p<1)requestAnimationFrame(step);else resolve();};
             requestAnimationFrame(step);
         })''',{'y':y,'ms':ms})
-    track=page.locator('.orbit-track').evaluate('(e)=>({top:e.getBoundingClientRect().top+scrollY,height:e.offsetHeight})')
-    move(track['top']-110)
-    page.wait_for_timeout(500)
-    move(track['top']+track['height']-960,1800)
-    page.wait_for_timeout(1200)
-    for anchor in ['creative-method','daily-smith','slide-design','playground','contact']:
-        y=page.locator(f'#{anchor}').evaluate('(e)=>e.getBoundingClientRect().top+scrollY-105')
+    for anchor in ['work','creative-method','daily-smith','slide-design','engineering','playground','about']:
+        y=page.locator(f'#{anchor}').evaluate('(e)=>e.getBoundingClientRect().top+scrollY-90')
         move(y)
         page.wait_for_timeout(1800 if anchor!='playground' else 3000)
     page.wait_for_timeout(700)

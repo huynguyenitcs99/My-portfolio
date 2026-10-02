@@ -3,7 +3,6 @@
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState } from "react";
 import { usePrefersReducedMotion } from "./use-media-query";
-import { Nekomata, TwinPaths } from "./marks";
 
 const StudyPlayer = dynamic(() => import("./study-player"), { ssr: false });
 
@@ -40,22 +39,12 @@ export function MotionStudy() {
       data-motion-study={active ? "playing" : "paused"}
     >
       <div className="study-canvas">
-        <div className="study-fallback" aria-hidden="true">
-          <TwinPaths className="study-paths" />
-          <Nekomata size={140} />
-          <span>
-            Two sides.
-            <br />
-            <em>One mind.</em>
-          </span>
-          <small>HUY NGUYEN / MOTION STUDY 001</small>
-        </div>
         {loaded && <StudyPlayer active={active} />}
       </div>
       <div className="study-controls">
         <div>
-          <strong>Two sides. One mind.</strong>
-          <span>Personal brand motion study · authored with Remotion</span>
+          <strong>Creative timelines.</strong>
+          <span>Personal motion study · authored with Remotion</span>
         </div>
         <button
           className="text-button"

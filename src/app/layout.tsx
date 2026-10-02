@@ -2,7 +2,22 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
+import { MotionProvider } from "@/components/motion-provider";
 import "./globals.css";
+import "./storyboard.css";
+
+const playfair = localFont({
+  src: "../../public/fonts/PlayfairLatin.woff2",
+  weight: "700 900",
+  variable: "--font-playfair",
+  display: "swap",
+});
+const handwritten = localFont({
+  src: "../../public/fonts/CaveatLatin.woff2",
+  variable: "--font-handwritten",
+  display: "swap",
+  preload: false,
+});
 
 const inter = localFont({
   src: "../../public/fonts/InterLatin.woff2",
@@ -37,13 +52,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${playfair.variable} ${handwritten.variable}`}
+    >
       <body>
         <a className="skip-link" href="#main">
           Skip to content
         </a>
         <Navigation />
-        {children}
+        <MotionProvider>{children}</MotionProvider>
         <Footer />
       </body>
     </html>

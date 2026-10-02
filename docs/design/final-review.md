@@ -1,5 +1,17 @@
 # Final independent review
 
+## Storyboard fidelity revision
+
+2026-10-02, base `e5d7c52`, reviewed current revision on `codex/nekomata-rebuild`. A fresh-context reviewer compared the fixed master image, actual full desktop/mobile captures, refreshed Work/Slide/About captures, source diff and clean live arrivals at 1440/768/390px.
+
+**Assessment:** no blocking findings. The eight compositions now closely match the accepted storyboard. Desktop surname overlap follows the foreground portrait in the master and remains recognizable. No heading, metadata, flow-panel, CTA or layer-tag clipping at 360/390/768/1440px. Role attribution, development status, illustrative labels and email/calendar scope remain correct. Selected Nekomata asset unchanged.
+
+Review observations resolved: mobile positioning/metadata now use explicit short lines, botanical corners added, and full-page capture resets scroll/focus to avoid fixed-header artifacts. Without JavaScript, header links remain available and menu/player buttons are hidden. The author also smoothed the mobile cube artwork edges and added a 60 KB WebP delivery asset. Browser contexts closed before the isolated Lighthouse run.
+
+The review below describes the earlier functional rebuild; that implementation was subsequently rejected for visual mismatch. Its passing checks did not establish storyboard fidelity.
+
+## Earlier functional review
+
 2026-10-02, branch `codex/nekomata-rebuild`, base `bbb64c1`. One fresh-context reviewer, read-only, after implementation and the author's 13-check suite passed.
 
 **Assessment:** no material correctness, accessibility, performance or attribution findings. Ready for local review.

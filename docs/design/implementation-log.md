@@ -1,5 +1,11 @@
 # Implementation log — 2026-10-02-nekomata-portfolio
 
+## Visual correction after user feedback
+
+The user rejected the initial implementation as too different from the accepted storyboard and expressly requested matching the board and generating appropriate images. Revision base `e5d7c52`. The master board was held fixed; seven generated production assets replaced the CSS placeholders, and all eight home compositions were rebuilt around the original stacked-serif/cutout/collage layouts. See `storyboard-fidelity.md` for the actual differences and asset provenance. Independent visual/source review reported no blockers; fresh checks and lab evidence are in `verification.md`. No publication or deployment.
+
+## Initial rebuild
+
 Base: bbb64c1. Branch: codex/nekomata-rebuild. Clean working tree before work.
 
 Pre-flight: task 1 scene anchors and slugs feed task 2; task 2 data model feeds task 3; task 4 verifies the same routes and fallbacks. No interface conflicts.

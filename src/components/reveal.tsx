@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "motion/react";
+import { m } from "motion/react";
 import { usePrefersReducedMotion } from "./use-media-query";
 import type { ReactNode } from "react";
 
@@ -12,7 +12,7 @@ export function Reveal({
 }) {
   const reduced = usePrefersReducedMotion();
   return (
-    <motion.div
+    <m.div
       className={className}
       initial={false}
       whileInView={reduced ? undefined : { y: [18, 0] }}
@@ -20,6 +20,6 @@ export function Reveal({
       transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }

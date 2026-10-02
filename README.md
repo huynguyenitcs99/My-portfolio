@@ -26,7 +26,7 @@ The browser check uses Python Playwright and `/usr/bin/chromium` in the current 
 
 `npm run studio` opens the authored `NekomataBrandStudy` composition in Remotion Studio without opening a browser automatically. `npm run compositions` lists it. The website loads the Player near the study and pauses when offscreen or the tab is hidden. Reduced motion uses a static graphic unless the visitor explicitly plays it.
 
-DOM motion handles the short desktop card orbit/focus transition. Mobile uses ordinary stacked content. No scroll hijacking or mandatory selection.
+DOM motion handles the desktop card orbit, collage focus and section reveals. The Remotion study animates a playhead over the gallery's timeline artwork. Mobile uses ordinary stacked content. No scroll hijacking or mandatory selection.
 
 ## Content and design
 
@@ -35,6 +35,7 @@ DOM motion handles the short desktop card orbit/focus transition. Mobile uses or
 - [Implementation plan](docs/superpowers/plans/2026-10-02-nekomata-portfolio.md)
 - Typed content in `src/content/projects.ts`; old MDX sources in `content/archive`.
 - Accepted original logo in `public/images/brand/nekomata.png`. Kept unchanged; Next image/metadata rendering optimizes delivery.
+- Seven generated production assets in `public/images/story`; the accepted visual storyboard governs the implementation. See [fidelity revision](docs/design/storyboard-fidelity.md).
 
 New graphics are illustrative. Creative Studio is a team product: Huy contributed the menu pipeline adaptation and visual DNA method. Daily Smith's AI pipeline is his PIC responsibility. Slide Design is in development. Earlier cases retain public media without unverified date/experience claims. Case study details should be updated with approved real outputs as those become available.
 
