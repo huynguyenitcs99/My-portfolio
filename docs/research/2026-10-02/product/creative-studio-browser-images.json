@@ -1,0 +1,194 @@
+[
+  {
+    "alt": "logo",
+    "src": "https://chatsmith.io/images/logo-v3.svg",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "alt": "User avatar",
+    "src": "https://chatsmith.io/images-v2/avatar-default.svg",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "alt": "logo",
+    "src": "https://chatsmith.io/images/logo-v3.svg",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "alt": "",
+    "src": "https://chatsmith.io/_next/image?url=%2Fimages-v2%2Fget-pro-bg-mobile.png&w=640&q=75",
+    "width": 218,
+    "height": 30
+  },
+  {
+    "alt": "User avatar",
+    "src": "https://chatsmith.io/images-v2/avatar-default.svg",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "alt": "Template 18",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F18.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 23",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F23.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 16",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F16.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 10",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F10.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 13",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F13.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 22",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F22.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 17",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F17.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 11",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F11.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 03",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F3.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 06",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F6.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 02",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F2.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 14",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F14.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 12",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F12.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 21",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F21.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 15",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F15.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 04",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F4.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 19",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F19.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 25",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F25.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 05",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F5.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 01",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F1.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 09",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F9.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 20",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F20.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 24",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F24.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 08",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F8.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "Template 07",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F7.jpg&w=256&q=75",
+    "width": 220,
+    "height": 220
+  },
+  {
+    "alt": "",
+    "src": "https://bat.bing.com/action/0?ti=187222756&tm=gtm002&Ver=2&mid=2698c251-52d5-4892-bf6d-684ef146258a&bo=1&sid=794707d0be5a11f1a440450d65a6dad5&vid=79473ec0be5a11f199b2e1292f77d4c4&vids=1&msclkid=N&gtm_tag_source=1&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&nwd=1&tl=AI%20Design%20Studio%20-%20Chat%20Smith&kw=chat%20smith,%20ai%20chat,%20ai%20chatbot,%20ai%20chat%20online,%20online%20ai%20chat,%20chat%20with%20ai,%20ai%20chat%20app&p=https%3A%2F%2Fchatsmith.io%2Fdesign-studio&r=&lt=1823&evt=pageLoad&sv=2&cdb=AQAQ&rn=76704",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "loading...",
+    "src": "https://chatsmith.io/_next/image?url=%2Fimages%2Fgenerating.png&w=32&q=75",
+    "width": 32,
+    "height": 32
+  }
+]

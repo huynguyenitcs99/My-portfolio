@@ -1,0 +1,51 @@
+{
+  "url": "https://www.reactbits.dev/components/scroll-stack",
+  "status": 200,
+  "text": "/\nDocs\nTools\nPro\nSponsors\nSearch...\n/\n48.5K\nGet React Bits Pro\n\nGet Started\n\nIntroduction\nInstallation\nMCP\nIndex\nChangelog\nFavorites\n\nExplore Pro\n\nComponents\nBlocks\nApp UI\nTemplates\n1 Free\nSkills\n1 Free\n\nText Animations\n\nTech Text\nNew\nText Loop\nMasked Heading\nParticle Text\nSplit Flap Text\nWarp Text\nStroke Text\nDepth Text\nFold Text\nEcho Text\nSplit Text\nBlur Text\nCircular Text\nText Type\nShuffle\nShiny Text\nText Pressure\nCurved Loop\nFuzzy Text\nGradient Text\nFalling Text\nText Cursor\nDecrypted Text\nTrue Focus\nScroll Float\nScroll Reveal\nASCII Text\nScrambled Text\nRotating Text\nGlitch Text\nScroll Velocity\nVariable Proximity\nCount Up\n\nAnimations\n\nElectric Logo\nNew\nDither Veil\nNew\nGlow Cursor\nScroll Expand\nRipple Distortion\nElastic Mesh\nSwarm Cursor\nHalftone Reveal\nPixel Swap\nCursor Grid\nAnimated Content\nFade Content\nElectric Border\nOrbit Images\nPixel Transition\nGlare Hover\nAntigravity\nLogo Loop\nTarget Cursor\nMagic Rings\nLaser Flow\nMagnet Lines\nGhost Cursor\nGradual Blur\nClick Spark\nMagnet\nStrands\nSticker Peel\nPixel Trail\nCubes\nMetallic Paint\nNoise\nShape Blur\nCrosshair\nImage Trail\nRibbons\nSplash Cursor\nMeta Balls\nBlob Cursor\nStar Border\n\nComponents\n\nCircular Carousel\nNew\nFlex Carousel\nNew\nInfinite Spiral\nDepth Carousel\nMorph Slider\nDrift Wall\nAccordion Gallery\nSpecular Button\nOption Wheel\nCurved Input\nLine Sidebar\nAnimated List\nScroll Stack\nBubble Menu\nMagic Bento\nCircular Gallery\nReflective Card\nCard Nav\nStack\nFluid Glass\nPill Nav\nTilted Card\nMasonry\nGlass Surface\nDome Gallery\nChroma Grid\nFolder\nStaggered Menu\nModel Viewer\nLanyard\nProfile Card\nDock\nGooey Nav\nPixel Card\nCarousel\nSpotlight Card\nBorder Glow\nFlying Posters\nCard Swap\nGlass Icons\nDecay Card\nFlowing Menu\nElastic Slider\nCounter\nInfinite Menu\nStepper\nBounce Cards\n\nMicro\n\nShredder\nNew\nPaper Crumple\nNew\nTear Ticket\nNew\nFlip Card\nNew\nBranched Menu\nNew\nFolder Float\nNew\nRefine Frame\nNew\nThought Line\nNew\nVoice Pill\nNew\nSlosh Gauge\nNew\nPrompt Bar\nNew\nSwipe Toast\nNew\nSling Button\nNew\nBell Toggle\nNew\nCall Chip\nNew\nStatus Mark\nNew\nGlide Select\nNew\nSwipe Row\nNew\nJelly Radio\nNew\nComet Dial\nNew\nWake Slider\nNew\nCode Slots\nNew\nDodge Field\nNew\nLattice Loader\nNew\nScrub Field\nNew\nFuse Button\nNew\nWarm Tooltip\nNew\nSlide Commit\nNew\nRubber Segment\nNew\nPulse Heart\nNew\nSpring Check\nNew\nPeek Rating\nNew\nHold Button\nNew\nSquish Switch\nNew\n\nBackgrounds\n\nPattern Waves\nNew\nMicro Slats\nNew\nShape Waves\nNew\nAero Shards\nGhost Fibers\nCRT Warp\nMolten Metal\nGradient Waves\nWeb Threads\nTopography\nLight Tunnel\nSliced Waves\nAcid Squares\nScanner\nFerrofluid\nLightfall\nLiquid Ether\nPrism\nDark Veil\nLight Pillar\nSilk\nFloating Lines\nSide Rays\nLight Rays\nPixel Blast\nColor Bends\nEvil Eye\nLine Waves\nRadar\nSoft Aurora\nAurora\nPlasma\nPlasma Wave\nParticles\nGradient Blinds\nGrainient\nGrid Scan\nBeams\nPixel Snow\nLightning\nPrismatic Burst\nGalaxy\nDither\nFaulty Terminal\nRipple Grid\nDot Field\nDot Grid\nThreads\nHyperspeed\nIridescence\nWaves\nGrid Distortion\nBallpit\nOrb\nLetter Glitch\nGrid Motion\nShape Grid\nLiquid Chrome\nBalatro\nScroll Stack\nPreview\nCode\nCopy for AI\n\nScroll Down\n\nText Animations\nAnimations\nComponents\nBackgrounds\nAll on React Bits!\nCustomize\nItem Distance\n200px\nStack Distance\n30px\nStack Position\n20%\nBase Scale\n0.85\nRotation Amount\n0°\nBlur Amount\n0px\nProps\n13 properties\nComponent properties\nProperty\tType\tDefault\tDescription\nchildren\tReactNode\trequired\tThe content to be displayed in the scroll stack. Should contain ScrollStackItem components.\nclassName\tstring\t\"\"\tAdditional CSS classes to apply to the scroll stack container.\nitemDistance\tnumber\t100\tDistance between stacked items in pixels.\nitemScale\tnumber\t0.03\tScale increment for each stacked item.\nitemStackDistance\tnumber\t30\tDistance between items when they start stacking.\nstackPosition\tstring\t\"20%\"\tPosition where the stacking effect begins as a percentage of viewport height.\nscaleEndPosition\tstring\t\"10%\"\tPosition where the scaling effect ends as a percentage of viewport height.\nbaseScale\tnumber\t0.85\tBase scale value for the first item in the stack.\nscaleDuration\tnumber\t0.5\tDuration of the scaling animation in seconds.\nrotationAmount\tnumber\t0\tRotation amount for each item in degrees.\nblurAmount\tnumber\t0\tBlur amount for items that are further back in the stack.\nuseWindowScroll\tboolean\tfalse\tWhether to use window scroll for the stack.\nonStackComplete\tfunction\tundefined\tCallback function called when the stack animation is complete.\nDependencies\n\n1 required package\n\nnpm install lenis\nCopy\n756px\nPrevious[\nAnimated List\nNext]\nBubble Menu\nExplore More Components\nBrowse the complete Pro collection with editable source.\nView Collection\nBuild the whole product with one library.\n\nComponents, page blocks, application UI, templates and AI skills, ready to launch.\n\n150 Components · 280 Blocks\n300 App UI · 15 Templates · 20 Agent Skills\nExplore React Bits Pro\nSponsors\n500K+ developers monthly\nDIAMOND\nSILVER\nBecome a sponsor",
+  "buttons": [
+    {
+      "text": "Search...\n/",
+      "aria": "Search"
+    },
+    {
+      "text": "",
+      "aria": "Preferences"
+    },
+    {
+      "text": "",
+      "aria": "Switch to light mode"
+    },
+    {
+      "text": "",
+      "aria": "Desktop"
+    },
+    {
+      "text": "",
+      "aria": "Mobile · 375px"
+    },
+    {
+      "text": "",
+      "aria": "Add to Favorites"
+    },
+    {
+      "text": "",
+      "aria": "Copy share link"
+    },
+    {
+      "text": "Copy for AI",
+      "aria": "Copy for AI"
+    },
+    {
+      "text": "",
+      "aria": "Refresh animation"
+    },
+    {
+      "text": "Stack Position\n20%",
+      "aria": "Stack Position"
+    },
+    {
+      "text": "Copy",
+      "aria": "Copy install command"
+    }
+  ]
+}

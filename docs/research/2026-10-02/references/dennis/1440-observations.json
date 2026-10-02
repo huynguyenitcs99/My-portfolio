@@ -1,0 +1,484 @@
+{
+  "name": "dennis",
+  "url": "https://dennissnellenberg.com",
+  "viewport": 1440,
+  "capturedAt": "2026-10-02T12:14:30Z",
+  "status": 200,
+  "finalUrl": "https://dennissnellenberg.com/",
+  "title": "Dennis Snellenberg \u2022 Freelance Designer & Developer",
+  "bodyText": "Hello\nBonjour\n\u0938\u094d\u0935\u093e\u0917\u0924 \u0939\u0947\nCiao\nOl\u00e1\n\u304a\u3044\nHall\u00e5\nGuten tag\nHallo\n\nView\n\nMenu\nNAVIGATION\nHome\nWork\nAbout\nContact\nSOCIALS\nAwwwards\n \nInstagram\n \nTwitter\n \nLinkedIn\n\nLocated\nin the\nNetherlands\n\n\u00a9\nCode byDennis\nSnellenberg\nWork\nAbout\nContact\nFreelance\nDesigner & Developer\nDennis Snellenberg\n\u2014\nDennis Snellenberg\n\u2014\nHelping\n \nbrands\n \nto\n \nstand\n \nout\n \nin\n \nthe\n \ndigital\n \nera.\n \nTogether\n \nwe\n \nwill\n \nset\n \nthe\n \nnew\n \nstatus\n \nquo.\n \nNo\n \nnonsense,\n \nalways\n \non\n \nthe\n \ncutting\n \nedge.\n\nThe combination of my passion for design, code & interaction positions me in a unique place in the web design world.\n\nAbout me\nRECENT WORK\nTWICE\n\nInteraction & Development\n\nThe Damai\n\nDesign & Development\n\nFABRIC\u2122\n\nDesign & Development\n\nAanstekelijk\n\nDesign & Development\n\nMore work\n11\n Let\u2019s work\ntogether\nGet in touch\ninfo@dennissnellenberg.com\n+31 6 27 84 74 30\nVERSION\n\n2022 \u00a9 Edition\n\nLOCAL TIME\n\n02:14 PM GMT+2\n\nSOCIALS\nAwwwards\n \nInstagram\n \nTwitter\n \nLinkedIn",
+  "canvasCount": 0,
+  "videoCount": 0,
+  "samples": [
+    {
+      "scrollY": 0,
+      "documentHeight": 900,
+      "viewport": 900,
+      "headings": [
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 630
+        },
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 630
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "loading-words",
+          "transform": "translate(0px, -50px)"
+        },
+        {
+          "tag": "HEADER",
+          "class": "section home-header theme-dark",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "header-above-h4 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -14.9375, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-h1 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-51.8556%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-51.8556%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "SECTION",
+          "class": "section home-intro",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "scrollY": 0,
+      "documentHeight": 900,
+      "viewport": 900,
+      "headings": [
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 582
+        },
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 582
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "loading-words",
+          "transform": "translate(0px, -50px)"
+        },
+        {
+          "tag": "HEADER",
+          "class": "section home-header theme-dark",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -48, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "overlay personal-image no-select once-in is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 14.4, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "globe",
+          "transform": "translate3d(-17.2734px, -17.2734px, 0px) rotate(4.8deg)"
+        },
+        {
+          "tag": "DIV",
+          "class": "header-above-h4 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -19.7375, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-h1 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -19.2, 0, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-64.5389%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-64.5389%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "SECTION",
+          "class": "section home-intro",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -48, 0, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "scrollY": 0,
+      "documentHeight": 900,
+      "viewport": 900,
+      "headings": [
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 534
+        },
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 534
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "loading-words",
+          "transform": "translate(0px, -50px)"
+        },
+        {
+          "tag": "HEADER",
+          "class": "section home-header theme-dark",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -96, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "overlay personal-image no-select once-in is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 28.8, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "globe",
+          "transform": "translate3d(-17.2734px, -17.2734px, 0px) rotate(9.6deg)"
+        },
+        {
+          "tag": "DIV",
+          "class": "header-above-h4 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -24.5375, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-h1 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -38.4, 0, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-77.3222%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-77.3222%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "SECTION",
+          "class": "section home-intro",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -96, 0, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "scrollY": 0,
+      "documentHeight": 900,
+      "viewport": 900,
+      "headings": [
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 486
+        },
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 486
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "loading-words",
+          "transform": "translate(0px, -50px)"
+        },
+        {
+          "tag": "HEADER",
+          "class": "section home-header theme-dark",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -144, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "overlay personal-image no-select once-in is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 43.2, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "globe",
+          "transform": "translate3d(-17.2734px, -17.2734px, 0px) rotate(14.4deg)"
+        },
+        {
+          "tag": "DIV",
+          "class": "header-above-h4 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -29.3375, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "arrow big",
+          "transform": "translate3d(0px, 0px, 0px) rotate(0.9deg)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-h1 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -57.6, 0, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-90.0944%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-90.0944%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "SECTION",
+          "class": "section home-intro",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -144, 0, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "scrollY": 0,
+      "documentHeight": 900,
+      "viewport": 900,
+      "headings": [
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 438
+        },
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 438
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "loading-words",
+          "transform": "translate(0px, -50px)"
+        },
+        {
+          "tag": "HEADER",
+          "class": "section home-header theme-dark",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -192, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "overlay personal-image no-select once-in is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 57.6, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "globe",
+          "transform": "translate3d(-17.2734px, -17.2734px, 0px) rotate(19.2deg)"
+        },
+        {
+          "tag": "DIV",
+          "class": "header-above-h4 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -34.1375, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "arrow big",
+          "transform": "translate3d(0px, 0px, 0px) rotate(5.7deg)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-h1 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -76.8, 0, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-4.1167%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-4.1167%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "SECTION",
+          "class": "section home-intro",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -192, 0, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "scrollY": 0,
+      "documentHeight": 900,
+      "viewport": 900,
+      "headings": [
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 390
+        },
+        {
+          "text": "Dennis Snellenberg\n\u2014",
+          "y": 390
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "loading-words",
+          "transform": "translate(0px, -50px)"
+        },
+        {
+          "tag": "HEADER",
+          "class": "section home-header theme-dark",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -240, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "overlay personal-image no-select once-in is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 72, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "globe",
+          "transform": "translate3d(-17.2734px, -17.2734px, 0px) rotate(24deg)"
+        },
+        {
+          "tag": "DIV",
+          "class": "header-above-h4 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -38.9375, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "arrow big",
+          "transform": "translate3d(0px, 0px, 0px) rotate(10.5deg)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-h1 is-inview",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -96, 0, 0, 1)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-17.9944%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "DIV",
+          "class": "name-wrap",
+          "transform": "translate(-17.9944%, 0%) translate3d(0px, 0px, 0px)"
+        },
+        {
+          "tag": "SECTION",
+          "class": "section home-intro",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -240, 0, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "span-line-inner",
+          "transform": "translate(0px, 100%)"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "overflow": false,
+  "errors": []
+}

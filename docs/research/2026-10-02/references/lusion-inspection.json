@@ -1,0 +1,7 @@
+{
+  "url": "https://lusion.co/",
+  "status": 200,
+  "method": "Playwright route.fetch through explicit environment proxy, TLS verification preserved",
+  "limitation": "Intro partly rendered; downstream screenshot timed out after30000ms; no completed desktop/mobile scroll review",
+  "evidence": "lusion-loading-limited.png"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "active-theory",
+  "url": "https://activetheory.net",
+  "viewport": 1440,
+  "capturedAt": "2026-10-02T12:10:56Z",
+  "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://activetheory.net/\nCall log:\n  - navigating to \"https://activetheory.net/\", waiting until \"domcontentloaded\"\n"
+}

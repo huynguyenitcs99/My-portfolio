@@ -1,0 +1,22 @@
+{
+  "url": "https://rauno.me",
+  "title": [],
+  "description": [],
+  "headingHtml": [
+    "<span class=\"index_clipReveal__tvsbV\"><span style=\"transform:translateY(100px)\">Rauno Freiberg</span></span><span class=\"index_clipReveal__tvsbV\" data-variant=\"offset\"><span style=\"transform:translateY(100px)\">is an Estonian</span></span><span class=\"index_clipReveal__tvsbV\"><span style=\"transform:translateY(100px)\">interaction</span></span><span class=\"index_clipReveal__tvsbV\" data-variant=\"offset\"><span style=\"transform:translateY(100px)\">designer</span></span><span class=\"index_clipReveal__tvsbV\"><span style=\"transform:translateY(100px)\">working with Vercel</span></span><span class=\"index_clipReveal__tvsbV\" data-variant=\"offset\"><span style=\"transform:translateY(100px)\">and Devouring Details</span></span>",
+    "DD",
+    "Craft",
+    "Projects"
+  ],
+  "scripts": [
+    "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "/_next/static/chunks/webpack-8b0d1a8e7707cac6.js",
+    "/_next/static/chunks/framework-7c95b8e5103c9e90.js",
+    "/_next/static/chunks/main-bff256145eb15a4d.js",
+    "/_next/static/chunks/pages/_app-8bc0311d52546293.js",
+    "/_next/static/chunks/540-088f4efa2701a7ea.js",
+    "/_next/static/chunks/pages/index-6f720d660d3ff7f8.js",
+    "/_next/static/nf-5fPrMS_TjUIJDeX_SG/_buildManifest.js",
+    "/_next/static/nf-5fPrMS_TjUIJDeX_SG/_ssgManifest.js"
+  ]
+}

@@ -1,0 +1,296 @@
+[
+  {
+    "alt": "logo",
+    "src": "https://chatsmith.io/images/logo-v3.svg",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "alt": "User avatar",
+    "src": "https://chatsmith.io/images-v2/avatar-default.svg",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "alt": "logo",
+    "src": "https://chatsmith.io/images/logo-v3.svg",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "alt": "",
+    "src": "https://chatsmith.io/_next/image?url=%2Fimages-v2%2Fget-pro-bg-mobile.png&w=640&q=75",
+    "width": 218,
+    "height": 30
+  },
+  {
+    "alt": "User avatar",
+    "src": "https://chatsmith.io/images-v2/avatar-default.svg",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "alt": "Template 01",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F1.jpg&w=256&q=75",
+    "width": 177,
+    "height": 177
+  },
+  {
+    "alt": "Template 03",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F3.jpg&w=256&q=75",
+    "width": 177,
+    "height": 177
+  },
+  {
+    "alt": "Template 04",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F4.jpg&w=256&q=75",
+    "width": 177,
+    "height": 177
+  },
+  {
+    "alt": "Template 12",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F12.jpg&w=256&q=75",
+    "width": 177,
+    "height": 177
+  },
+  {
+    "alt": "Template 09",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F9.jpg&w=256&q=75",
+    "width": 177,
+    "height": 177
+  },
+  {
+    "alt": "Template 08",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Flogo%2Fen%2Fv1.0%2Fthumbnail%2F8.jpg&w=256&q=75",
+    "width": 177,
+    "height": 177
+  },
+  {
+    "alt": "Poster 01",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fposter%2Fen%2Fv1.0%2Fthumbnail%2Fp1.jpg&w=256&q=75",
+    "width": 177,
+    "height": 314
+  },
+  {
+    "alt": "Poster 04",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fposter%2Fen%2Fv1.0%2Fthumbnail%2Fp4.jpg&w=256&q=75",
+    "width": 177,
+    "height": 314
+  },
+  {
+    "alt": "Poster 12",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fposter%2Fen%2Fv1.0%2Fthumbnail%2Fp12.jpg&w=256&q=75",
+    "width": 177,
+    "height": 314
+  },
+  {
+    "alt": "Poster 03",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fposter%2Fen%2Fv1.0%2Fthumbnail%2Fp3.jpg&w=256&q=75",
+    "width": 177,
+    "height": 314
+  },
+  {
+    "alt": "Poster 09",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fposter%2Fen%2Fv1.0%2Fthumbnail%2Fp9.jpg&w=256&q=75",
+    "width": 177,
+    "height": 314
+  },
+  {
+    "alt": "Poster 10",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fposter%2Fen%2Fv1.0%2Fthumbnail%2Fp10.jpg&w=256&q=75",
+    "width": 177,
+    "height": 314
+  },
+  {
+    "alt": "Flyer 07",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fflyer%2Fen%2Fv1.0%2Fthumbnail%2Ff7.jpg&w=256&q=75",
+    "width": 177,
+    "height": 265
+  },
+  {
+    "alt": "Flyer 10",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fflyer%2Fen%2Fv1.0%2Fthumbnail%2Ff10.jpg&w=256&q=75",
+    "width": 177,
+    "height": 265
+  },
+  {
+    "alt": "Flyer 12",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fflyer%2Fen%2Fv1.0%2Fthumbnail%2Ff12.jpg&w=256&q=75",
+    "width": 177,
+    "height": 265
+  },
+  {
+    "alt": "Flyer 08",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fflyer%2Fen%2Fv1.0%2Fthumbnail%2Ff8.jpg&w=256&q=75",
+    "width": 177,
+    "height": 265
+  },
+  {
+    "alt": "Flyer 06",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fflyer%2Fen%2Fv1.0%2Fthumbnail%2Ff6.jpg&w=256&q=75",
+    "width": 177,
+    "height": 265
+  },
+  {
+    "alt": "Flyer 11",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fflyer%2Fen%2Fv1.0%2Fthumbnail%2Ff11.jpg&w=256&q=75",
+    "width": 177,
+    "height": 265
+  },
+  {
+    "alt": "Menu 12",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fmenu%2Fen%2Fv1.0%2Fthumbnail%2Fmn12.jpg&w=256&q=75",
+    "width": 223,
+    "height": 335
+  },
+  {
+    "alt": "Menu 05",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fmenu%2Fen%2Fv1.0%2Fthumbnail%2Fmn5.jpg&w=256&q=75",
+    "width": 223,
+    "height": 335
+  },
+  {
+    "alt": "Menu 11",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fmenu%2Fen%2Fv1.0%2Fthumbnail%2Fmn11.jpg&w=256&q=75",
+    "width": 223,
+    "height": 335
+  },
+  {
+    "alt": "Menu 07",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fmenu%2Fen%2Fv1.0%2Fthumbnail%2Fmn7.jpg&w=256&q=75",
+    "width": 223,
+    "height": 335
+  },
+  {
+    "alt": "Menu 08",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fmenu%2Fen%2Fv1.0%2Fthumbnail%2Fmn8.jpg&w=256&q=75",
+    "width": 223,
+    "height": 335
+  },
+  {
+    "alt": "Menu 01",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fmenu%2Fen%2Fv1.0%2Fthumbnail%2Fmn1.jpg&w=256&q=75",
+    "width": 223,
+    "height": 335
+  },
+  {
+    "alt": "Business Card 12",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fbusiness-card%2Fen%2Fv1.0%2Fthumbnail%2Fb12.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Business Card 01",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fbusiness-card%2Fen%2Fv1.0%2Fthumbnail%2Fb01.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Business Card 05",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fbusiness-card%2Fen%2Fv1.0%2Fthumbnail%2Fb05.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Business Card 11",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fbusiness-card%2Fen%2Fv1.0%2Fthumbnail%2Fb11.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Business Card 04",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fbusiness-card%2Fen%2Fv1.0%2Fthumbnail%2Fb04.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Business Card 09",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fbusiness-card%2Fen%2Fv1.0%2Fthumbnail%2Fb09.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 03",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc3.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 06",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc6.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 12",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc12.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 01",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc1.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 08",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc8.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 02",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc2.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 11",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc11.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 04",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc4.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 05",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc5.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 09",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc9.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 07",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc7.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "Social Content 10",
+    "src": "https://chatsmith.io/_next/image?url=https%3A%2F%2Fstatic.vulcanlabs.co%2Fcreative-logo%2Ftemplates-v1%2Fsocial-content%2Fen%2Fv1.0%2Fthumbnail%2Fsc10.jpg&w=3840&q=75",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "alt": "loading...",
+    "src": "https://chatsmith.io/_next/image?url=%2Fimages%2Fgenerating.png&w=32&q=75",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "alt": "",
+    "src": "https://bat.bing.com/action/0?ti=187222756&tm=gtm002&Ver=2&mid=e767602d-a682-4203-bd63-f2de4d2ece78&bo=1&sid=6a5a4600be5a11f18cef99a2002d99cb&vid=6a5a7cb0be5a11f195f46b8e57c2ef05&vids=1&msclkid=N&gtm_tag_source=1&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&nwd=1&tl=Chat%20Smith%3A%20All-in-One%20AI%20Chat%20for%20Work%20%26%20Study&kw=chat%20smith,%20ai%20chat,%20ai%20chatbot,%20ai%20chat%20online,%20online%20ai%20chat,%20chat%20with%20ai,%20ai%20chat%20app&p=https%3A%2F%2Fchatsmith.io%2F&r=&lt=3107&evt=pageLoad&sv=2&cdb=AQAA&rn=656615",
+    "width": 0,
+    "height": 0
+  }
+]

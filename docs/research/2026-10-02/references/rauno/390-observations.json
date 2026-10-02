@@ -1,0 +1,532 @@
+{
+  "name": "rauno",
+  "url": "https://rauno.me",
+  "viewport": 390,
+  "capturedAt": "2026-10-02T12:14:55Z",
+  "status": 200,
+  "finalUrl": "https://rauno.me/",
+  "title": "Rauno Freiberg",
+  "bodyText": "Rauno Freiberg\nis an Estonian\ninteraction\ndesigner\nworking with Vercel\nand Devouring Details\nDevouring Details\nDD\nCraft\nCraft\nHistory of Software Design\nProjects\nProjects\nField Notes\nTwitter\n2023\n2022\nGitHub\n\nEmail\n\nCopied\n\nMake it fast.\nMake it beautiful.\nMake it consistent.\nMake it carefully.\nMake it timeless.\nMake it soulful.\nMake it.",
+  "canvasCount": 0,
+  "videoCount": 0,
+  "samples": [
+    {
+      "scrollY": 0,
+      "documentHeight": 844,
+      "viewport": 844,
+      "headings": [
+        {
+          "text": "Rauno Freiberg\nis an Estonian\ninteraction\ndesigner\nworking with Vercel\nand Devouring Details",
+          "y": 330
+        },
+        {
+          "text": "DD",
+          "y": 292
+        },
+        {
+          "text": "Craft",
+          "y": 292
+        },
+        {
+          "text": "Projects",
+          "y": 292
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "index_frames__d9hw4",
+          "transform": "scale(0.3)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_mainContainer__XY5Vr",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_contents__YVkKY",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "scrollY": 0,
+      "documentHeight": 844,
+      "viewport": 844,
+      "headings": [
+        {
+          "text": "Rauno Freiberg\nis an Estonian\ninteraction\ndesigner\nworking with Vercel\nand Devouring Details",
+          "y": 330
+        },
+        {
+          "text": "DD",
+          "y": 292
+        },
+        {
+          "text": "Craft",
+          "y": 292
+        },
+        {
+          "text": "Projects",
+          "y": 292
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "index_frames__d9hw4",
+          "transform": "scale(0.3)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_mainContainer__XY5Vr",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_contents__YVkKY",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "scrollY": 0,
+      "documentHeight": 844,
+      "viewport": 844,
+      "headings": [
+        {
+          "text": "Rauno Freiberg\nis an Estonian\ninteraction\ndesigner\nworking with Vercel\nand Devouring Details",
+          "y": 330
+        },
+        {
+          "text": "DD",
+          "y": 292
+        },
+        {
+          "text": "Craft",
+          "y": 292
+        },
+        {
+          "text": "Projects",
+          "y": 292
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "index_frames__d9hw4",
+          "transform": "scale(0.3)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_mainContainer__XY5Vr",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_contents__YVkKY",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "scrollY": 0,
+      "documentHeight": 844,
+      "viewport": 844,
+      "headings": [
+        {
+          "text": "Rauno Freiberg\nis an Estonian\ninteraction\ndesigner\nworking with Vercel\nand Devouring Details",
+          "y": 330
+        },
+        {
+          "text": "DD",
+          "y": 292
+        },
+        {
+          "text": "Craft",
+          "y": 292
+        },
+        {
+          "text": "Projects",
+          "y": 292
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "index_frames__d9hw4",
+          "transform": "scale(0.3)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_mainContainer__XY5Vr",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_contents__YVkKY",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "scrollY": 0,
+      "documentHeight": 844,
+      "viewport": 844,
+      "headings": [
+        {
+          "text": "Rauno Freiberg\nis an Estonian\ninteraction\ndesigner\nworking with Vercel\nand Devouring Details",
+          "y": 330
+        },
+        {
+          "text": "DD",
+          "y": 292
+        },
+        {
+          "text": "Craft",
+          "y": 292
+        },
+        {
+          "text": "Projects",
+          "y": 292
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "index_frames__d9hw4",
+          "transform": "scale(0.3)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_mainContainer__XY5Vr",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_contents__YVkKY",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "scrollY": 0,
+      "documentHeight": 844,
+      "viewport": 844,
+      "headings": [
+        {
+          "text": "Rauno Freiberg\nis an Estonian\ninteraction\ndesigner\nworking with Vercel\nand Devouring Details",
+          "y": 330
+        },
+        {
+          "text": "DD",
+          "y": 292
+        },
+        {
+          "text": "Craft",
+          "y": 292
+        },
+        {
+          "text": "Projects",
+          "y": 292
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "index_frames__d9hw4",
+          "transform": "scale(0.3)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_mainContainer__XY5Vr",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "c-lesPJm c-lesPJm-ifOgKdU-css index_circle___AjIu",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_contents__YVkKY",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "index_label__cgZWW",
+          "transform": "scale(3.33333)"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "overflow": true,
+  "errors": []
+}

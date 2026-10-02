@@ -1,0 +1,42 @@
+[
+  {
+    "name": "chatsmith-home",
+    "url": "https://chatsmith.io/",
+    "status": 200,
+    "title": "Chat Smith: All-in-One AI Chat for Work & Study",
+    "images": 49,
+    "loaded": 30
+  },
+  {
+    "name": "creative-studio",
+    "url": "https://chatsmith.io/design-studio",
+    "status": 200,
+    "title": "Chat Smith: All-in-One AI Chat for Work & Study",
+    "images": 32,
+    "loaded": 31
+  },
+  {
+    "name": "menu-studio",
+    "url": "https://chatsmith.io/design-studio/menu",
+    "status": 200,
+    "title": "Chat Smith: All-in-One AI Chat for Work & Study",
+    "images": 32,
+    "loaded": 31
+  },
+  {
+    "name": "vulcanlabs",
+    "url": "https://vulcanlabs.co/",
+    "status": 200,
+    "title": "Vulcan Labs \u2014 Building Bridges Between Humans and Technology | Vulcan Labs",
+    "images": 6,
+    "loaded": 6
+  },
+  {
+    "name": "app-store",
+    "url": "https://apps.apple.com/us/app/chat-smith-ai-chatbot-agent/id1559479889",
+    "status": 200,
+    "title": "\u200eChat Smith: AI Chatbot & Agent App - App Store",
+    "images": 22,
+    "loaded": 10
+  }
+]

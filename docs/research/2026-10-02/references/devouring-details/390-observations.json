@@ -1,0 +1,1248 @@
+{
+  "name": "devouring-details",
+  "url": "https://devouringdetails.com",
+  "viewport": 390,
+  "capturedAt": "2026-10-02T12:15:18Z",
+  "status": 200,
+  "finalUrl": "https://devouringdetails.com/",
+  "title": "Devouring Details",
+  "bodyText": "Platform\nStructure\nRegister\nFAQ\nLogin\n\nHave you ever noticed that some animation sequences can be improved with just a touch of delay? Or that some interactions just feel better without any motion at all?\n\nDevouring Details is an interactive reference manual for interaction-curious designers, containing 23 chapters with 23 downloadable React components.\n\nAll footage is recorded of React components\nPlatform\n\nBefore working on this I thought to myself: \u201chow have I learned myself?\u201d\n\nBy trying to build an idea and realising it sucks in practice. With enough iterations and sometimes by accident I\u2019ll get to a place where it feels really good and I'll suddenly be able to reason why it sucked.\n\nDevouring Details is your shortcut to those learning moments.\n\nThis is not a course in the sense that it is not linearly progressive. You won\u2019t solve code challenges, answer quizzes, or follow step-by-step tutorials. Instead, you\u2019ll interact with prototypes on a custom platform and be exposed to details that I pay attention to.\n\nTwo column layouts offer better navigation through long-form content\n\nEach chapter is digestible with bite-sized efforts through a scrollable experience that doesn't ask for too much at once.\n\nI myself use this as a reference manual that I periodically revisit while designing. I would often return to copy some code or to reinforce my understanding of a concept.\n\nDD is used by designers on world-class teams\n\u2060Better than a course, it's a reference manual to making great work full of tactical secrets I haven't seen anywhere else.\nANDY ALLEN\nMAKING @NOTBORING SOFTWARE\n \u2060Notification came in. I didn\u2019t hesitate. You shouldn\u2019t either.\nRETRO\nHEAD OF DESIGN @NEUTRON\n \u2060Rauno is undoubtedly one of the best in the world at what he does. Strongly recommend his course.\nBENJI TAYLOR\nHEAD OF DESIGN @X\n \u2060This lowkey changed how I think about building software. \u2060I need to frame this at the office, wonderful work.\nJOSE RAGO\nCO-FOUNDER @BASEMENTSTUDIO\n \u2060I started reading the intro and found myself opening the inspector like crazy. \u2060If even 1/10 of this craft rubs off on work I do, it's worth it. \u2060One of my favorite digital purchases in recent history. \u2060Probably the most gorgeous & inspiring thing online in a long time.\nBIRK JERNSTR\u00d6M\nCEO @POLAR\n \u2060I've learned a lot from Rauno over the years, now you can too.\nLOCHIE AXON\nPRINCIPAL DESIGN ENGINEER @AAVE\n \u2060It's kind of like reading a beautifully designed interactive Medium article.\nJUAN ENCLADA\nPRINCIPAL PRODUCT DESIGNER\n \u2060It's not often the best-of-the-best bring you along and show you how it's done.\nBROTZKY\nFOUNDER @FEY\n \u2060The bar he sets is ridiculous. Every company I know wants to work with him.\nTEREZA MACHACKOVA\nTALENT ADVISOR @LOVABLE\nRead testimonials\nHello\n\nMy name is Rauno. I work as a Staff Design Engineer at Vercel on our platform, design system, marketing pages, and Next.js Dev Tools. Previously, I was at The Browser Company designing and building the Arc browser.\n\nI have written acclaimed design essays like Invisible Details of Interaction Design\n and shipped open source software like cmdk\n that is downloaded millions of times per week to power command menu interfaces for the most modern productivity apps on the web.\n\nSelection of work from my portfolio\nStructure\n\nDevouring Details is split into 3 units\u2014Principles, Prototypes, and Resources.\n\nPrinciples explores a design concept in depth with different examples from custom interfaces and production apps.\n\nINFERRING INTENT\nINTERACTION METAPHORS\nERGONOMIC INTERACTIONS\nSIMULATING PHYSICS\nMOTION CHOREOGRAPHY\nRESPONSIVE INTERFACES\nCONTAINED GESTURES\nDRAWING INSPIRATION\n\nPrototypes are deep dives into a single component with references to Principles and Resources. Everything you see here includes downloadable source code.\n\nLINE MINIMAP\nSCROLL STRIP\nRADIAL TIMELINE\nMORPH SURFACE\nLINE GRAPH\nNEXT.JS DEV TOOLS\nFREE\nLOGOS CAROUSEL\nMOTION REACT\nBLUR REVEAL\nTIME MACHINE\n\nResources contains useful code snippets, insights into my design process, private bookmarks, a downloadable component library, and more.\n\nBEHIND SCENES\nFREE\nCODE SNIPPETS\nDESIGN WORKFLOW\nCOMPONENT LIBRARY\nPUBLIC BOOKMARKS\nFREQUENT QUESTIONS\nDESIGN PHILOSOPHIES\nREACT HANDBOOK\nRegister\n\nUpon registering for $249, you'll receive immediate access to:\n\n23 chapters with source code for 23 components\nFuture updates to Principles, Prototypes, and Resources\nPrivate community to ask me questions and receive feedback\nBehind the scenes of what I am working on\nRegister Now\nRegister Now\n\u2192\n\u2192\nFAQ\n\nWho is this for?\n\nHow do I use this?\n\nWhat does this not cover?\n\nWhat format can I expect?\n\nCan I preview the platform?\n\nIs this a one-time purchase?\n\nDo I receive an invoice?\n\nDo you offer student discounts?\n\nWhat if I'm not happy with the content?\n\nCan I use this on mobile?\n\nIs there a community?\n\nHow can I ask more questions?\n\nREGISTER NOW",
+  "canvasCount": 0,
+  "videoCount": 22,
+  "samples": [
+    {
+      "scrollY": 0,
+      "documentHeight": 6912,
+      "viewport": 844,
+      "headings": [
+        {
+          "text": "",
+          "y": 80
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "translateX(-10px) translateY(-10px) rotate(-2deg)"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "bg-orange rounded-full absolute flex-center",
+          "transform": "translateX(9px)"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "bg-orange rounded-full absolute",
+          "transform": "translateY(1px)"
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://cdn.devouringdetails.com/home/launch-2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/craft2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "scrollY": 620,
+      "documentHeight": 6912,
+      "viewport": 844,
+      "headings": [
+        {
+          "text": "Platform",
+          "y": 301
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "bg-orange rounded-full absolute max-[960px]:relative max-[960px]:left-0! max-[960px]:mr-2",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "translateX(-10px) translateY(-10px) rotate(-2deg)"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "bg-orange rounded-full absolute flex-center",
+          "transform": "translateX(9px)"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://cdn.devouringdetails.com/home/launch-2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/craft2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "scrollY": 1240,
+      "documentHeight": 6912,
+      "viewport": 844,
+      "headings": [],
+      "transforms": [
+        {
+          "tag": "DIV",
+          "class": "bg-orange rounded-full absolute max-[960px]:relative max-[960px]:left-0! max-[960px]:mr-2",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "translateX(-10px) translateY(-10px) rotate(-2deg)"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "bg-orange rounded-full absolute flex-center",
+          "transform": "translateX(9px)"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://cdn.devouringdetails.com/home/launch-2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/craft2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "scrollY": 1860,
+      "documentHeight": 6912,
+      "viewport": 844,
+      "headings": [],
+      "transforms": [
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "block bg-orange h-(--size) w-(--size) rounded-full",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "translateX(-10px) translateY(-10px) rotate(-2deg)"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "bg-orange rounded-full absolute flex-center",
+          "transform": "translateX(9px)"
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://cdn.devouringdetails.com/home/launch-2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/craft2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "scrollY": 2480,
+      "documentHeight": 6912,
+      "viewport": 844,
+      "headings": [
+        {
+          "text": "Hello",
+          "y": 321
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "bg-orange rounded-full absolute max-[960px]:relative max-[960px]:left-0! max-[960px]:mr-2",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "translateX(-10px) translateY(-10px) rotate(-2deg)"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://cdn.devouringdetails.com/home/launch-2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/craft2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "scrollY": 3100,
+      "documentHeight": 6912,
+      "viewport": 844,
+      "headings": [
+        {
+          "text": "Structure",
+          "y": 525
+        }
+      ],
+      "transforms": [
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "DIV",
+          "class": "bg-orange rounded-full absolute max-[960px]:relative max-[960px]:left-0! max-[960px]:mr-2",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "translateX(-10px) translateY(-10px) rotate(-2deg)"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "g",
+          "class": {},
+          "transform": "none"
+        },
+        {
+          "tag": "circle",
+          "class": {},
+          "transform": "none"
+        }
+      ],
+      "videos": [
+        {
+          "src": "https://cdn.devouringdetails.com/home/launch-2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/craft2.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-minimap.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/scroll-strip.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/radial-timeline.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/morph-surface.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/line-graph.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/nextjs-dev-tools.mp4#t=1.2",
+          "currentTime": 1.2,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/logos-carousel.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/motion-react.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/blur-reveal.mp4#t=1.75",
+          "currentTime": 1.75,
+          "paused": true,
+          "readyState": 4
+        },
+        {
+          "src": "https://cdn.devouringdetails.com/home/time-machine.mp4#t=0.00001",
+          "currentTime": 1e-05,
+          "paused": true,
+          "readyState": 4
+        }
+      ]
+    }
+  ],
+  "overflow": false,
+  "errors": []
+}

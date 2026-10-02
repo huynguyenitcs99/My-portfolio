@@ -1,0 +1,37 @@
+[
+  {
+    "source": "apple-lookup",
+    "url": "https://itunes.apple.com/lookup?id=1559479889&country=us",
+    "final_url": "https://itunes.apple.com/lookup?id=1559479889&country=us",
+    "status": 200,
+    "bytes": 13126,
+    "content_type": "text/javascript; charset=utf-8"
+  },
+  {
+    "source": "app-store",
+    "url": "https://apps.apple.com/us/app/id1559479889",
+    "final_url": "https://apps.apple.com/us/app/chat-smith-ai-chatbot-agent/id1559479889",
+    "status": 200,
+    "bytes": 812853,
+    "content_type": "text/html"
+  },
+  {
+    "source": "vulcanlabs",
+    "url": "https://vulcanlabs.co",
+    "final_url": "https://vulcanlabs.co",
+    "status": 200,
+    "bytes": 168604,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "source": "chatsmith",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "source": "chatsmith-curl-browser-ua",
+    "url": "https://chatsmith.io/",
+    "status": 200,
+    "evidence": "chatsmith-headers.txt",
+    "note": "Initial urllib403 was not a blanket proxy restriction; browser public UI200 with verification overlay."
+  }
+]

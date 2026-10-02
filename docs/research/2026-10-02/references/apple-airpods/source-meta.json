@@ -1,0 +1,58 @@
+{
+  "url": "https://www.apple.com/airpods-pro/",
+  "title": [
+    "AirPods Pro 3 - Apple"
+  ],
+  "description": [
+    "AirPods Pro 3 \u2014 The world\u2019s best in-ear Active Noise Cancellation, heart rate sensing during workouts, and an improved hearing health experience."
+  ],
+  "headingHtml": [
+    "AirPods Pro 3",
+    "The world\u2019s best<br class=\"small\" /> in\u2011ear <br class=\"large\" /><br class=\"medium\" />Active Noise Cancellation.",
+    "Get the highlights.",
+    "Take a closer look.",
+    "Intelligent noise control",
+    "The best thing<br />you\u2019ve never<br />heard.",
+    "<strong>New ultra-low-noise microphones.</strong>",
+    "<strong>Voice Isolation.</strong>",
+    "<strong>Adaptive Audio.</strong>",
+    "<strong>Conversation Awareness.</strong>",
+    "Audio performance",
+    "The sound of science.",
+    "Personalized listening",
+    "For your ears only.",
+    "Fitness",
+    "Introducing heart rate sensing.",
+    "IP57 dust, sweat, and water resistance.",
+    "Hearing Health",
+    "Check, aid, and help&nbsp;protect your&nbsp;hearing.",
+    "<strong>Battery life.</strong>",
+    "<strong>Automatic Conversation Boost.</strong>",
+    "<strong>Hearing Test and Hearing Aid.</strong>",
+    "<strong>Hearing Protection.</strong>",
+    "Experience",
+    "Magic to your ears.",
+    "All-day battery life",
+    "They\u2019re workin\u2019<br>9 to 5.",
+    "Find&nbsp;My with<br> Precision Finding.",
+    "Why Apple is the best<br>place to buy AirPods.",
+    "Free Engraving"
+  ],
+  "scripts": [
+    "/v/airpods-pro/t/built/scripts/overview/head.built.js",
+    "/api-www/global-elements/global-header/v1/assets/globalheader.umd.js",
+    "/ac/includes/acmi-handler/scripts/acmi-head.built.js",
+    "/ac/includes/acmi-handler/scripts/acmi-head.built.js",
+    "/metrics/ac-analytics/2.30.0/scripts/ac-analytics.js",
+    "/metrics/ac-analytics/2.30.0/scripts/auto-init.js",
+    "/ac/localnav/9/scripts/ac-localnav.built.js",
+    "/ac/globalfooter/8/en_US/scripts/ac-globalfooter.built.js",
+    "/ac/localeswitcher/4/en_US/scripts/localeswitcher.built.js",
+    "/v/airpods-pro/t/built/scripts/overview/main.built.js",
+    "/metrics/data-relay/1.2.0/scripts/data-relay.js",
+    "/metrics/data-relay/1.2.0/scripts/auto-relay.js",
+    "/ac/includes/acmi-handler/scripts/autopricing-toggle.built.js",
+    "/ac/pricing/latest-1/scripts/autopricing.built.js",
+    "/ac/ac-films/7.5.1/scripts/autofilms.built.js"
+  ]
+}

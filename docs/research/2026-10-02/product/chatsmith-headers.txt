@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+date: Fri, 02 Oct 2026 12:08:37 GMT
+server: envoy
+
+HTTP/2 200 
+date: Fri, 02 Oct 2026 12:08:39 GMT
+content-type: text/html; charset=utf-8
+link: <https://chatsmith.io/>; rel="alternate"; hreflang="en", <https://chatsmith.io/ar>; rel="alternate"; hreflang="ar", <https://chatsmith.io/zh>; rel="alternate"; hreflang="zh", <https://chatsmith.io/es>; rel="alternate"; hreflang="es", <https://chatsmith.io/th>; rel="alternate"; hreflang="th", <https://chatsmith.io/ko>; rel="alternate"; hreflang="ko", <https://chatsmith.io/ja>; rel="alternate"; hreflang="ja", <https://chatsmith.io/hi>; rel="alternate"; hreflang="hi", <https://chatsmith.io/>; rel="alternate"; hreflang="x-default"
+link: </_next/static/media/96db1f5083875fb7-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/b274f63f4a249466-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/e4af272ccee01ff0-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2"
+set-cookie: vul-locale=en; Path=/; Expires=Sat, 02 Oct 2027 12:08:39 GMT; Max-Age=31536000; SameSite=lax
+x-middleware-rewrite: /en
+vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding
+cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=B6edooQtj4BmRDl1G2Pt1eD0on%2FPbW92BZHDE%2BGa3FsXcr1RuPXOnOwMRN6Eeogvw1MHGE25IOyTJXcUs9fWtLqwdIiGf998sj2SaKoziaR2wZWyOfw45XHRSUGd0gY%3D"}]}
+x-envoy-upstream-service-time: 1794
+server: envoy
+cf-cache-status: DYNAMIC
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-ray: a44398001bc514b6-SJC
+alt-svc: h3=":443"; ma=86400
+
