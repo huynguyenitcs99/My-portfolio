@@ -114,4 +114,3 @@ Hướng đề xuất: graphite/pearl làm nền, dusty plum và amber dùng h�
 - Hình gen dùng cho reference specimens/output samples hoặc background có mục đích. UI, label, JSONL, role, status và metrics phải là HTML/SVG đọc được và sửa được. Không gen screenshot công ty rồi trình bày như bằng chứng thật.
 - Remotion phù hợp các phim giải thích 6–12 giây: DNA propagation, context-to-brief, image-to-editable. Website scroll choreography vẫn dùng DOM/CSS/Motion; không nhúng cả website thành video. Poster đầu đã phải giải thích được nội dung nếu clip chưa phát.
 - Mỗi cảnh cần xác định trước trạng thái entry / middle / exit, nội dung cần người xem nhớ, fallback reduced-motion và bố cục mobile. Một moodboard đẹp chưa phải storyboard có thể triển khai.
-

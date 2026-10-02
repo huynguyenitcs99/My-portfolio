@@ -1,4 +1,4 @@
-for iPhone 
+for iPhone
 Search
 Today
 Games
@@ -215,13 +215,13 @@ Size
 Category
 Productivity
 Compatibility
-Requires iOS 16.0 or later. 
+Requires iOS 16.0 or later.
 Languages
-English and 8 more 
+English and 8 more
 Age Rating
-4+ 
+4+
 In-App Purchases
-Yes 
+Yes
 Copyright
 © Chat Smith 2022
 Developer Website

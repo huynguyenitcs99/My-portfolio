@@ -269,7 +269,7 @@ If true, the player is muted in its initial state. This is useful if the video m
 
 ### `renderPlayPauseButton?`<AvailableFrom v="3.2.32" />
 
-Allows you to customize the Play/Pause button of the controls.  
+Allows you to customize the Play/Pause button of the controls.
 Must be a callback function that returns a valid React element.
 
 ```tsx twoslash title="App.tsx"
@@ -330,8 +330,8 @@ export const App: React.FC = () => {
 
 ### `renderMuteButton?`<AvailableFrom v="4.0.188" />
 
-Allows you to customize the Mute button of the controls, must return a valid React element.  
-Action is disabled, you must attach click handlers yourself using the [`PlayerRef`](#playerref).  
+Allows you to customize the Mute button of the controls, must return a valid React element.
+Action is disabled, you must attach click handlers yourself using the [`PlayerRef`](#playerref).
 If unmuting a video, we recommend setting both [`.setVolume(1)`](#setvolume) and [`.setMuted(false)`](/docs/config#setmuted).
 
 ```tsx twoslash
@@ -358,8 +358,8 @@ export const App: React.FC = () => {
 
 ### `renderVolumeSlider`<AvailableFrom v="4.0.188" />
 
-Allows for a custom implementation of the volume slider, must return a valid React element.  
-See the default implementation [here](https://github.com/remotion-dev/remotion/blob/main/packages/player/src/render-volume-slider.tsx).  
+Allows for a custom implementation of the volume slider, must return a valid React element.
+See the default implementation [here](https://github.com/remotion-dev/remotion/blob/main/packages/player/src/render-volume-slider.tsx).
 The default implementation makes the volume slider vertical (`isVertical`) and is keyboard navigateable using the Tab key (`onBlur`, `inputRef`).
 
 ```tsx twoslash title="App.tsx"
@@ -414,7 +414,7 @@ Either `player-size` (default) or `composition-size`:
 
 ### `bufferStateDelayInMilliseconds`<AvailableFrom v="4.0.111"/>
 
-After the Player has entered a [buffer state](/docs/player/buffer-state), it will wait for this amount of time before showing the buffering UI.  
+After the Player has entered a [buffer state](/docs/player/buffer-state), it will wait for this amount of time before showing the buffering UI.
 This prevents jank when the Player is only in a buffering state for a short time. Default `300`.
 
 Note:
@@ -430,7 +430,7 @@ Makes the Player render things outside of the canvas. Useful if you have interac
 
 ### `browserMediaControlsBehavior`<AvailableFrom v="4.0.221" />
 
-Controls what happens when the user presses the Play/Pause button on their keyboard or uses other controls such as Chromes built-in controls.  
+Controls what happens when the user presses the Play/Pause button on their keyboard or uses other controls such as Chromes built-in controls.
 See [Media Keys Behavior](/docs/player/media-keys) for more information.
 
 ### `overrideInternalClassName?`<AvailableFrom v="4.0.233" />

@@ -25,8 +25,8 @@ Bản hiện tại minh họa được các chủ đề, nhưng chưa chứng mi
 
 ## Định vị đề xuất, chưa chốt
 
-> **Huy Nguyen — AI engineer × creative builder.**  
-> **I turn complex AI into useful, expressive tools.**  
+> **Huy Nguyen — AI engineer × creative builder.**
+> **I turn complex AI into useful, expressive tools.**
 > I build context-aware agents and generative design workflows at Vulcan Labs, with a foundation in computer vision and real-time audio.
 
 Ba cửa vào nội dung: **Understand context · Generate with direction · Make designs editable.** Đây là các hướng công việc để người xem hiểu breadth, không phải ba gói dịch vụ chốt bán hàng. CTA: **Explore my work**; contact/LinkedIn luôn tìm thấy được.
@@ -52,34 +52,34 @@ Có thể triển khai thành tám scene nhưng phải có nhịp hook → proce
 
 Public web hiện dùng tên **Design Studio**; user gọi **Creative Studio**. Ghi cả product context rõ ràng, không tự giả định mọi client dùng cùng nhãn.
 
-> **A visual system, carried from reference to generation.**  
+> **A visual system, carried from reference to generation.**
 > For Chat Smith’s design workflows, I adapted an existing poster pipeline for menus and designed a reference-based visual DNA method to guide more coherent results.
 
-> **My contribution:** Menu pipeline adaptation · Visual DNA research and design  
+> **My contribution:** Menu pipeline adaptation · Visual DNA research and design
 > **What followed:** The original poster pipeline owner adopted the method for posters, flyers, business cards and social content.
 
 Không đổi thành “I led Creative Studio” hoặc “I improved every format”. Website/team context và vai trò cá nhân là hai lớp khác nhau.
 
 Method:
 
-> **Preserve the relationships that make a design feel coherent.**  
+> **Preserve the relationships that make a design feel coherent.**
 > Reference images become structured visual descriptions, then practical generation guidelines.
 
 JSONL là implementation detail hỗ trợ hiểu method, không phải headline về giá trị. Ví dụ description conceptual có thể mô tả một hierarchy: “An editorial hierarchy led by oversized type, restrained food photography and a consistent botanical rhythm.” Không trình bày ví dụ đó là production schema.
 
 ### Daily Smith
 
-> **Turn a busy inbox and calendar into a clearer day.**  
+> **Turn a busy inbox and calendar into a clearer day.**
 > I’m responsible for the AI pipeline and data flow behind Daily Smith’s context-aware experience: connecting provider tools, preparing context and supporting useful follow-up conversations.
 
-> **My responsibility:** AI pipeline · Data flow · LLM-agent layer  
+> **My responsibility:** AI pipeline · Data flow · LLM-agent layer
 > **Context:** Chat Smith, Vulcan Labs · Released
 
 Official release notes xác nhận Daily Smith Agent ở cấp sản phẩm. Vai trò/data flow/MCP của Huy là thông tin Huy cung cấp. Không thêm gửi email hoặc sửa lịch vào demo.
 
 ### Slide Design
 
-> **An image should not be the end of the workflow.**  
+> **An image should not be the end of the workflow.**
 > I’m the main engineer responsible for Slide Design, including a module that turns image-based slides into editable content.
 
 > **In development · Concept preview**
@@ -96,8 +96,8 @@ Nếu dùng wording “lead”, chỉ scope dự án này; không suy thành eng
 
 ### Contact
 
-> **Have a problem worth exploring?**  
-> I’m interested in useful AI, creative workflows and the unexpected space between them.  
+> **Have a problem worth exploring?**
+> I’m interested in useful AI, creative workflows and the unexpected space between them.
 > **Let’s talk** · LinkedIn · GitHub
 
 Không tự thêm availability, Upwork profile, consulting packages hoặc “book a call”. User ưu tiên personal brand và không giới hạn loại công việc.

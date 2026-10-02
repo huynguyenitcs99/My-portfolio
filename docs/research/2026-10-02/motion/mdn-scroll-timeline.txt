@@ -4,8 +4,8 @@
         lang="en-US"
         data-theme="light dark"
         data-renderer="Doc"
-        
-        
+
+
       >
         <head>
           <meta charset="UTF-8" />
@@ -14,7 +14,7 @@
             content="width=device-width, initial-scale=1.0"
           />
           <title>animation-timeline CSS property - CSS | MDN</title>
-          
+
           <script>try {
   document.documentElement.dataset.theme =
     localStorage.getItem("theme") || "light dark";
@@ -46,9 +46,9 @@ try {
                 crossorigin="anonymous"
                 fetchpriority="low"
               />
-          
+
           <script src="/static/client/runtime.ca87e9225e95e2dc.js" type="module"></script><script src="/static/client/5909.489e266d049aa182.js" type="module"></script><script src="/static/client/4585.e30f706b333273cd.js" type="module"></script><script src="/static/client/1216.2fdb44f0bb574bc2.js" type="module"></script><script src="/static/client/index.ae4f4679716a7f81.js" type="module"></script>
-          
+
     <link
       rel="icon"
       sizes="32x32"
@@ -79,7 +79,7 @@ try {
             href="https://developer.mozilla.org/en-US/blog/rss.xml"
           />
         </head>
-        
+
       <body class="page-layout">
         <ul class="a11y-menu">
       <li>
@@ -97,7 +97,7 @@ try {
           <mdn-placement-top></mdn-placement-top>
         </div>
         <header class="page-layout__header">
-          
+
       <nav class="navigation" data-scheme="" data-open="false">
         <div class="navigation__logo">
       <a href="/en-US/" class="logo">
@@ -125,7 +125,7 @@ try {
           <mdn-search-button><template shadowroot="open" shadowrootmode="open"><style>.mdn-search-button{align-items:center;background-color:var(--color-background-page);border:1px solid var(--color-border-primary);border-radius:var(--radius-full);color:var(--color-text-primary);cursor:pointer;display:flex;justify-content:space-between;margin:0;padding:.25rem .25rem .25rem .75rem;width:5rem}.mdn-search-button:hover{background-color:var(--color-background-secondary)}.mdn-search-button:before{content:"";height:18px;width:15px;--csstools-light-dark-toggle-95231fd5-0:var(--csstools-color-scheme--light) var(--color-blue-80);border-bottom:2px solid var(--csstools-light-dark-toggle-95231fd5-0,var(--color-blue-50))}@supports (color:light-dark(red,red)){.mdn-search-button:before{border-bottom:2px solid light-dark(var(--color-blue-50),var(--color-blue-80))}}</style><!--lit-part PwhADO+m7/M=--><!--lit-node 0--><button
       class="mdn-search-button"
       title="Search the site"
-      
+
       data-glean-id="quick-search-open: menu"
     >
       <!--lit-part ijtgkDNyZhc=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg><!--/lit-part-->
@@ -143,7 +143,7 @@ try {
       <nav class="menu">
         <div class="menu__tab" data-section="html">
             <mdn-dropdown
-                    
+
                    data-glean-toggle-open="menu_toggle: html"><template shadowroot="open" shadowrootmode="open"><style>:host{display:contents}:host(:not([loaded],:focus-within)) slot[name=dropdown]{display:none}</style><!--lit-part NrjKVwpqTpA=-->
       <!--lit-node 0--><slot name="button" ></slot>
       <!--lit-node 1--><slot name="dropdown" ></slot>
@@ -160,10 +160,10 @@ try {
                     <div class="menu__panel" slot="dropdown">
                       <p class="menu__panel-title">
                         <a
-        
+
         href="/en-US/docs/Web/HTML"
-        
-        
+
+
         data-glean-id="menu_click_menu: html -&gt; /en-US/docs/Web/HTML"
         >HTML: Markup language</a
       >
@@ -174,34 +174,34 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/HTML/Reference/Elements"
-        
-        
+
+
         data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Reference/Elements"
         >Elements</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/HTML/Reference/Global_attributes"
-        
-        
+
+
         data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Reference/Global_attributes"
         >Global attributes</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/HTML/Reference/Attributes"
-        
-        
+
+
         data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Reference/Attributes"
         >Attributes</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/HTML/Reference"
         aria-label="See all HTML references"
         title="See all HTML references"
@@ -215,34 +215,34 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/HTML/Guides/Responsive_images"
-        
-        
+
+
         data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Guides/Responsive_images"
         >Responsive images</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/HTML/Guides/Cheatsheet"
-        
-        
+
+
         data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Guides/Cheatsheet"
         >HTML cheatsheet</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/HTML/Guides/Date_and_time_formats"
-        
-        
+
+
         data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/HTML/Guides/Date_and_time_formats"
         >Date &amp; time formats</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/HTML/Guides"
         aria-label="See all HTML guides"
         title="See all HTML guides"
@@ -256,28 +256,28 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/SVG"
-        
-        
+
+
         data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/SVG"
         >SVG</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/MathML"
-        
-        
+
+
         data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/MathML"
         >MathML</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/XML"
-        
-        
+
+
         data-glean-id="menu_click_submenu: html -&gt; /en-US/docs/Web/XML"
         >XML</a
       >
@@ -289,7 +289,7 @@ try {
                   </mdn-dropdown>
           </div><div class="menu__tab" data-section="css">
             <mdn-dropdown
-                    
+
                    data-glean-toggle-open="menu_toggle: css"><template shadowroot="open" shadowrootmode="open"><style>:host{display:contents}:host(:not([loaded],:focus-within)) slot[name=dropdown]{display:none}</style><!--lit-part NrjKVwpqTpA=-->
       <!--lit-node 0--><slot name="button" ></slot>
       <!--lit-node 1--><slot name="dropdown" ></slot>
@@ -306,10 +306,10 @@ try {
                     <div class="menu__panel" slot="dropdown">
                       <p class="menu__panel-title">
                         <a
-        
+
         href="/en-US/docs/Web/CSS"
-        
-        
+
+
         data-glean-id="menu_click_menu: css -&gt; /en-US/docs/Web/CSS"
         >CSS: Styling language</a
       >
@@ -320,43 +320,43 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Reference/Properties"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Reference/Properties"
         >Properties</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Reference/Selectors"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Reference/Selectors"
         >Selectors</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Reference/At-rules"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Reference/At-rules"
         >At-rules</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Reference/Values"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Reference/Values"
         >Values</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Reference"
         aria-label="See all CSS references"
         title="See all CSS references"
@@ -370,43 +370,43 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides/Box_model/Introduction"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Guides/Box_model/Introduction"
         >Box model</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides/Animations/Using"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Guides/Animations/Using"
         >Animations</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts"
         >Flexbox</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides/Colors/Applying_color"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/Guides/Colors/Applying_color"
         >Colors</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides"
         aria-label="See all CSS guides"
         title="See all CSS guides"
@@ -420,37 +420,37 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/How_to/Layout_cookbook/Column_layouts"
         >Column layouts</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/How_to/Layout_cookbook/Center_an_element"
         >Centering an element</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/How_to/Layout_cookbook/Card"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/How_to/Layout_cookbook/Card"
         >Card component</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/How_to/Layout_cookbook"
-        
-        
+
+
         data-glean-id="menu_click_submenu: css -&gt; /en-US/docs/Web/CSS/How_to/Layout_cookbook"
         >See all…</a
       >
@@ -462,7 +462,7 @@ try {
                   </mdn-dropdown>
           </div><div class="menu__tab" data-section="javascript">
             <mdn-dropdown
-                    
+
                    data-glean-toggle-open="menu_toggle: javascript"><template shadowroot="open" shadowrootmode="open"><style>:host{display:contents}:host(:not([loaded],:focus-within)) slot[name=dropdown]{display:none}</style><!--lit-part NrjKVwpqTpA=-->
       <!--lit-node 0--><slot name="button" ></slot>
       <!--lit-node 1--><slot name="dropdown" ></slot>
@@ -481,10 +481,10 @@ try {
                     <div class="menu__panel" slot="dropdown">
                       <p class="menu__panel-title">
                         <a
-        
+
         href="/en-US/docs/Web/JavaScript"
-        
-        
+
+
         data-glean-id="menu_click_menu: javascript -&gt; /en-US/docs/Web/JavaScript"
         >JavaScript: Scripting language</a
       >
@@ -495,43 +495,43 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/JavaScript/Reference/Global_Objects"
-        
-        
+
+
         data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Reference/Global_Objects"
         >Standard built-in objects</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/JavaScript/Reference/Operators"
-        
-        
+
+
         data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Reference/Operators"
         >Expressions &amp; operators</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/JavaScript/Reference/Statements"
-        
-        
+
+
         data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Reference/Statements"
         >Statements &amp; declarations</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/JavaScript/Reference/Functions"
-        
-        
+
+
         data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Reference/Functions"
         >Functions</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/JavaScript/Reference"
         aria-label="See all JavaScript references"
         title="See all JavaScript references"
@@ -545,43 +545,43 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling"
-        
-        
+
+
         data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling"
         >Control flow &amp; error handling</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
-        
-        
+
+
         data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
         >Loops and iteration</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/JavaScript/Guide/Working_with_objects"
-        
-        
+
+
         data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Guide/Working_with_objects"
         >Working with objects</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/JavaScript/Guide/Using_classes"
-        
-        
+
+
         data-glean-id="menu_click_submenu: javascript -&gt; /en-US/docs/Web/JavaScript/Guide/Using_classes"
         >Using classes</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/JavaScript/Guide"
         aria-label="See all JavaScript guides"
         title="See all JavaScript guides"
@@ -596,7 +596,7 @@ try {
                   </mdn-dropdown>
           </div><div class="menu__tab" data-section="webapis">
             <mdn-dropdown
-                    
+
                    data-glean-toggle-open="menu_toggle: webapis"><template shadowroot="open" shadowrootmode="open"><style>:host{display:contents}:host(:not([loaded],:focus-within)) slot[name=dropdown]{display:none}</style><!--lit-part NrjKVwpqTpA=-->
       <!--lit-node 0--><slot name="button" ></slot>
       <!--lit-node 1--><slot name="dropdown" ></slot>
@@ -613,10 +613,10 @@ try {
                     <div class="menu__panel" slot="dropdown">
                       <p class="menu__panel-title">
                         <a
-        
+
         href="/en-US/docs/Web/API"
-        
-        
+
+
         data-glean-id="menu_click_menu: webapis -&gt; /en-US/docs/Web/API"
         >Web APIs: Programming interfaces</a
       >
@@ -627,61 +627,61 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/File_System_API"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/File_System_API"
         >File system API</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/Fetch_API"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Fetch_API"
         >Fetch API</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/Geolocation_API"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Geolocation_API"
         >Geolocation API</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/HTML_DOM_API"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/HTML_DOM_API"
         >HTML DOM API</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/Push_API"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Push_API"
         >Push API</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/Service_Worker_API"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Service_Worker_API"
         >Service worker API</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/API"
         aria-label="See all Web API guides"
         title="See all Web API guides"
@@ -695,46 +695,46 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API"
         >Using the Web animation API</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/Fetch_API/Using_Fetch"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Fetch_API/Using_Fetch"
         >Using the Fetch API</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/History_API/Working_with_the_History_API"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/History_API/Working_with_the_History_API"
         >Working with the History API</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API"
         >Using the Web speech API</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
-        
-        
+
+
         data-glean-id="menu_click_submenu: webapis -&gt; /en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
         >Using web workers</a
       >
@@ -746,7 +746,7 @@ try {
                   </mdn-dropdown>
           </div><div class="menu__tab" data-section="all">
             <mdn-dropdown
-                    
+
                    data-glean-toggle-open="menu_toggle: all"><template shadowroot="open" shadowrootmode="open"><style>:host{display:contents}:host(:not([loaded],:focus-within)) slot[name=dropdown]{display:none}</style><!--lit-part NrjKVwpqTpA=-->
       <!--lit-node 0--><slot name="button" ></slot>
       <!--lit-node 1--><slot name="dropdown" ></slot>
@@ -763,10 +763,10 @@ try {
                     <div class="menu__panel" slot="dropdown">
                       <p class="menu__panel-title">
                         <a
-        
+
         href="/en-US/docs/Web"
-        
-        
+
+
         data-glean-id="menu_click_menu: all -&gt; /en-US/docs/Web"
         >All web technology</a
       >
@@ -777,61 +777,61 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/Accessibility"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Accessibility"
         >Accessibility</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/HTTP"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/HTTP"
         >HTTP</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/URI"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/URI"
         >URI</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Mozilla/Add-ons/WebExtensions"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Mozilla/Add-ons/WebExtensions"
         >Web extensions</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/WebAssembly"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/WebAssembly"
         >WebAssembly</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/WebDriver"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/WebDriver"
         >WebDriver</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web"
         aria-label="See all web technology references"
         title="See all web technology references"
@@ -845,46 +845,46 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/Media"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Media"
         >Media</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/Performance"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Performance"
         >Performance</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/Privacy"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Privacy"
         >Privacy</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/Security"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Security"
         >Security</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/Progressive_web_apps"
-        
-        
+
+
         data-glean-id="menu_click_submenu: all -&gt; /en-US/docs/Web/Progressive_web_apps"
         >Progressive web apps</a
       >
@@ -896,7 +896,7 @@ try {
                   </mdn-dropdown>
           </div><div class="menu__tab" data-section="learn">
             <mdn-dropdown
-                    
+
                    data-glean-toggle-open="menu_toggle: learn"><template shadowroot="open" shadowrootmode="open"><style>:host{display:contents}:host(:not([loaded],:focus-within)) slot[name=dropdown]{display:none}</style><!--lit-part NrjKVwpqTpA=-->
       <!--lit-node 0--><slot name="button" ></slot>
       <!--lit-node 1--><slot name="dropdown" ></slot>
@@ -913,10 +913,10 @@ try {
                     <div class="menu__panel" slot="dropdown">
                       <p class="menu__panel-title">
                         <a
-        
+
         href="/en-US/docs/Learn_web_development"
-        
-        
+
+
         data-glean-id="menu_click_menu: learn -&gt; /en-US/docs/Learn_web_development"
         >Learn web development</a
       >
@@ -927,39 +927,39 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Learn_web_development/Getting_started"
-        
-        
+
+
         data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Getting_started"
         >Getting started modules</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Learn_web_development/Core"
-        
-        
+
+
         data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Core"
         >Core modules</a
       >
                                 </li><li>
                                   <a
                                             class=""
-                                            
+
                                             href="/en-US/curriculum/"
-                                            
-                                            
+
+
                                             data-glean-id="menu_click_submenu: learn -&gt; /en-US/curriculum/"
                                             >MDN Curriculum</a
                                           >
                                 </li><li>
                                   <a
                                             class="external"
-                                            
+
                                             href="https://scrimba.com/frontend-path-c0j?via=mdn-learn-navbar"
-                                            
-                                            
+
+
                                             data-glean-id="menu_click_submenu: learn -&gt; https://scrimba.com/frontend-path-c0j?via=mdn-learn-navbar"
                                             >Check out the video course from Scrimba, our partner</a
                                           >
@@ -970,10 +970,10 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Learn_web_development/Core/Structuring_content"
-        
-        
+
+
         data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Core/Structuring_content"
         >Structuring content with HTML module</a
       >
@@ -984,19 +984,19 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Learn_web_development/Core/Styling_basics"
-        
-        
+
+
         data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Core/Styling_basics"
         >CSS styling basics module</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Learn_web_development/Core/CSS_layout"
-        
-        
+
+
         data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Core/CSS_layout"
         >CSS layout module</a
       >
@@ -1007,10 +1007,10 @@ try {
                                 <dd><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Learn_web_development/Core/Scripting"
-        
-        
+
+
         data-glean-id="menu_click_submenu: learn -&gt; /en-US/docs/Learn_web_development/Core/Scripting"
         >Dynamic scripting with JavaScript module</a
       >
@@ -1022,7 +1022,7 @@ try {
                   </mdn-dropdown>
           </div><div class="menu__tab" data-section="tools">
             <mdn-dropdown
-                    
+
                    data-glean-toggle-open="menu_toggle: tools"><template shadowroot="open" shadowrootmode="open"><style>:host{display:contents}:host(:not([loaded],:focus-within)) slot[name=dropdown]{display:none}</style><!--lit-part NrjKVwpqTpA=-->
       <!--lit-node 0--><slot name="button" ></slot>
       <!--lit-node 1--><slot name="dropdown" ></slot>
@@ -1047,8 +1047,8 @@ try {
                                             class="menu__panel-icon"
                                             data-icon="circle-play"
                                             href="/en-US/play"
-                                            
-                                            
+
+
                                             data-glean-id="menu_click_submenu: tools -&gt; /en-US/play"
                                             >Playground</a
                                           >
@@ -1057,8 +1057,8 @@ try {
                                             class="menu__panel-icon"
                                             data-icon="shield-check"
                                             href="/en-US/observatory"
-                                            
-                                            
+
+
                                             data-glean-id="menu_click_submenu: tools -&gt; /en-US/observatory"
                                             >HTTP Observatory</a
                                           >
@@ -1066,55 +1066,55 @@ try {
                           </ul><ul>
                             <li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator"
-        
-        
+
+
         data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator"
         >Border-image generator</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator"
-        
-        
+
+
         data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-radius_generator"
         >Border-radius generator</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator"
-        
-        
+
+
         data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator"
         >Box-shadow generator</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides/Colors/Color_format_converter"
-        
-        
+
+
         data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/Guides/Colors/Color_format_converter"
         >Color format converter</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides/Colors/Color_mixer"
-        
-        
+
+
         data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/Guides/Colors/Color_mixer"
         >Color mixer</a
       >
                                 </li><li>
                                   <a
-        
+
         href="/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator"
-        
-        
+
+
         data-glean-id="menu_click_submenu: tools -&gt; /en-US/docs/Web/CSS/Guides/Shapes/Shape_generator"
         >Shape generator</a
       >
@@ -1125,7 +1125,7 @@ try {
                   </mdn-dropdown>
           </div><div class="menu__tab" data-section="about">
             <mdn-dropdown
-                    
+
                    data-glean-toggle-open="menu_toggle: about"><template shadowroot="open" shadowrootmode="open"><style>:host{display:contents}:host(:not([loaded],:focus-within)) slot[name=dropdown]{display:none}</style><!--lit-part NrjKVwpqTpA=-->
       <!--lit-node 0--><slot name="button" ></slot>
       <!--lit-node 1--><slot name="dropdown" ></slot>
@@ -1150,8 +1150,8 @@ try {
                                             class="menu__panel-icon"
                                             data-icon="mdn-m"
                                             href="/en-US/about"
-                                            
-                                            
+
+
                                             data-glean-id="menu_click_submenu: about -&gt; /en-US/about"
                                             >About MDN</a
                                           >
@@ -1160,8 +1160,8 @@ try {
                                             class="menu__panel-icon"
                                             data-icon="chart-no-axes-combined"
                                             href="/en-US/advertising"
-                                            
-                                            
+
+
                                             data-glean-id="menu_click_submenu: about -&gt; /en-US/advertising"
                                             >Advertise with us</a
                                           >
@@ -1172,8 +1172,8 @@ try {
                                             class="menu__panel-icon"
                                             data-icon="users"
                                             href="/en-US/community"
-                                            
-                                            
+
+
                                             data-glean-id="menu_click_submenu: about -&gt; /en-US/community"
                                             >Community</a
                                           >
@@ -1182,8 +1182,8 @@ try {
                                             class="menu__panel-icon external"
                                             data-icon="github"
                                             href="https://github.com/mdn"
-                                            
-                                            
+
+
                                             data-glean-id="menu_click_submenu: about -&gt; https://github.com/mdn"
                                             >MDN on GitHub</a
                                           >
@@ -1206,7 +1206,7 @@ try {
             <mdn-search-button><template shadowroot="open" shadowrootmode="open"><style>.mdn-search-button{align-items:center;background-color:var(--color-background-page);border:1px solid var(--color-border-primary);border-radius:var(--radius-full);color:var(--color-text-primary);cursor:pointer;display:flex;justify-content:space-between;margin:0;padding:.25rem .25rem .25rem .75rem;width:5rem}.mdn-search-button:hover{background-color:var(--color-background-secondary)}.mdn-search-button:before{content:"";height:18px;width:15px;--csstools-light-dark-toggle-95231fd5-0:var(--csstools-color-scheme--light) var(--color-blue-80);border-bottom:2px solid var(--csstools-light-dark-toggle-95231fd5-0,var(--color-blue-50))}@supports (color:light-dark(red,red)){.mdn-search-button:before{border-bottom:2px solid light-dark(var(--color-blue-50),var(--color-blue-80))}}</style><!--lit-part PwhADO+m7/M=--><!--lit-node 0--><button
       class="mdn-search-button"
       title="Search the site"
-      
+
       data-glean-id="quick-search-open: menu"
     >
       <!--lit-part ijtgkDNyZhc=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg><!--/lit-part-->
@@ -1216,24 +1216,24 @@ try {
         </div>
       </nav>
       <mdn-search-modal id="mdn-search"></mdn-search-modal>
-     
+
       <div class="breadcrumbs-bar" data-scheme="">
         <mdn-toggle-sidebar><template shadowroot="open" shadowrootmode="open"><style>:host{border-right:1px solid var(--color-border-primary);display:block;height:100%}mdn-button{height:100%}</style><!--lit-part gv6WcfvvaIc=--><!--lit-node 0--><mdn-button
-      
-      
-      
-      
-      
+
+
+
+
+
      icon-only variant="plain" aria-controls="main-sidebar" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>.button{align-items:center;background-color:initial;border:1px solid #0000;border-radius:.25rem;color:var(--color-text-primary);column-gap:.3125em;cursor:pointer;display:inline-flex;font-family:var(--font-family-text);font-size:.875em;font-weight:450;justify-content:center;line-height:var(--font-line-ui);margin:0;padding:.5em;-webkit-text-decoration:none;text-decoration:none;vertical-align:middle}.button[data-variant=primary]{--csstools-light-dark-toggle-33eaa513-0:var(--csstools-color-scheme--light) var(--color-black);color:var(--csstools-light-dark-toggle-33eaa513-0,var(--color-white));--csstools-light-dark-toggle-33eaa513-1:var(--csstools-color-scheme--light) var(--color-white);background-color:var(--csstools-light-dark-toggle-33eaa513-1,var(--color-black))}@supports (color:light-dark(red,red)){.button[data-variant=primary]{background-color:light-dark(var(--color-black),var(--color-white));color:light-dark(var(--color-white),var(--color-black))}}.button[data-variant=primary]:hover{--csstools-light-dark-toggle-33eaa513-2:var(--csstools-color-scheme--light) var(--color-gray-60);background-color:var(--csstools-light-dark-toggle-33eaa513-2,var(--color-gray-40))}@supports (color:light-dark(red,red)){.button[data-variant=primary]:hover{background-color:light-dark(var(--color-gray-40),var(--color-gray-60))}}.button[data-variant=primary][data-action=positive]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-3:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-3,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]{background-color:light-dark(var(--color-green-50),var(--color-green-20))}}.button[data-variant=primary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-4:var(--csstools-color-scheme--light) var(--color-green-50);background-color:var(--csstools-light-dark-toggle-33eaa513-4,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]:hover{background-color:light-dark(var(--color-green-20),var(--color-green-50))}}.button[data-variant=primary][data-action=negative]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-5:var(--csstools-color-scheme--light) var(--color-red-20);background-color:var(--csstools-light-dark-toggle-33eaa513-5,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]{background-color:light-dark(var(--color-red-50),var(--color-red-20))}}.button[data-variant=primary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-6:var(--csstools-color-scheme--light) var(--color-red-50);background-color:var(--csstools-light-dark-toggle-33eaa513-6,var(--color-red-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]:hover{background-color:light-dark(var(--color-red-20),var(--color-red-50))}}.button[data-variant=secondary]{border-color:currentcolor}.button[data-variant=secondary]:hover{--csstools-light-dark-toggle-33eaa513-7:var(--csstools-color-scheme--light) var(--color-gray-40);background-color:var(--csstools-light-dark-toggle-33eaa513-7,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=secondary]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-40))}}.button[data-variant=secondary][data-action=positive]{--csstools-light-dark-toggle-33eaa513-8:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-8,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]{color:light-dark(var(--color-green-20),var(--color-green-80))}}.button[data-variant=secondary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-9:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-9,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-20))}}.button[data-variant=secondary][data-action=negative]{--csstools-light-dark-toggle-33eaa513-10:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-10,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=secondary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-11:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-11,var(--color-red-20));--csstools-light-dark-toggle-33eaa513-12:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-12,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10));color:light-dark(var(--color-red-20),var(--color-red-80))}}.button[data-variant=plain]:hover{--csstools-light-dark-toggle-33eaa513-13:var(--csstools-color-scheme--light) var(--color-gray-40);background-color:var(--csstools-light-dark-toggle-33eaa513-13,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=plain]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-40))}}.button[data-variant=plain][data-action=positive]{--csstools-light-dark-toggle-33eaa513-14:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-14,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]{color:light-dark(var(--color-green-20),var(--color-green-80))}}.button[data-variant=plain][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-15:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-15,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-20))}}.button[data-variant=plain][data-action=negative]{--csstools-light-dark-toggle-33eaa513-16:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-16,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=plain][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-17:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-17,var(--color-red-20));--csstools-light-dark-toggle-33eaa513-18:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-18,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10));color:light-dark(var(--color-red-20),var(--color-red-80))}}.button[aria-disabled=true],.button[disabled]{--csstools-light-dark-toggle-33eaa513-19:var(--csstools-color-scheme--light) var(--color-gray-60)!important;color:var(--csstools-light-dark-toggle-33eaa513-19,var(--color-gray-40))!important;cursor:not-allowed;--csstools-light-dark-toggle-33eaa513-20:var(--csstools-color-scheme--light) var(--color-gray-20)!important;background-color:var(--csstools-light-dark-toggle-33eaa513-20,var(--color-gray-80))!important;border-color:#0000}@supports (color:light-dark(red,red)){.button[aria-disabled=true],.button[disabled]{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))!important;color:light-dark(var(--color-gray-40),var(--color-gray-60))!important}}.button .icon{display:flex}.button svg{height:1.25em;width:1.25em}.button .label{padding-block:.125em;padding-inline:.0625em}:host{display:inline-flex;vertical-align:middle}.button{box-sizing:border-box;height:100%;width:100%}</style><!--lit-part O1S+ZMb7umU=-->
         <!--lit-node 0--><button
           class="button"
           aria-labelledby="label-9v0uucukrih"
-          
-          
-          
-          
+
+
+
+
           data-variant="plain"
-          
+
           part="button"
         >
           <!--lit-part--><!--lit-part bRP2a5ux/uw=--><span class="icon" part="icon"><!--lit-part 6ks+zZ9KZSc=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/></svg><!--/lit-part--></span><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
@@ -1244,13 +1244,13 @@ try {
         </button>
       <!--/lit-part--></template>
       <!--lit-part-->Toggle sidebar<!--/lit-part-->
-    </mdn-button><!--/lit-part--></template></mdn-toggle-sidebar> 
+    </mdn-button><!--/lit-part--></template></mdn-toggle-sidebar>
       <ol
         class="breadcrumbs"
         vocab="https://schema.org/"
         typeof="BreadcrumbList"
       >
-        
+
             <li property="itemListElement" typeof="ListItem">
               <a
                 href="/en-US/docs/Web"
@@ -1261,7 +1261,7 @@ try {
               >
               <meta property="position" content="1" />
             </li>
-          
+
             <li property="itemListElement" typeof="ListItem">
               <a
                 href="/en-US/docs/Web/CSS"
@@ -1272,7 +1272,7 @@ try {
               >
               <meta property="position" content="2" />
             </li>
-          
+
             <li property="itemListElement" typeof="ListItem">
               <a
                 href="/en-US/docs/Web/CSS/Reference"
@@ -1283,7 +1283,7 @@ try {
               >
               <meta property="position" content="3" />
             </li>
-          
+
             <li property="itemListElement" typeof="ListItem">
               <a
                 href="/en-US/docs/Web/CSS/Reference/Properties"
@@ -1294,7 +1294,7 @@ try {
               >
               <meta property="position" content="4" />
             </li>
-          
+
             <li property="itemListElement" typeof="ListItem">
               <a
                 href="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline"
@@ -1305,9 +1305,9 @@ try {
               >
               <meta property="position" content="5" />
             </li>
-          
+
       </ol>
-    
+
         <mdn-collection-save-button
                 doc-url="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline"
                 doc-title="animation-timeline CSS property"
@@ -1339,7 +1339,7 @@ try {
                     data-mode="light dark"
                     data-current
                     type="button"
-                    
+
                   >
                     <!--lit-part-->OS default<!--/lit-part-->
                   </button>
@@ -1347,9 +1347,9 @@ try {
                   <!--lit-node 1--><button
                     class="color-theme__option"
                     data-mode="light"
-                    
+
                     type="button"
-                    
+
                   >
                     <!--lit-part-->Light<!--/lit-part-->
                   </button>
@@ -1357,9 +1357,9 @@ try {
                   <!--lit-node 1--><button
                     class="color-theme__option"
                     data-mode="dark"
-                    
+
                     type="button"
-                    
+
                   >
                     <!--lit-part-->Dark<!--/lit-part-->
                   </button>
@@ -1369,11 +1369,11 @@ try {
       </mdn-dropdown>
     </div><!--/lit-part--></template></mdn-color-theme>
         <mdn-language-switcher
-      
-      
-      
-      
-      
+
+
+
+
+
      locale="en-US" native="English (US)" translations="[{&quot;locale&quot;:&quot;en-US&quot;,&quot;title&quot;:&quot;animation-timeline CSS property&quot;,&quot;native&quot;:&quot;English (US)&quot;},{&quot;locale&quot;:&quot;de&quot;,&quot;title&quot;:&quot;animation-timeline CSS property&quot;,&quot;native&quot;:&quot;Deutsch&quot;},{&quot;locale&quot;:&quot;fr&quot;,&quot;title&quot;:&quot;Propriété CSS animation-timeline&quot;,&quot;native&quot;:&quot;Français&quot;},{&quot;locale&quot;:&quot;ja&quot;,&quot;title&quot;:&quot;animation-timeline プロパティ (CSS)&quot;,&quot;native&quot;:&quot;日本語&quot;}]" url="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline"><template shadowroot="open" shadowrootmode="open"><style>*,:after,:before{box-sizing:border-box}button,input,select,textarea{font:inherit}button{color:inherit;cursor:pointer}img{height:auto;max-width:100%}a{color:var(--color-link-normal)}[hidden]{display:none!important}#content{scroll-margin-block-start:var(--sticky-header-height)}.language-switcher{position:relative}.language-switcher__button{align-items:center;background-color:initial;border:none;color:inherit;column-gap:.25rem;cursor:pointer;display:flex;font:inherit;margin:0;padding:0 .5rem}.language-switcher__button:is(:hover,:focus,[aria-expanded=true]){background-color:var(--color-background-secondary)}@media screen and (width <= 480px){.language-switcher__button>span{display:none}}.language-switcher__button:before{background-color:currentcolor;content:"";height:1.25rem;mask-image:url(/static/ssr/languages.dcba936080e5be86.svg);mask-size:cover;width:1.25rem}.language-switcher__dropdown{background-color:var(--color-background-primary);border:1px solid var(--color-border-primary);margin:0;padding:.75rem;position:absolute;right:0;width:max-content;z-index:1}.language_switcher__remember{border-bottom:1px solid var(--color-border-primary);display:flex;font-size:var(--font-size-small);place-items:center;width:100%}.language_switcher__remember mdn-switch{padding:.25rem}:is(.language_switcher__remember mdn-switch):hover{background-color:var(--color-background-secondary)}.language-switcher__list{background-color:var(--color-background-primary);list-style:none;margin:0;padding:0;width:100%}.language-switcher__option{align-items:center;background-color:initial;border:none;color:var(--color-text-primary);column-gap:.25rem;display:flex;font:inherit;margin:0;padding:.25rem;-webkit-text-decoration:none;text-decoration:none;width:100%}.language-switcher__option:hover,.language-switcher__option[data-current]{background-color:var(--color-background-secondary)}</style><!--lit-part chc5lPcfcrc=--><div class="language-switcher">
       <!--lit-node 1--><mdn-dropdown defer-hydration><template shadowroot="open" shadowrootmode="open"><style>:host{display:contents}:host(:not([loaded],:focus-within)) slot[name=dropdown]{display:none}</style><!--lit-part NrjKVwpqTpA=-->
       <!--lit-node 0--><slot name="button" ></slot>
@@ -1395,37 +1395,37 @@ try {
         >
           <div class="language_switcher__remember">
             <!--lit-node 7--><mdn-switch
-              
-              
+
+
                defer-hydration><template shadowroot="open" shadowrootmode="open"><style>@property --switch-position{syntax:"<percentage>";inherits:false;initial-value:0}.switch{cursor:pointer;display:flex;gap:.5em;place-items:center}.switch__input{--switch-size:1.25em;appearance:none;background-color:var(--color-text-secondary);background-image:radial-gradient(circle at calc(var(--switch-size)/2),var(--color-background-primary) calc((var(--switch-size)/2)*.8),#0000 calc((var(--switch-size)/2)*.8 + 1px));background-position:var(--switch-position) 0;background-repeat:no-repeat;background-size:var(--switch-size);border-radius:var(--radius-full);display:inline-block;height:var(--switch-size);margin:0;transition:--switch-position .2s;width:calc(var(--switch-size)*1.6)}.switch__input:checked{--switch-position:100%;background-color:var(--color-link-normal)}.switch__input:focus-visible{outline:2px solid var(--color-link-normal);outline-offset:2px}.switch__input:active:not(:disabled){filter:brightness(1.2)}.switch__input:disabled{opacity:.7}</style><!--lit-part 5r9QLJvcF6A=--> <label class="switch">
       <!--lit-node 1--><input
         class="switch__input"
         type="checkbox"
-        
-        
-        
+
+
+
       />
       <slot></slot>
     </label><!--/lit-part--></template><!--lit-part-->Remember language<!--/lit-part--></mdn-switch
             >
             <!--lit-node 9--><mdn-button
-              
-              
-              
-              
-              
-              
+
+
+
+
+
+
                variant="plain" icon-only href="https://github.com/orgs/mdn/discussions/739" target="_blank" title="Enable this setting to always switch to the current language when available. (Click to learn more.)" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>.button{align-items:center;background-color:initial;border:1px solid #0000;border-radius:.25rem;color:var(--color-text-primary);column-gap:.3125em;cursor:pointer;display:inline-flex;font-family:var(--font-family-text);font-size:.875em;font-weight:450;justify-content:center;line-height:var(--font-line-ui);margin:0;padding:.5em;-webkit-text-decoration:none;text-decoration:none;vertical-align:middle}.button[data-variant=primary]{--csstools-light-dark-toggle-33eaa513-0:var(--csstools-color-scheme--light) var(--color-black);color:var(--csstools-light-dark-toggle-33eaa513-0,var(--color-white));--csstools-light-dark-toggle-33eaa513-1:var(--csstools-color-scheme--light) var(--color-white);background-color:var(--csstools-light-dark-toggle-33eaa513-1,var(--color-black))}@supports (color:light-dark(red,red)){.button[data-variant=primary]{background-color:light-dark(var(--color-black),var(--color-white));color:light-dark(var(--color-white),var(--color-black))}}.button[data-variant=primary]:hover{--csstools-light-dark-toggle-33eaa513-2:var(--csstools-color-scheme--light) var(--color-gray-60);background-color:var(--csstools-light-dark-toggle-33eaa513-2,var(--color-gray-40))}@supports (color:light-dark(red,red)){.button[data-variant=primary]:hover{background-color:light-dark(var(--color-gray-40),var(--color-gray-60))}}.button[data-variant=primary][data-action=positive]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-3:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-3,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]{background-color:light-dark(var(--color-green-50),var(--color-green-20))}}.button[data-variant=primary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-4:var(--csstools-color-scheme--light) var(--color-green-50);background-color:var(--csstools-light-dark-toggle-33eaa513-4,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]:hover{background-color:light-dark(var(--color-green-20),var(--color-green-50))}}.button[data-variant=primary][data-action=negative]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-5:var(--csstools-color-scheme--light) var(--color-red-20);background-color:var(--csstools-light-dark-toggle-33eaa513-5,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]{background-color:light-dark(var(--color-red-50),var(--color-red-20))}}.button[data-variant=primary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-6:var(--csstools-color-scheme--light) var(--color-red-50);background-color:var(--csstools-light-dark-toggle-33eaa513-6,var(--color-red-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]:hover{background-color:light-dark(var(--color-red-20),var(--color-red-50))}}.button[data-variant=secondary]{border-color:currentcolor}.button[data-variant=secondary]:hover{--csstools-light-dark-toggle-33eaa513-7:var(--csstools-color-scheme--light) var(--color-gray-40);background-color:var(--csstools-light-dark-toggle-33eaa513-7,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=secondary]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-40))}}.button[data-variant=secondary][data-action=positive]{--csstools-light-dark-toggle-33eaa513-8:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-8,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]{color:light-dark(var(--color-green-20),var(--color-green-80))}}.button[data-variant=secondary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-9:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-9,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-20))}}.button[data-variant=secondary][data-action=negative]{--csstools-light-dark-toggle-33eaa513-10:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-10,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=secondary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-11:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-11,var(--color-red-20));--csstools-light-dark-toggle-33eaa513-12:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-12,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10));color:light-dark(var(--color-red-20),var(--color-red-80))}}.button[data-variant=plain]:hover{--csstools-light-dark-toggle-33eaa513-13:var(--csstools-color-scheme--light) var(--color-gray-40);background-color:var(--csstools-light-dark-toggle-33eaa513-13,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=plain]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-40))}}.button[data-variant=plain][data-action=positive]{--csstools-light-dark-toggle-33eaa513-14:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-14,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]{color:light-dark(var(--color-green-20),var(--color-green-80))}}.button[data-variant=plain][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-15:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-15,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-20))}}.button[data-variant=plain][data-action=negative]{--csstools-light-dark-toggle-33eaa513-16:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-16,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=plain][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-17:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-17,var(--color-red-20));--csstools-light-dark-toggle-33eaa513-18:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-18,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10));color:light-dark(var(--color-red-20),var(--color-red-80))}}.button[aria-disabled=true],.button[disabled]{--csstools-light-dark-toggle-33eaa513-19:var(--csstools-color-scheme--light) var(--color-gray-60)!important;color:var(--csstools-light-dark-toggle-33eaa513-19,var(--color-gray-40))!important;cursor:not-allowed;--csstools-light-dark-toggle-33eaa513-20:var(--csstools-color-scheme--light) var(--color-gray-20)!important;background-color:var(--csstools-light-dark-toggle-33eaa513-20,var(--color-gray-80))!important;border-color:#0000}@supports (color:light-dark(red,red)){.button[aria-disabled=true],.button[disabled]{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))!important;color:light-dark(var(--color-gray-40),var(--color-gray-60))!important}}.button .icon{display:flex}.button svg{height:1.25em;width:1.25em}.button .label{padding-block:.125em;padding-inline:.0625em}:host{display:inline-flex;vertical-align:middle}.button{box-sizing:border-box;height:100%;width:100%}</style><!--lit-part QWlwWBHAx44=-->
         <!--lit-node 0--><a
           class="button"
           href="https://github.com/orgs/mdn/discussions/739"
           target="_blank"
-          
+
           aria-labelledby="label-lvkloh9tv1"
-          
-          
+
+
           data-variant="plain"
-          
+
           part="button"
         >
           <!--lit-part--><!--lit-part bRP2a5ux/uw=--><span class="icon" part="icon"><!--lit-part quQU0uIDm5U=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></svg><!--/lit-part--></span><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
@@ -1442,8 +1442,8 @@ try {
           <li>
             <!--lit-node 1--><a
               class="language-switcher__option"
-              
-              
+
+
               href="/de/docs/Web/CSS/Reference/Properties/animation-timeline"
               data-glean-id="language: en-US -&gt; de"
               ><!--lit-part-->Deutsch<!--/lit-part--></a
@@ -1454,7 +1454,7 @@ try {
             <!--lit-node 1--><a
               class="language-switcher__option"
               data-current
-              
+
               href="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline"
               data-glean-id="language: en-US -&gt; en-US"
               ><!--lit-part-->English (US)<!--/lit-part--></a
@@ -1464,8 +1464,8 @@ try {
           <li>
             <!--lit-node 1--><a
               class="language-switcher__option"
-              
-              
+
+
               href="/fr/docs/Web/CSS/Reference/Properties/animation-timeline"
               data-glean-id="language: en-US -&gt; fr"
               ><!--lit-part-->Français<!--/lit-part--></a
@@ -1475,8 +1475,8 @@ try {
           <li>
             <!--lit-node 1--><a
               class="language-switcher__option"
-              
-              
+
+
               href="/ja/docs/Web/CSS/Reference/Properties/animation-timeline"
               data-glean-id="language: en-US -&gt; ja"
               ><!--lit-part-->日本語<!--/lit-part--></a
@@ -1488,14 +1488,14 @@ try {
       </mdn-dropdown>
     </div><!--/lit-part--></template></mdn-language-switcher>
       </div>
-    
+
         </header>
         <div class="page-layout__main">
       <div class="layout__2-sidebars-inline reference-layout">
         <main id="content" class="layout__content">
           <div class="layout__header reference-layout__header">
-            
-            
+
+
             <mdn-survey></mdn-survey>
             <h1><code>animation-timeline</code> CSS property</h1>
             <details
@@ -1513,8 +1513,8 @@ try {
         <div class="status-title">
           Limited availability
         </div>
-        
-        
+
+
         <div class="browsers">
                 <span class="engine" title="Supported in Chrome and Edge">
                       <span
@@ -1544,7 +1544,7 @@ try {
       </summary>
       <div class="extra">
         <p>This feature is not Baseline because it does not work in some of the most widely-used browsers.</p><p>Want more browser support for this feature? <a href="https://github.com/web-platform-dx/developer-signals/issues/207" target="_blank" class="external" rel="noopener" data-glean-id="baseline_link_signals">Tell us why.</a></p>
-        
+
         <ul>
           <li>
             <a href="#browser_compatibility" data-glean-id="baseline_link_bcd_table">
@@ -1570,9 +1570,9 @@ try {
 }
 </script><?> <section
     class="content-section"
-    
+
   >
-    
+
     <p>The <strong><code>animation-timeline</code></strong> <a href="/en-US/docs/Web/CSS">CSS</a> property specifies the timeline used to control the progress of a CSS animation.</p>
   </section>
           </div>
@@ -2044,8 +2044,8 @@ div {
     >
       <!--lit-part y0+5SMr/T3s=--><!--lit-node 0--><h2 id="browser_compatibility" class="heading"><!--lit-node 1--><a class="heading-anchor" href="#browser_compatibility">Browser compatibility</a></h2><!--/lit-part-->
       <mdn-compat-table-lazy
-        
-        
+
+
        locale="en-US" query="css.properties.animation-timeline"><template shadowroot="open" shadowrootmode="open"><style>*,:after,:before{box-sizing:border-box}button,input,select,textarea{font:inherit}button{color:inherit;cursor:pointer}img{height:auto;max-width:100%}a{color:var(--color-link-normal)}[hidden]{display:none!important}#content{scroll-margin-block-start:var(--sticky-header-height)}</style><!--lit-part y6RVfKR7hws=--><p><!--lit-part hRoZS/r0nwc=--><noscript>Enable JavaScript to view this browser compatibility table.</noscript><!--/lit-part--></p><!--/lit-part--></template></mdn-compat-table-lazy>
     </section><section
     class="content-section"
@@ -2061,7 +2061,7 @@ div {
 <li><a href="/en-US/docs/Web/CSS/Guides/Animations">CSS animations</a> module</li>
 <li><a href="/en-US/docs/Web/CSS/Guides/Scroll-driven_animations">CSS scroll-driven animations</a> module</li>
 </ul>
-  </section> 
+  </section>
       <section
         class="content-section article-footer"
         aria-labelledby="feedback"
@@ -2077,19 +2077,19 @@ div {
       </label>
       <div class="content-feedback--buttons">
         <!--lit-node 3--><mdn-button
-          
-          
-          
-          
-          
+
+
+
+
+
          data-vote="yes" variant="secondary" action="positive" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>.button{align-items:center;background-color:initial;border:1px solid #0000;border-radius:.25rem;color:var(--color-text-primary);column-gap:.3125em;cursor:pointer;display:inline-flex;font-family:var(--font-family-text);font-size:.875em;font-weight:450;justify-content:center;line-height:var(--font-line-ui);margin:0;padding:.5em;-webkit-text-decoration:none;text-decoration:none;vertical-align:middle}.button[data-variant=primary]{--csstools-light-dark-toggle-33eaa513-0:var(--csstools-color-scheme--light) var(--color-black);color:var(--csstools-light-dark-toggle-33eaa513-0,var(--color-white));--csstools-light-dark-toggle-33eaa513-1:var(--csstools-color-scheme--light) var(--color-white);background-color:var(--csstools-light-dark-toggle-33eaa513-1,var(--color-black))}@supports (color:light-dark(red,red)){.button[data-variant=primary]{background-color:light-dark(var(--color-black),var(--color-white));color:light-dark(var(--color-white),var(--color-black))}}.button[data-variant=primary]:hover{--csstools-light-dark-toggle-33eaa513-2:var(--csstools-color-scheme--light) var(--color-gray-60);background-color:var(--csstools-light-dark-toggle-33eaa513-2,var(--color-gray-40))}@supports (color:light-dark(red,red)){.button[data-variant=primary]:hover{background-color:light-dark(var(--color-gray-40),var(--color-gray-60))}}.button[data-variant=primary][data-action=positive]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-3:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-3,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]{background-color:light-dark(var(--color-green-50),var(--color-green-20))}}.button[data-variant=primary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-4:var(--csstools-color-scheme--light) var(--color-green-50);background-color:var(--csstools-light-dark-toggle-33eaa513-4,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]:hover{background-color:light-dark(var(--color-green-20),var(--color-green-50))}}.button[data-variant=primary][data-action=negative]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-5:var(--csstools-color-scheme--light) var(--color-red-20);background-color:var(--csstools-light-dark-toggle-33eaa513-5,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]{background-color:light-dark(var(--color-red-50),var(--color-red-20))}}.button[data-variant=primary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-6:var(--csstools-color-scheme--light) var(--color-red-50);background-color:var(--csstools-light-dark-toggle-33eaa513-6,var(--color-red-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]:hover{background-color:light-dark(var(--color-red-20),var(--color-red-50))}}.button[data-variant=secondary]{border-color:currentcolor}.button[data-variant=secondary]:hover{--csstools-light-dark-toggle-33eaa513-7:var(--csstools-color-scheme--light) var(--color-gray-40);background-color:var(--csstools-light-dark-toggle-33eaa513-7,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=secondary]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-40))}}.button[data-variant=secondary][data-action=positive]{--csstools-light-dark-toggle-33eaa513-8:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-8,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]{color:light-dark(var(--color-green-20),var(--color-green-80))}}.button[data-variant=secondary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-9:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-9,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-20))}}.button[data-variant=secondary][data-action=negative]{--csstools-light-dark-toggle-33eaa513-10:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-10,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=secondary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-11:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-11,var(--color-red-20));--csstools-light-dark-toggle-33eaa513-12:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-12,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10));color:light-dark(var(--color-red-20),var(--color-red-80))}}.button[data-variant=plain]:hover{--csstools-light-dark-toggle-33eaa513-13:var(--csstools-color-scheme--light) var(--color-gray-40);background-color:var(--csstools-light-dark-toggle-33eaa513-13,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=plain]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-40))}}.button[data-variant=plain][data-action=positive]{--csstools-light-dark-toggle-33eaa513-14:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-14,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]{color:light-dark(var(--color-green-20),var(--color-green-80))}}.button[data-variant=plain][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-15:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-15,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-20))}}.button[data-variant=plain][data-action=negative]{--csstools-light-dark-toggle-33eaa513-16:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-16,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=plain][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-17:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-17,var(--color-red-20));--csstools-light-dark-toggle-33eaa513-18:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-18,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10));color:light-dark(var(--color-red-20),var(--color-red-80))}}.button[aria-disabled=true],.button[disabled]{--csstools-light-dark-toggle-33eaa513-19:var(--csstools-color-scheme--light) var(--color-gray-60)!important;color:var(--csstools-light-dark-toggle-33eaa513-19,var(--color-gray-40))!important;cursor:not-allowed;--csstools-light-dark-toggle-33eaa513-20:var(--csstools-color-scheme--light) var(--color-gray-20)!important;background-color:var(--csstools-light-dark-toggle-33eaa513-20,var(--color-gray-80))!important;border-color:#0000}@supports (color:light-dark(red,red)){.button[aria-disabled=true],.button[disabled]{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))!important;color:light-dark(var(--color-gray-40),var(--color-gray-60))!important}}.button .icon{display:flex}.button svg{height:1.25em;width:1.25em}.button .label{padding-block:.125em;padding-inline:.0625em}:host{display:inline-flex;vertical-align:middle}.button{box-sizing:border-box;height:100%;width:100%}</style><!--lit-part O1S+ZMb7umU=-->
         <!--lit-node 0--><button
           class="button"
           aria-labelledby="label-rjctbeosjib"
-          
-          
-          
-          
+
+
+
+
           data-variant="secondary"
           data-action="positive"
           part="button"
@@ -2104,19 +2104,19 @@ div {
           <!--lit-part-->Yes<!--/lit-part-->
         </mdn-button>
         <!--lit-node 5--><mdn-button
-          
-          
-          
-          
-          
+
+
+
+
+
          data-vote="no" variant="secondary" action="negative" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>.button{align-items:center;background-color:initial;border:1px solid #0000;border-radius:.25rem;color:var(--color-text-primary);column-gap:.3125em;cursor:pointer;display:inline-flex;font-family:var(--font-family-text);font-size:.875em;font-weight:450;justify-content:center;line-height:var(--font-line-ui);margin:0;padding:.5em;-webkit-text-decoration:none;text-decoration:none;vertical-align:middle}.button[data-variant=primary]{--csstools-light-dark-toggle-33eaa513-0:var(--csstools-color-scheme--light) var(--color-black);color:var(--csstools-light-dark-toggle-33eaa513-0,var(--color-white));--csstools-light-dark-toggle-33eaa513-1:var(--csstools-color-scheme--light) var(--color-white);background-color:var(--csstools-light-dark-toggle-33eaa513-1,var(--color-black))}@supports (color:light-dark(red,red)){.button[data-variant=primary]{background-color:light-dark(var(--color-black),var(--color-white));color:light-dark(var(--color-white),var(--color-black))}}.button[data-variant=primary]:hover{--csstools-light-dark-toggle-33eaa513-2:var(--csstools-color-scheme--light) var(--color-gray-60);background-color:var(--csstools-light-dark-toggle-33eaa513-2,var(--color-gray-40))}@supports (color:light-dark(red,red)){.button[data-variant=primary]:hover{background-color:light-dark(var(--color-gray-40),var(--color-gray-60))}}.button[data-variant=primary][data-action=positive]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-3:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-3,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]{background-color:light-dark(var(--color-green-50),var(--color-green-20))}}.button[data-variant=primary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-4:var(--csstools-color-scheme--light) var(--color-green-50);background-color:var(--csstools-light-dark-toggle-33eaa513-4,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]:hover{background-color:light-dark(var(--color-green-20),var(--color-green-50))}}.button[data-variant=primary][data-action=negative]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-5:var(--csstools-color-scheme--light) var(--color-red-20);background-color:var(--csstools-light-dark-toggle-33eaa513-5,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]{background-color:light-dark(var(--color-red-50),var(--color-red-20))}}.button[data-variant=primary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-6:var(--csstools-color-scheme--light) var(--color-red-50);background-color:var(--csstools-light-dark-toggle-33eaa513-6,var(--color-red-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]:hover{background-color:light-dark(var(--color-red-20),var(--color-red-50))}}.button[data-variant=secondary]{border-color:currentcolor}.button[data-variant=secondary]:hover{--csstools-light-dark-toggle-33eaa513-7:var(--csstools-color-scheme--light) var(--color-gray-40);background-color:var(--csstools-light-dark-toggle-33eaa513-7,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=secondary]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-40))}}.button[data-variant=secondary][data-action=positive]{--csstools-light-dark-toggle-33eaa513-8:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-8,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]{color:light-dark(var(--color-green-20),var(--color-green-80))}}.button[data-variant=secondary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-9:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-9,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-20))}}.button[data-variant=secondary][data-action=negative]{--csstools-light-dark-toggle-33eaa513-10:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-10,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=secondary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-11:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-11,var(--color-red-20));--csstools-light-dark-toggle-33eaa513-12:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-12,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10));color:light-dark(var(--color-red-20),var(--color-red-80))}}.button[data-variant=plain]:hover{--csstools-light-dark-toggle-33eaa513-13:var(--csstools-color-scheme--light) var(--color-gray-40);background-color:var(--csstools-light-dark-toggle-33eaa513-13,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=plain]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-40))}}.button[data-variant=plain][data-action=positive]{--csstools-light-dark-toggle-33eaa513-14:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-14,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]{color:light-dark(var(--color-green-20),var(--color-green-80))}}.button[data-variant=plain][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-15:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-15,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-20))}}.button[data-variant=plain][data-action=negative]{--csstools-light-dark-toggle-33eaa513-16:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-16,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=plain][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-17:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-17,var(--color-red-20));--csstools-light-dark-toggle-33eaa513-18:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-18,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10));color:light-dark(var(--color-red-20),var(--color-red-80))}}.button[aria-disabled=true],.button[disabled]{--csstools-light-dark-toggle-33eaa513-19:var(--csstools-color-scheme--light) var(--color-gray-60)!important;color:var(--csstools-light-dark-toggle-33eaa513-19,var(--color-gray-40))!important;cursor:not-allowed;--csstools-light-dark-toggle-33eaa513-20:var(--csstools-color-scheme--light) var(--color-gray-20)!important;background-color:var(--csstools-light-dark-toggle-33eaa513-20,var(--color-gray-80))!important;border-color:#0000}@supports (color:light-dark(red,red)){.button[aria-disabled=true],.button[disabled]{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))!important;color:light-dark(var(--color-gray-40),var(--color-gray-60))!important}}.button .icon{display:flex}.button svg{height:1.25em;width:1.25em}.button .label{padding-block:.125em;padding-inline:.0625em}:host{display:inline-flex;vertical-align:middle}.button{box-sizing:border-box;height:100%;width:100%}</style><!--lit-part O1S+ZMb7umU=-->
         <!--lit-node 0--><button
           class="button"
           aria-labelledby="label-t0uw7s6s9c"
-          
-          
-          
-          
+
+
+
+
           data-variant="secondary"
           data-action="negative"
           part="button"
@@ -2157,7 +2157,7 @@ div {
   </div>
         </div>
       </section>
-    
+
           </div>
         </main>
         <aside class="layout__left-sidebar" id="main-sidebar">
@@ -2176,26 +2176,26 @@ div {
         type="text"
         placeholder="Filter"
         value=""
-        
-        
+
+
       />
       <!--lit-part--><!--/lit-part-->
       <!--lit-node 5--><mdn-button
-        
-        
-        
-        
-        
+
+
+
+
+
          class="button" variant="plain" icon-only defer-hydration><template shadowroot="open" shadowrootmode="open"><style>.button{align-items:center;background-color:initial;border:1px solid #0000;border-radius:.25rem;color:var(--color-text-primary);column-gap:.3125em;cursor:pointer;display:inline-flex;font-family:var(--font-family-text);font-size:.875em;font-weight:450;justify-content:center;line-height:var(--font-line-ui);margin:0;padding:.5em;-webkit-text-decoration:none;text-decoration:none;vertical-align:middle}.button[data-variant=primary]{--csstools-light-dark-toggle-33eaa513-0:var(--csstools-color-scheme--light) var(--color-black);color:var(--csstools-light-dark-toggle-33eaa513-0,var(--color-white));--csstools-light-dark-toggle-33eaa513-1:var(--csstools-color-scheme--light) var(--color-white);background-color:var(--csstools-light-dark-toggle-33eaa513-1,var(--color-black))}@supports (color:light-dark(red,red)){.button[data-variant=primary]{background-color:light-dark(var(--color-black),var(--color-white));color:light-dark(var(--color-white),var(--color-black))}}.button[data-variant=primary]:hover{--csstools-light-dark-toggle-33eaa513-2:var(--csstools-color-scheme--light) var(--color-gray-60);background-color:var(--csstools-light-dark-toggle-33eaa513-2,var(--color-gray-40))}@supports (color:light-dark(red,red)){.button[data-variant=primary]:hover{background-color:light-dark(var(--color-gray-40),var(--color-gray-60))}}.button[data-variant=primary][data-action=positive]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-3:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-3,var(--color-green-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]{background-color:light-dark(var(--color-green-50),var(--color-green-20))}}.button[data-variant=primary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-4:var(--csstools-color-scheme--light) var(--color-green-50);background-color:var(--csstools-light-dark-toggle-33eaa513-4,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=positive]:hover{background-color:light-dark(var(--color-green-20),var(--color-green-50))}}.button[data-variant=primary][data-action=negative]{color:var(--color-white);--csstools-light-dark-toggle-33eaa513-5:var(--csstools-color-scheme--light) var(--color-red-20);background-color:var(--csstools-light-dark-toggle-33eaa513-5,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]{background-color:light-dark(var(--color-red-50),var(--color-red-20))}}.button[data-variant=primary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-6:var(--csstools-color-scheme--light) var(--color-red-50);background-color:var(--csstools-light-dark-toggle-33eaa513-6,var(--color-red-20))}@supports (color:light-dark(red,red)){.button[data-variant=primary][data-action=negative]:hover{background-color:light-dark(var(--color-red-20),var(--color-red-50))}}.button[data-variant=secondary]{border-color:currentcolor}.button[data-variant=secondary]:hover{--csstools-light-dark-toggle-33eaa513-7:var(--csstools-color-scheme--light) var(--color-gray-40);background-color:var(--csstools-light-dark-toggle-33eaa513-7,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=secondary]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-40))}}.button[data-variant=secondary][data-action=positive]{--csstools-light-dark-toggle-33eaa513-8:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-8,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]{color:light-dark(var(--color-green-20),var(--color-green-80))}}.button[data-variant=secondary][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-9:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-9,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-20))}}.button[data-variant=secondary][data-action=negative]{--csstools-light-dark-toggle-33eaa513-10:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-10,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=secondary][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-11:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-11,var(--color-red-20));--csstools-light-dark-toggle-33eaa513-12:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-12,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=secondary][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10));color:light-dark(var(--color-red-20),var(--color-red-80))}}.button[data-variant=plain]:hover{--csstools-light-dark-toggle-33eaa513-13:var(--csstools-color-scheme--light) var(--color-gray-40);background-color:var(--csstools-light-dark-toggle-33eaa513-13,var(--color-gray-80))}@supports (color:light-dark(red,red)){.button[data-variant=plain]:hover{background-color:light-dark(var(--color-gray-80),var(--color-gray-40))}}.button[data-variant=plain][data-action=positive]{--csstools-light-dark-toggle-33eaa513-14:var(--csstools-color-scheme--light) var(--color-green-80);color:var(--csstools-light-dark-toggle-33eaa513-14,var(--color-green-20))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]{color:light-dark(var(--color-green-20),var(--color-green-80))}}.button[data-variant=plain][data-action=positive]:hover{--csstools-light-dark-toggle-33eaa513-15:var(--csstools-color-scheme--light) var(--color-green-20);background-color:var(--csstools-light-dark-toggle-33eaa513-15,var(--color-green-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=positive]:hover{background-color:light-dark(var(--color-green-90),var(--color-green-20))}}.button[data-variant=plain][data-action=negative]{--csstools-light-dark-toggle-33eaa513-16:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-16,var(--color-red-50))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]{color:light-dark(var(--color-red-50),var(--color-red-80))}}.button[data-variant=plain][data-action=negative]:hover{--csstools-light-dark-toggle-33eaa513-17:var(--csstools-color-scheme--light) var(--color-red-80);color:var(--csstools-light-dark-toggle-33eaa513-17,var(--color-red-20));--csstools-light-dark-toggle-33eaa513-18:var(--csstools-color-scheme--light) var(--color-red-10);background-color:var(--csstools-light-dark-toggle-33eaa513-18,var(--color-red-90))}@supports (color:light-dark(red,red)){.button[data-variant=plain][data-action=negative]:hover{background-color:light-dark(var(--color-red-90),var(--color-red-10));color:light-dark(var(--color-red-20),var(--color-red-80))}}.button[aria-disabled=true],.button[disabled]{--csstools-light-dark-toggle-33eaa513-19:var(--csstools-color-scheme--light) var(--color-gray-60)!important;color:var(--csstools-light-dark-toggle-33eaa513-19,var(--color-gray-40))!important;cursor:not-allowed;--csstools-light-dark-toggle-33eaa513-20:var(--csstools-color-scheme--light) var(--color-gray-20)!important;background-color:var(--csstools-light-dark-toggle-33eaa513-20,var(--color-gray-80))!important;border-color:#0000}@supports (color:light-dark(red,red)){.button[aria-disabled=true],.button[disabled]{background-color:light-dark(var(--color-gray-80),var(--color-gray-20))!important;color:light-dark(var(--color-gray-40),var(--color-gray-60))!important}}.button .icon{display:flex}.button svg{height:1.25em;width:1.25em}.button .label{padding-block:.125em;padding-inline:.0625em}:host{display:inline-flex;vertical-align:middle}.button{box-sizing:border-box;height:100%;width:100%}</style><!--lit-part O1S+ZMb7umU=-->
         <!--lit-node 0--><button
           class="button"
           aria-labelledby="label-y0ebc0v1eg"
-          
-          
-          
-          
+
+
+
+
           data-variant="plain"
-          
+
           part="button"
         >
           <!--lit-part--><!--lit-part bRP2a5ux/uw=--><span class="icon" part="icon"><!--lit-part 67EVkvpPdvk=--><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg><!--/lit-part--></span><!--/lit-part--><!--lit-part rI2hX8LXYZM=-->
@@ -2230,7 +2230,7 @@ div {
           </div>
 
           <ul class="footer__socials">
-            
+
                 <li>
                   <a
                     href="https://github.com/mdn/"
@@ -2241,7 +2241,7 @@ div {
                     data-glean-id="footer: social -&gt; github"
                   ></a>
                 </li>
-              
+
                 <li>
                   <a
                     href="https://bsky.app/profile/developer.mozilla.org"
@@ -2252,7 +2252,7 @@ div {
                     data-glean-id="footer: social -&gt; bluesky"
                   ></a>
                 </li>
-              
+
                 <li>
                   <a
                     href="https://x.com/mozdevnet"
@@ -2263,7 +2263,7 @@ div {
                     data-glean-id="footer: social -&gt; x"
                   ></a>
                 </li>
-              
+
                 <li>
                   <a
                     href="https://mastodon.social/@mdn"
@@ -2274,7 +2274,7 @@ div {
                     data-glean-id="footer: social -&gt; mastodon"
                   ></a>
                 </li>
-              
+
                 <li>
                   <a
                     href="/en-US/blog/rss.xml"
@@ -2285,15 +2285,15 @@ div {
                     data-glean-id="footer: social -&gt; rss"
                   ></a>
                 </li>
-              
+
           </ul>
 
-          
+
               <dl class="footer__links">
                 <dt>MDN</dt>
                 <dd>
                   <ul>
-                    
+
                         <li>
                           <a
                             href="/en-US/about"
@@ -2305,7 +2305,7 @@ div {
                             About
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="/en-US/blog/"
@@ -2317,7 +2317,7 @@ div {
                             Blog
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="https://www.mozilla.org/en-US/careers/listings/"
@@ -2329,7 +2329,7 @@ div {
                             Mozilla careers
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="/en-US/advertising"
@@ -2341,7 +2341,7 @@ div {
                             Advertise with us
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="/en-US/plus"
@@ -2353,7 +2353,7 @@ div {
                             MDN Plus
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="https://support.mozilla.org/products/mdn-plus"
@@ -2365,16 +2365,16 @@ div {
                             Product help
                           </a>
                         </li>
-                      
+
                   </ul>
                 </dd>
               </dl>
-            
+
               <dl class="footer__links">
                 <dt>Contribute</dt>
                 <dd>
                   <ul>
-                    
+
                         <li>
                           <a
                             href="/en-US/community"
@@ -2386,7 +2386,7 @@ div {
                             MDN Community
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="/en-US/docs/MDN/Community"
@@ -2398,7 +2398,7 @@ div {
                             Community resources
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="/en-US/docs/MDN/Writing_guidelines"
@@ -2410,7 +2410,7 @@ div {
                             Writing guidelines
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="/discord"
@@ -2422,7 +2422,7 @@ div {
                             MDN Discord
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="https://github.com/mdn"
@@ -2434,16 +2434,16 @@ div {
                             MDN on GitHub
                           </a>
                         </li>
-                      
+
                   </ul>
                 </dd>
               </dl>
-            
+
               <dl class="footer__links">
                 <dt>Developers</dt>
                 <dd>
                   <ul>
-                    
+
                         <li>
                           <a
                             href="/en-US/docs/Web"
@@ -2455,7 +2455,7 @@ div {
                             Web technologies
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="/en-US/docs/Learn_web_development"
@@ -2467,7 +2467,7 @@ div {
                             Learn web development
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="/en-US/docs/MDN/Guides"
@@ -2479,7 +2479,7 @@ div {
                             Guides
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="/en-US/docs/MDN/Tutorials"
@@ -2491,7 +2491,7 @@ div {
                             Tutorials
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="/en-US/docs/Glossary"
@@ -2503,7 +2503,7 @@ div {
                             Glossary
                           </a>
                         </li>
-                      
+
                         <li>
                           <a
                             href="https://hacks.mozilla.org/"
@@ -2515,11 +2515,11 @@ div {
                             Hacks blog
                           </a>
                         </li>
-                      
+
                   </ul>
                 </dd>
               </dl>
-            
+
         </div>
 
         <div class="footer__mozilla">
@@ -2530,7 +2530,7 @@ div {
             ><!--lit-part lm0Fgmo9xYQ=--><svg xmlns="http://www.w3.org/2000/svg" width="128" height="30" viewBox="0 0 256 60"><title>Mozilla</title><path d="m13.32 22.1 5.1 24.3h2.1l5.1-24.3H39.3v37.34h-7.26V28.46h-2.1l-6.96 30.98h-7.02L9.02 28.46h-2.1v31H-.35V22.1h13.66Zm45.12 8.74c8.73 0 13.8 5.15 13.8 14.57S67.14 60 58.44 60c-8.73 0-13.8-5.17-13.8-14.59 0-9.43 5.07-14.57 13.8-14.57m0 23.34c4.1 0 6.16-2.1 6.16-6.73v-4.12c0-4.62-2.06-6.73-6.16-6.73s-6.15 2.1-6.15 6.73v4.12c0 4.63 2.05 6.73 6.15 6.73m17.68-.14 14.82-17.26H76.32v-5.41h23.31v5.4L84.84 54.05h15.03v5.4H76.13v-5.41Zm28.07-22.67h10.7v28.07h-7.25V36.77h-3.48v-5.4zm3.44-9.27h7.26v5.4h-7.25v-5.4Zm12.62 0h10.72v37.34h-7.24V27.5h-3.48zm16.08 0h10.7v37.34h-7.25V27.5h-3.48v-5.4zm27.8 8.74c4.24 0 7.08 2.05 7.87 5.63h2.1v-5.1h8.88v5.4h-3.47v17.28h3.47v5.4h-4.25c-3 0-4.63-1.63-4.63-4.62v-.48H172c-.78 3.58-3.63 5.63-7.88 5.63-6.68 0-11.4-5.59-11.4-14.58 0-9 4.72-14.55 11.4-14.55m2.2 23.34c4.1 0 5.93-2.1 5.93-6.73v-4.12c0-4.62-1.82-6.73-5.94-6.73-3.99 0-5.92 2.1-5.92 6.73v4.13c0 4.62 1.92 6.72 5.93 6.72m46.28 5.27h-7.26V0h7.26zm6.3-28.41h30.8v-2.1l-20.4-7.32v-5.88l20.4-7.33v-2.1h-24.27V0h30.79v12l-16.62 5.63v2.11l16.61 5.64v12H218.9zm0-24.73h6.5v6.52h-6.5z"/></svg><!--/lit-part--></a
           >
           <ul>
-            
+
                 <li>
                   <a
                     href="https://www.mozilla.org/privacy/websites/"
@@ -2539,7 +2539,7 @@ div {
                     >Website Privacy Notice</a
                   >
                 </li>
-              
+
                 <li>
                   <a
                     href="https://www.mozilla.org/en-US/privacy/websites/data-preferences/"
@@ -2548,7 +2548,7 @@ div {
                     >Telemetry Settings</a
                   >
                 </li>
-              
+
                 <li>
                   <a
                     href="https://www.mozilla.org/about/legal/terms/mozilla"
@@ -2557,7 +2557,7 @@ div {
                     >Legal</a
                   >
                 </li>
-              
+
                 <li>
                   <a
                     href="https://www.mozilla.org/about/governance/policies/participation/"
@@ -2566,7 +2566,7 @@ div {
                     >Community Participation Guidelines</a
                   >
                 </li>
-              
+
           </ul>
           <p>
             Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under <a href="/docs/MDN/Writing_guidelines/Attrib_copyright_license">a Creative Commons license</a>.
@@ -2575,6 +2575,5 @@ div {
       </footer>
     </div>
       </body>
-    
+
       </html>
-    
