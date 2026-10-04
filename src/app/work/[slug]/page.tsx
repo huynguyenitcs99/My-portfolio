@@ -1,9 +1,11 @@
+import { ActionIcon } from "@/components/action-icon";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 import { projects, legacySlugs } from "@/content/projects";
-import { AgentArtwork, MenuArtwork, SlideArtwork } from "@/components/artwork";
+import { ProjectArt } from "@/components/cosmic/project-art";
+import { CaseWorkflow } from "@/components/cosmic/case-workflow";
 
 type Props = { params: Promise<{ slug: string }> };
 export function generateStaticParams() {
@@ -35,7 +37,7 @@ export default async function CasePage({ params }: Props) {
   return (
     <main id="main" className="shell case-page">
       <Link href="/work" className="case-back">
-        ← All work
+        <ActionIcon name="back" /> All work
       </Link>
       <header className="case-heading">
         <p className="eyebrow">{project.eyebrow}</p>
@@ -69,12 +71,8 @@ export default async function CasePage({ params }: Props) {
               preload
               sizes="(max-width: 700px) 92vw, 1240px"
             />
-          ) : project.slug === "creative-studio" ? (
-            <MenuArtwork />
-          ) : project.slug === "daily-smith" ? (
-            <AgentArtwork />
           ) : (
-            <SlideArtwork />
+            <ProjectArt slug={project.slug} />
           )}
         </div>
         <figcaption>
@@ -83,6 +81,7 @@ export default async function CasePage({ params }: Props) {
             : "Illustrative concept graphic · not product output or a live demonstration."}
         </figcaption>
       </figure>
+      <CaseWorkflow slug={project.slug} />
       <div className="case-content">
         {project.sections.map((section) => (
           <section key={section.title}>
@@ -102,7 +101,7 @@ export default async function CasePage({ params }: Props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {project.link.label} ↗
+            {project.link.label} <ActionIcon />
           </a>
         )}
       </div>
@@ -125,7 +124,9 @@ export default async function CasePage({ params }: Props) {
       )}
       <div className="case-next">
         <span>Keep exploring</span>
-        <Link href={`/work/${next.slug}`}>{next.title} ↗</Link>
+        <Link href={`/work/${next.slug}`}>
+          {next.title} <ActionIcon />
+        </Link>
       </div>
     </main>
   );

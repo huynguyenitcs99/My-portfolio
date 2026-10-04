@@ -27,7 +27,7 @@ export const projects: Project[] = [
     eyebrow: "Generative design",
     role: "Contributor · Menu pipeline & visual DNA research",
     status: "Released",
-    company: "Vulcan Labs · Chat Smith",
+    company: "Chat Smith · team product",
     summary: "Turning visual references into better generation guidelines.",
     intro:
       "Good generative design needs a coherent visual language. I adapted an existing poster pipeline for menus, then researched a reference-driven approach to guide the aesthetic direction of the output.",
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     eyebrow: "Context-aware agents",
     role: "PIC · AI pipeline, data flow & LLM-agent layer",
     status: "Released",
-    company: "Vulcan Labs · Chat Smith",
+    company: "Chat Smith · team product",
     summary: "Connecting everyday context to a clearer sense of what matters.",
     intro:
       "Daily Smith brings connected email and calendar context into an AI experience that helps users understand their day. My focus is the intelligence behind it: the AI pipeline, data flow and LLM-agent layer.",
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     eyebrow: "Design-to-editable workflows",
     role: "Main PIC",
     status: "In development",
-    company: "Vulcan Labs",
+    company: "Team product",
     summary:
       "Exploring the bridge between a designed image and an editable slide.",
     intro:
@@ -109,7 +109,7 @@ export const projects: Project[] = [
       },
       {
         title: "Current state",
-        text: "Slide Design has not been released. The layered illustration on this site is a concept explanation, not a public product demo or a benchmark of conversion quality.",
+        text: "Slide Design has not been released. The artwork on this site is a concept explanation, not a public product demo or a benchmark of conversion quality.",
       },
     ],
   },

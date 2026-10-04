@@ -1,3 +1,4 @@
+import { ActionIcon } from "@/components/action-icon";
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -23,7 +24,7 @@ export default function AboutPage() {
       <div className="about-page-body">
         <div className="about-page-image">
           <Image
-            src="/images/avatar.jpg"
+            src="/images/cosmic/portrait-smooth.webp"
             alt="Huy Nguyen"
             fill
             preload
@@ -31,9 +32,9 @@ export default function AboutPage() {
           />
         </div>
         <div>
-          <h2>Where I’m building</h2>
+          <h2>What I’m building</h2>
           <p>
-            I’m an AI Engineer at Vulcan Labs. My current work spans
+            I’m an AI engineer and creative builder. My current work spans
             context-aware agents and generative design: the AI pipeline behind
             Daily Smith, menu-generation and visual DNA research for Creative
             Studio, and Slide Design, where I’m the main PIC. Slide Design is in
@@ -58,7 +59,7 @@ export default function AboutPage() {
             represents that mix of engineering, imagination and a curious mind.
           </p>
           <Link className="inline-link" href="/#work">
-            Explore the work ↗
+            Explore the work <ActionIcon />
           </Link>
         </div>
       </div>

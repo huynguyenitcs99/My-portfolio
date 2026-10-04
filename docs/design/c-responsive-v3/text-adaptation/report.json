@@ -1,0 +1,2691 @@
+{
+  "url": "http://127.0.0.1:3020",
+  "profiles": [
+    {
+      "viewport": {
+        "width": 880,
+        "height": 682,
+        "dpr": 2
+      },
+      "heroLayout": "compact",
+      "storyLayout": null,
+      "arrivalHeight": 1560,
+      "intro": {
+        "x": 22,
+        "y": 78,
+        "width": 836,
+        "height": 384.1875,
+        "right": 858,
+        "bottom": 462.1875
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 22,
+            "y": 296,
+            "width": 237.59375,
+            "height": 57.1875,
+            "right": 259.59375,
+            "bottom": 353.1875
+          },
+          "font": 22,
+          "lineHeight": 28.6,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 22,
+              "y": 295,
+              "width": 122.90625,
+              "height": 30,
+              "bottom": 325
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 144.90625,
+              "y": 295,
+              "width": 93.828125,
+              "height": 30,
+              "bottom": 325
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 22,
+              "y": 323.59375,
+              "width": 116.859375,
+              "height": 30,
+              "bottom": 353.59375
+            }
+          ],
+          "lines": [
+            295,
+            323.6
+          ],
+          "lineAdvances": [
+            28.600000000000023
+          ]
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 22,
+            "y": 362.1875,
+            "width": 237.59375,
+            "height": 48,
+            "right": 259.59375,
+            "bottom": 410.1875
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 22,
+              "y": 363.1875,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 385.1875
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 22,
+              "y": 387.1875,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 409.1875
+            }
+          ],
+          "lines": [
+            363.2,
+            387.2
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 22,
+            "y": 418.1875,
+            "width": 175.734375,
+            "height": 44,
+            "right": 197.734375,
+            "bottom": 462.1875
+          },
+          "font": 17,
+          "lineHeight": 28.05,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 22,
+              "y": 428.15625,
+              "width": 136.734375,
+              "height": 23,
+              "bottom": 451.15625
+            }
+          ],
+          "lines": [
+            428.2
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -387,
+        "y": 548,
+        "width": 900,
+        "height": 900,
+        "right": 513,
+        "bottom": 1448
+      },
+      "face": {
+        "x": -112.5,
+        "right": 312.30000000000007,
+        "y": 714.5,
+        "bottom": 1165.4
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 455.7066345214844,
+            "y": 493.3662414550781,
+            "width": 413.5694885253906,
+            "height": 249.50192260742188,
+            "right": 869.276123046875,
+            "bottom": 742.8681640625
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 343.94195556640625,
+            "y": 765.2755126953125,
+            "width": 538.9844360351562,
+            "height": 445.6566162109375,
+            "right": 882.9263916015625,
+            "bottom": 1210.93212890625
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 369.4642639160156,
+            "y": 1231.3326416015625,
+            "width": 504.4851989746094,
+            "height": 264.39501953125,
+            "right": 873.949462890625,
+            "bottom": 1495.7276611328125
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 752,
+          "y": 15,
+          "width": 44,
+          "height": 44,
+          "right": 796,
+          "bottom": 59
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": 31.178741455078125,
+      "profile": "zoom-equivalent-200",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 1199,
+        "height": 900,
+        "dpr": 1
+      },
+      "heroLayout": "compact",
+      "storyLayout": null,
+      "arrivalHeight": 1539,
+      "intro": {
+        "x": 22,
+        "y": 78,
+        "width": 1155,
+        "height": 355.59375,
+        "right": 1177,
+        "bottom": 433.59375
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 22,
+            "y": 296,
+            "width": 720,
+            "height": 28.59375,
+            "right": 742,
+            "bottom": 324.59375
+          },
+          "font": 22,
+          "lineHeight": 28.6,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 22,
+              "y": 295,
+              "width": 122.90625,
+              "height": 30,
+              "bottom": 325
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 144.90625,
+              "y": 295,
+              "width": 215.078125,
+              "height": 30,
+              "bottom": 325
+            }
+          ],
+          "lines": [
+            295
+          ],
+          "lineAdvances": []
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 22,
+            "y": 333.59375,
+            "width": 302.546875,
+            "height": 48,
+            "right": 324.546875,
+            "bottom": 381.59375
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 22,
+              "y": 334.59375,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 356.59375
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 22,
+              "y": 358.59375,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 380.59375
+            }
+          ],
+          "lines": [
+            334.6,
+            358.6
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 22,
+            "y": 389.59375,
+            "width": 175.734375,
+            "height": 44,
+            "right": 197.734375,
+            "bottom": 433.59375
+          },
+          "font": 17,
+          "lineHeight": 28.05,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 22,
+              "y": 399.5625,
+              "width": 136.734375,
+              "height": 23,
+              "bottom": 422.5625
+            }
+          ],
+          "lines": [
+            399.6
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -387,
+        "y": 520,
+        "width": 900,
+        "height": 900,
+        "right": 513,
+        "bottom": 1420
+      },
+      "face": {
+        "x": -112.5,
+        "right": 312.30000000000007,
+        "y": 686.5,
+        "bottom": 1137.4
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 774.7066040039062,
+            "y": 465.3662414550781,
+            "width": 413.56951904296875,
+            "height": 249.50192260742188,
+            "right": 1188.276123046875,
+            "bottom": 714.8681640625
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 654.4318237304688,
+            "y": 737.3624877929688,
+            "width": 547.8799438476562,
+            "height": 451.77593994140625,
+            "right": 1202.311767578125,
+            "bottom": 1189.138427734375
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 682.4691162109375,
+            "y": 1209.2156982421875,
+            "width": 510.657958984375,
+            "height": 266.989013671875,
+            "right": 1193.1270751953125,
+            "bottom": 1476.2047119140625
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 1071,
+          "y": 15,
+          "width": 44,
+          "height": 44,
+          "right": 1115,
+          "bottom": 59
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": 31.772491455078125,
+      "profile": "boundary-1199",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 1200,
+        "height": 900,
+        "dpr": 1
+      },
+      "heroLayout": "wide",
+      "storyLayout": "retained",
+      "arrivalHeight": 910,
+      "intro": {
+        "x": 374.21875,
+        "y": 66.40625,
+        "width": 600,
+        "height": 353.90625,
+        "right": 974.21875,
+        "bottom": 420.3125
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 425.8125,
+            "y": 278.3125,
+            "width": 430,
+            "height": 27,
+            "right": 855.8125,
+            "bottom": 305.3125
+          },
+          "font": 20,
+          "lineHeight": 27,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 425.8125,
+              "y": 278.3125,
+              "width": 111.734375,
+              "height": 27,
+              "bottom": 305.3125
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 537.546875,
+              "y": 278.3125,
+              "width": 195.53125,
+              "height": 27,
+              "bottom": 305.3125
+            }
+          ],
+          "lines": [
+            278.3
+          ],
+          "lineAdvances": []
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 475.84375,
+            "y": 316.3125,
+            "width": 312.3125,
+            "height": 48,
+            "right": 788.15625,
+            "bottom": 364.3125
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 475.84375,
+              "y": 317.3125,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 339.3125
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 475.84375,
+              "y": 341.3125,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 363.3125
+            }
+          ],
+          "lines": [
+            317.3,
+            341.3
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 475.84375,
+            "y": 376.3125,
+            "width": 183.78125,
+            "height": 44,
+            "right": 659.625,
+            "bottom": 420.3125
+          },
+          "font": 18,
+          "lineHeight": 29.7,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 475.84375,
+              "y": 385.46875,
+              "width": 144.78125,
+              "height": 24,
+              "bottom": 409.46875
+            }
+          ],
+          "lines": [
+            385.5
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -67.1875,
+        "y": 66,
+        "width": 600,
+        "height": 600,
+        "right": 532.8125,
+        "bottom": 666
+      },
+      "face": {
+        "x": 115.8125,
+        "right": 399.0125,
+        "y": 177,
+        "bottom": 477.6
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 854.2144165039062,
+            "y": 105.94847106933594,
+            "width": 302.84649658203125,
+            "height": 221.14015197753906,
+            "right": 1157.0609130859375,
+            "bottom": 327.088623046875
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 741.5344848632812,
+            "y": 273.4444580078125,
+            "width": 411.01397705078125,
+            "height": 281.470947265625,
+            "right": 1152.5484619140625,
+            "bottom": 554.9154052734375
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 652.03173828125,
+            "y": 497.89068603515625,
+            "width": 432.6463623046875,
+            "height": 202.801513671875,
+            "right": 1084.6781005859375,
+            "bottom": 700.6921997070312
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 1142,
+          "y": 842,
+          "width": 44,
+          "height": 44,
+          "right": 1186,
+          "bottom": 886
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": null,
+      "profile": "boundary-1200",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "heroLayout": "compact",
+      "storyLayout": null,
+      "arrivalHeight": 1128,
+      "intro": {
+        "x": 22,
+        "y": 78,
+        "width": 346,
+        "height": 304.78125,
+        "right": 368,
+        "bottom": 382.78125
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 22,
+            "y": 216.59375,
+            "width": 346,
+            "height": 57.1875,
+            "right": 368,
+            "bottom": 273.78125
+          },
+          "font": 22,
+          "lineHeight": 28.6,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 22,
+              "y": 215.59375,
+              "width": 122.90625,
+              "height": 30,
+              "bottom": 245.59375
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 22,
+              "y": 244.1875,
+              "width": 210.671875,
+              "height": 30,
+              "bottom": 274.1875
+            }
+          ],
+          "lines": [
+            215.6,
+            244.2
+          ],
+          "lineAdvances": [
+            28.599999999999994
+          ]
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 22,
+            "y": 282.78125,
+            "width": 302.546875,
+            "height": 48,
+            "right": 324.546875,
+            "bottom": 330.78125
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 22,
+              "y": 283.78125,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 305.78125
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 22,
+              "y": 307.78125,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 329.78125
+            }
+          ],
+          "lines": [
+            283.8,
+            307.8
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 22,
+            "y": 338.78125,
+            "width": 175.734375,
+            "height": 44,
+            "right": 197.734375,
+            "bottom": 382.78125
+          },
+          "font": 17,
+          "lineHeight": 28.05,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 22,
+              "y": 348.75,
+              "width": 136.734375,
+              "height": 23,
+              "bottom": 371.75
+            }
+          ],
+          "lines": [
+            348.8
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -184.46875,
+        "y": 469,
+        "width": 429,
+        "height": 429,
+        "right": 244.53125,
+        "bottom": 898
+      },
+      "face": {
+        "x": -53.62375,
+        "right": 148.86425000000003,
+        "y": 548.365,
+        "bottom": 763.2940000000001
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 181.7947235107422,
+            "y": 413.4353942871094,
+            "width": 194.21263122558594,
+            "height": 181.97128295898438,
+            "right": 376.0073547363281,
+            "bottom": 595.4066772460938
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 136.09584045410156,
+            "y": 616.146728515625,
+            "width": 247.2931365966797,
+            "height": 278.27789306640625,
+            "right": 383.38897705078125,
+            "bottom": 894.4246215820312
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 149.84872436523438,
+            "y": 915.606689453125,
+            "width": 227.30792236328125,
+            "height": 147.9189453125,
+            "right": 377.1566467285156,
+            "bottom": 1063.525634765625
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 262,
+          "y": 15,
+          "width": 44,
+          "height": 44,
+          "right": 306,
+          "bottom": 59
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": 30.654144287109375,
+      "profile": "phone",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 1760,
+        "height": 1364,
+        "dpr": 1
+      },
+      "heroLayout": "compact",
+      "storyLayout": "flow",
+      "arrivalHeight": 1738,
+      "intro": {
+        "x": 22,
+        "y": 78,
+        "width": 1716,
+        "height": 393.03125,
+        "right": 1738,
+        "bottom": 471.03125
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 22,
+            "y": 296,
+            "width": 720,
+            "height": 36.4375,
+            "right": 742,
+            "bottom": 332.4375
+          },
+          "font": 27,
+          "lineHeight": 36.45,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 22,
+              "y": 295,
+              "width": 150.84375,
+              "height": 37,
+              "bottom": 332
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 172.84375,
+              "y": 295,
+              "width": 263.953125,
+              "height": 37,
+              "bottom": 332
+            }
+          ],
+          "lines": [
+            295
+          ],
+          "lineAdvances": []
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 22,
+            "y": 341.4375,
+            "width": 453.828125,
+            "height": 72,
+            "right": 475.828125,
+            "bottom": 413.4375
+          },
+          "font": 24,
+          "lineHeight": 36,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 22,
+              "y": 342.4375,
+              "width": 312.71875,
+              "height": 33,
+              "bottom": 375.4375
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 22,
+              "y": 378.4375,
+              "width": 296.09375,
+              "height": 33,
+              "bottom": 411.4375
+            }
+          ],
+          "lines": [
+            342.4,
+            378.4
+          ],
+          "lineAdvances": [
+            36
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 22,
+            "y": 421.4375,
+            "width": 232.03125,
+            "height": 49.59375,
+            "right": 254.03125,
+            "bottom": 471.03125
+          },
+          "font": 24,
+          "lineHeight": 39.6,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 22,
+              "y": 429.4375,
+              "width": 193.03125,
+              "height": 33,
+              "bottom": 462.4375
+            }
+          ],
+          "lines": [
+            429.4
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -387,
+        "y": 557,
+        "width": 900,
+        "height": 900,
+        "right": 513,
+        "bottom": 1457
+      },
+      "face": {
+        "x": -112.5,
+        "right": 312.30000000000007,
+        "y": 723.5,
+        "bottom": 1174.4
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 1333.699462890625,
+            "y": 502.6669921875,
+            "width": 417.683349609375,
+            "height": 308.45819091796875,
+            "right": 1751.3828125,
+            "bottom": 811.1251831054688
+          },
+          "font": 24
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 1211.53857421875,
+            "y": 833.6656494140625,
+            "width": 555.925048828125,
+            "height": 528.4580078125,
+            "right": 1767.463623046875,
+            "bottom": 1362.1236572265625
+          },
+          "font": 24
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 1241.893310546875,
+            "y": 1381.8206787109375,
+            "width": 513.906494140625,
+            "height": 293.4970703125,
+            "right": 1755.7998046875,
+            "bottom": 1675.3177490234375
+          },
+          "font": 24
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 1702,
+          "y": 1306,
+          "width": 44,
+          "height": 44,
+          "right": 1746,
+          "bottom": 1350
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": 31.6357421875,
+      "profile": "minimum-font-24",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 1760,
+        "height": 1364,
+        "dpr": 1
+      },
+      "heroLayout": "compact",
+      "storyLayout": "flow",
+      "arrivalHeight": 1919,
+      "intro": {
+        "x": 22,
+        "y": 78,
+        "width": 1716,
+        "height": 436.984375,
+        "right": 1738,
+        "bottom": 514.984375
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 22,
+            "y": 296,
+            "width": 720,
+            "height": 43.1875,
+            "right": 742,
+            "bottom": 339.1875
+          },
+          "font": 32,
+          "lineHeight": 43.2,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 22,
+              "y": 295,
+              "width": 178.765625,
+              "height": 44,
+              "bottom": 339
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 200.765625,
+              "y": 295,
+              "width": 312.84375,
+              "height": 44,
+              "bottom": 339
+            }
+          ],
+          "lines": [
+            295
+          ],
+          "lineAdvances": []
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 22,
+            "y": 348.1875,
+            "width": 605.109375,
+            "height": 96,
+            "right": 627.109375,
+            "bottom": 444.1875
+          },
+          "font": 32,
+          "lineHeight": 48,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 22,
+              "y": 350.1875,
+              "width": 416.953125,
+              "height": 44,
+              "bottom": 394.1875
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 22,
+              "y": 398.1875,
+              "width": 394.78125,
+              "height": 44,
+              "bottom": 442.1875
+            }
+          ],
+          "lines": [
+            350.2,
+            398.2
+          ],
+          "lineAdvances": [
+            48
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 22,
+            "y": 452.1875,
+            "width": 296.375,
+            "height": 62.796875,
+            "right": 318.375,
+            "bottom": 514.984375
+          },
+          "font": 32,
+          "lineHeight": 52.8,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 22,
+              "y": 461.1875,
+              "width": 257.375,
+              "height": 44,
+              "bottom": 505.1875
+            }
+          ],
+          "lines": [
+            461.2
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -387,
+        "y": 601,
+        "width": 900,
+        "height": 900,
+        "right": 513,
+        "bottom": 1501
+      },
+      "face": {
+        "x": -112.5,
+        "right": 312.30000000000007,
+        "y": 767.5,
+        "bottom": 1218.4
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 1332.653564453125,
+            "y": 546.8304443359375,
+            "width": 419.8275146484375,
+            "height": 339.183349609375,
+            "right": 1752.4810791015625,
+            "bottom": 886.0137939453125
+          },
+          "font": 32
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 1207.2181396484375,
+            "y": 909.068115234375,
+            "width": 564.857421875,
+            "height": 613.59375,
+            "right": 1772.0755615234375,
+            "bottom": 1522.661865234375
+          },
+          "font": 32
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 1240.7132568359375,
+            "y": 1542.3896484375,
+            "width": 516.339599609375,
+            "height": 313.3509521484375,
+            "right": 1757.0528564453125,
+            "bottom": 1855.7406005859375
+          },
+          "font": 32
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 1702,
+          "y": 1306,
+          "width": 44,
+          "height": 44,
+          "right": 1746,
+          "bottom": 1350
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": 31.8460693359375,
+      "profile": "minimum-font-32",
+      "failures": []
+    }
+  ],
+  "resizes": [
+    {
+      "viewport": {
+        "width": 1200,
+        "height": 900,
+        "dpr": 1
+      },
+      "heroLayout": "wide",
+      "storyLayout": "retained",
+      "arrivalHeight": 910,
+      "intro": {
+        "x": 374.21875,
+        "y": 66.40625,
+        "width": 600,
+        "height": 353.90625,
+        "right": 974.21875,
+        "bottom": 420.3125
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 425.8125,
+            "y": 278.3125,
+            "width": 430,
+            "height": 27,
+            "right": 855.8125,
+            "bottom": 305.3125
+          },
+          "font": 20,
+          "lineHeight": 27,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 425.8125,
+              "y": 278.3125,
+              "width": 111.734375,
+              "height": 27,
+              "bottom": 305.3125
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 537.546875,
+              "y": 278.3125,
+              "width": 195.53125,
+              "height": 27,
+              "bottom": 305.3125
+            }
+          ],
+          "lines": [
+            278.3
+          ],
+          "lineAdvances": []
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 475.84375,
+            "y": 316.3125,
+            "width": 312.3125,
+            "height": 48,
+            "right": 788.15625,
+            "bottom": 364.3125
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 475.84375,
+              "y": 317.3125,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 339.3125
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 475.84375,
+              "y": 341.3125,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 363.3125
+            }
+          ],
+          "lines": [
+            317.3,
+            341.3
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 475.84375,
+            "y": 376.3125,
+            "width": 183.78125,
+            "height": 44,
+            "right": 659.625,
+            "bottom": 420.3125
+          },
+          "font": 18,
+          "lineHeight": 29.7,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 475.84375,
+              "y": 385.46875,
+              "width": 144.78125,
+              "height": 24,
+              "bottom": 409.46875
+            }
+          ],
+          "lines": [
+            385.5
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -67.1875,
+        "y": 66,
+        "width": 600,
+        "height": 600,
+        "right": 532.8125,
+        "bottom": 666
+      },
+      "face": {
+        "x": 115.8125,
+        "right": 399.0125,
+        "y": 177,
+        "bottom": 477.6
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 854.64404296875,
+            "y": 103.7110366821289,
+            "width": 302.8304443359375,
+            "height": 221.11489868164062,
+            "right": 1157.4744873046875,
+            "bottom": 324.82593536376953
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 741.5370483398438,
+            "y": 271.1992492675781,
+            "width": 411.00921630859375,
+            "height": 281.4615173339844,
+            "right": 1152.5462646484375,
+            "bottom": 552.6607666015625
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 652.4507446289062,
+            "y": 495.6269836425781,
+            "width": 432.65264892578125,
+            "height": 202.82962036132812,
+            "right": 1085.1033935546875,
+            "bottom": 698.4566040039062
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 1142,
+          "y": 842,
+          "width": 44,
+          "height": 44,
+          "right": 1186,
+          "bottom": 886
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": null,
+      "profile": "resize-wide-1200",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 1199,
+        "height": 900,
+        "dpr": 1
+      },
+      "heroLayout": "compact",
+      "storyLayout": null,
+      "arrivalHeight": 1539,
+      "intro": {
+        "x": 22,
+        "y": 78,
+        "width": 1155,
+        "height": 355.59375,
+        "right": 1177,
+        "bottom": 433.59375
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 22,
+            "y": 296,
+            "width": 720,
+            "height": 28.59375,
+            "right": 742,
+            "bottom": 324.59375
+          },
+          "font": 22,
+          "lineHeight": 28.6,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 22,
+              "y": 295,
+              "width": 122.90625,
+              "height": 30,
+              "bottom": 325
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 144.90625,
+              "y": 295,
+              "width": 215.078125,
+              "height": 30,
+              "bottom": 325
+            }
+          ],
+          "lines": [
+            295
+          ],
+          "lineAdvances": []
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 22,
+            "y": 333.59375,
+            "width": 302.546875,
+            "height": 48,
+            "right": 324.546875,
+            "bottom": 381.59375
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 22,
+              "y": 334.59375,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 356.59375
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 22,
+              "y": 358.59375,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 380.59375
+            }
+          ],
+          "lines": [
+            334.6,
+            358.6
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 22,
+            "y": 389.59375,
+            "width": 175.734375,
+            "height": 44,
+            "right": 197.734375,
+            "bottom": 433.59375
+          },
+          "font": 17,
+          "lineHeight": 28.05,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 22,
+              "y": 399.5625,
+              "width": 136.734375,
+              "height": 23,
+              "bottom": 422.5625
+            }
+          ],
+          "lines": [
+            399.6
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -387,
+        "y": 520,
+        "width": 900,
+        "height": 900,
+        "right": 513,
+        "bottom": 1420
+      },
+      "face": {
+        "x": -112.5,
+        "right": 312.30000000000007,
+        "y": 686.5,
+        "bottom": 1137.4
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 774.7066040039062,
+            "y": 465.3662414550781,
+            "width": 413.56951904296875,
+            "height": 249.50192260742188,
+            "right": 1188.276123046875,
+            "bottom": 714.8681640625
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 654.4318237304688,
+            "y": 737.3624877929688,
+            "width": 547.8799438476562,
+            "height": 451.77593994140625,
+            "right": 1202.311767578125,
+            "bottom": 1189.138427734375
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 682.4691162109375,
+            "y": 1209.2156982421875,
+            "width": 510.657958984375,
+            "height": 266.989013671875,
+            "right": 1193.1270751953125,
+            "bottom": 1476.2047119140625
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 1071,
+          "y": 15,
+          "width": 44,
+          "height": 44,
+          "right": 1115,
+          "bottom": 59
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": 31.772491455078125,
+      "profile": "resize-compact-1199",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 1200,
+        "height": 900,
+        "dpr": 1
+      },
+      "heroLayout": "wide",
+      "storyLayout": "retained",
+      "arrivalHeight": 910,
+      "intro": {
+        "x": 374.21875,
+        "y": 66.40625,
+        "width": 600,
+        "height": 353.90625,
+        "right": 974.21875,
+        "bottom": 420.3125
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 425.8125,
+            "y": 278.3125,
+            "width": 430,
+            "height": 27,
+            "right": 855.8125,
+            "bottom": 305.3125
+          },
+          "font": 20,
+          "lineHeight": 27,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 425.8125,
+              "y": 278.3125,
+              "width": 111.734375,
+              "height": 27,
+              "bottom": 305.3125
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 537.546875,
+              "y": 278.3125,
+              "width": 195.53125,
+              "height": 27,
+              "bottom": 305.3125
+            }
+          ],
+          "lines": [
+            278.3
+          ],
+          "lineAdvances": []
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 475.84375,
+            "y": 316.3125,
+            "width": 312.3125,
+            "height": 48,
+            "right": 788.15625,
+            "bottom": 364.3125
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 475.84375,
+              "y": 317.3125,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 339.3125
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 475.84375,
+              "y": 341.3125,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 363.3125
+            }
+          ],
+          "lines": [
+            317.3,
+            341.3
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 475.84375,
+            "y": 376.3125,
+            "width": 183.78125,
+            "height": 44,
+            "right": 659.625,
+            "bottom": 420.3125
+          },
+          "font": 18,
+          "lineHeight": 29.7,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 475.84375,
+              "y": 385.46875,
+              "width": 144.78125,
+              "height": 24,
+              "bottom": 409.46875
+            }
+          ],
+          "lines": [
+            385.5
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -67.1875,
+        "y": 66,
+        "width": 600,
+        "height": 600,
+        "right": 532.8125,
+        "bottom": 666
+      },
+      "face": {
+        "x": 115.8125,
+        "right": 399.0125,
+        "y": 177,
+        "bottom": 477.6
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 854.64404296875,
+            "y": 103.7110366821289,
+            "width": 302.8304443359375,
+            "height": 221.11489868164062,
+            "right": 1157.4744873046875,
+            "bottom": 324.82593536376953
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 741.5370483398438,
+            "y": 271.1992492675781,
+            "width": 411.00921630859375,
+            "height": 281.4615173339844,
+            "right": 1152.5462646484375,
+            "bottom": 552.6607666015625
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 652.4507446289062,
+            "y": 495.6269836425781,
+            "width": 432.65264892578125,
+            "height": 202.82962036132812,
+            "right": 1085.1033935546875,
+            "bottom": 698.4566040039062
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 1142,
+          "y": 842,
+          "width": 44,
+          "height": 44,
+          "right": 1186,
+          "bottom": 886
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": null,
+      "profile": "resize-wide-1200-repeat",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 1199,
+        "height": 900,
+        "dpr": 1
+      },
+      "heroLayout": "compact",
+      "storyLayout": null,
+      "arrivalHeight": 1539,
+      "intro": {
+        "x": 22,
+        "y": 78,
+        "width": 1155,
+        "height": 355.59375,
+        "right": 1177,
+        "bottom": 433.59375
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 22,
+            "y": 296,
+            "width": 720,
+            "height": 28.59375,
+            "right": 742,
+            "bottom": 324.59375
+          },
+          "font": 22,
+          "lineHeight": 28.6,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 22,
+              "y": 295,
+              "width": 122.90625,
+              "height": 30,
+              "bottom": 325
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 144.90625,
+              "y": 295,
+              "width": 215.078125,
+              "height": 30,
+              "bottom": 325
+            }
+          ],
+          "lines": [
+            295
+          ],
+          "lineAdvances": []
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 22,
+            "y": 333.59375,
+            "width": 302.546875,
+            "height": 48,
+            "right": 324.546875,
+            "bottom": 381.59375
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 22,
+              "y": 334.59375,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 356.59375
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 22,
+              "y": 358.59375,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 380.59375
+            }
+          ],
+          "lines": [
+            334.6,
+            358.6
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 22,
+            "y": 389.59375,
+            "width": 175.734375,
+            "height": 44,
+            "right": 197.734375,
+            "bottom": 433.59375
+          },
+          "font": 17,
+          "lineHeight": 28.05,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 22,
+              "y": 399.5625,
+              "width": 136.734375,
+              "height": 23,
+              "bottom": 422.5625
+            }
+          ],
+          "lines": [
+            399.6
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -387,
+        "y": 520,
+        "width": 900,
+        "height": 900,
+        "right": 513,
+        "bottom": 1420
+      },
+      "face": {
+        "x": -112.5,
+        "right": 312.30000000000007,
+        "y": 686.5,
+        "bottom": 1137.4
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 774.7066040039062,
+            "y": 465.3662414550781,
+            "width": 413.56951904296875,
+            "height": 249.50192260742188,
+            "right": 1188.276123046875,
+            "bottom": 714.8681640625
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 654.4318237304688,
+            "y": 737.3624877929688,
+            "width": 547.8799438476562,
+            "height": 451.77593994140625,
+            "right": 1202.311767578125,
+            "bottom": 1189.138427734375
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 682.4691162109375,
+            "y": 1209.2156982421875,
+            "width": 510.657958984375,
+            "height": 266.989013671875,
+            "right": 1193.1270751953125,
+            "bottom": 1476.2047119140625
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 1071,
+          "y": 15,
+          "width": 44,
+          "height": 44,
+          "right": 1115,
+          "bottom": 59
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": 31.772491455078125,
+      "profile": "resize-compact-1199-repeat",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "dpr": 1
+      },
+      "heroLayout": "wide",
+      "storyLayout": "flow",
+      "arrivalHeight": 910,
+      "intro": {
+        "x": 374.21875,
+        "y": 66.40625,
+        "width": 600,
+        "height": 353.90625,
+        "right": 974.21875,
+        "bottom": 420.3125
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 425.8125,
+            "y": 278.3125,
+            "width": 430,
+            "height": 27,
+            "right": 855.8125,
+            "bottom": 305.3125
+          },
+          "font": 20,
+          "lineHeight": 27,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 425.8125,
+              "y": 278.3125,
+              "width": 111.734375,
+              "height": 27,
+              "bottom": 305.3125
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 537.546875,
+              "y": 278.3125,
+              "width": 195.53125,
+              "height": 27,
+              "bottom": 305.3125
+            }
+          ],
+          "lines": [
+            278.3
+          ],
+          "lineAdvances": []
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 475.84375,
+            "y": 316.3125,
+            "width": 312.3125,
+            "height": 48,
+            "right": 788.15625,
+            "bottom": 364.3125
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 475.84375,
+              "y": 317.3125,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 339.3125
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 475.84375,
+              "y": 341.3125,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 363.3125
+            }
+          ],
+          "lines": [
+            317.3,
+            341.3
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 475.84375,
+            "y": 376.3125,
+            "width": 183.78125,
+            "height": 44,
+            "right": 659.625,
+            "bottom": 420.3125
+          },
+          "font": 18,
+          "lineHeight": 29.7,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 475.84375,
+              "y": 385.46875,
+              "width": 144.78125,
+              "height": 24,
+              "bottom": 409.46875
+            }
+          ],
+          "lines": [
+            385.5
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -67.1875,
+        "y": 66,
+        "width": 600,
+        "height": 600,
+        "right": 532.8125,
+        "bottom": 666
+      },
+      "face": {
+        "x": 115.8125,
+        "right": 399.0125,
+        "y": 177,
+        "bottom": 477.6
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 852.7734375,
+            "y": 103.06707000732422,
+            "width": 304.5845947265625,
+            "height": 221.08047485351562,
+            "right": 1157.3580322265625,
+            "bottom": 324.14754486083984
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 748.6680297851562,
+            "y": 277.2202453613281,
+            "width": 416.74359130859375,
+            "height": 281.2751770019531,
+            "right": 1165.41162109375,
+            "bottom": 558.4954223632812
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 643.977783203125,
+            "y": 493.6703796386719,
+            "width": 440.1033935546875,
+            "height": 202.62564086914062,
+            "right": 1084.0811767578125,
+            "bottom": 696.2960205078125
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 1142,
+          "y": 592,
+          "width": 44,
+          "height": 44,
+          "right": 1186,
+          "bottom": 636
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": null,
+      "profile": "resize-short-1200",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 1200,
+        "height": 900,
+        "dpr": 1
+      },
+      "heroLayout": "wide",
+      "storyLayout": "retained",
+      "arrivalHeight": 910,
+      "intro": {
+        "x": 374.21875,
+        "y": 66.40625,
+        "width": 600,
+        "height": 353.90625,
+        "right": 974.21875,
+        "bottom": 420.3125
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 425.8125,
+            "y": 278.3125,
+            "width": 430,
+            "height": 27,
+            "right": 855.8125,
+            "bottom": 305.3125
+          },
+          "font": 20,
+          "lineHeight": 27,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 425.8125,
+              "y": 278.3125,
+              "width": 111.734375,
+              "height": 27,
+              "bottom": 305.3125
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 537.546875,
+              "y": 278.3125,
+              "width": 195.53125,
+              "height": 27,
+              "bottom": 305.3125
+            }
+          ],
+          "lines": [
+            278.3
+          ],
+          "lineAdvances": []
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 475.84375,
+            "y": 316.3125,
+            "width": 312.3125,
+            "height": 48,
+            "right": 788.15625,
+            "bottom": 364.3125
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 475.84375,
+              "y": 317.3125,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 339.3125
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 475.84375,
+              "y": 341.3125,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 363.3125
+            }
+          ],
+          "lines": [
+            317.3,
+            341.3
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 475.84375,
+            "y": 376.3125,
+            "width": 183.78125,
+            "height": 44,
+            "right": 659.625,
+            "bottom": 420.3125
+          },
+          "font": 18,
+          "lineHeight": 29.7,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 475.84375,
+              "y": 385.46875,
+              "width": 144.78125,
+              "height": 24,
+              "bottom": 409.46875
+            }
+          ],
+          "lines": [
+            385.5
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -67.1875,
+        "y": 66,
+        "width": 600,
+        "height": 600,
+        "right": 532.8125,
+        "bottom": 666
+      },
+      "face": {
+        "x": 115.8125,
+        "right": 399.0125,
+        "y": 177,
+        "bottom": 477.6
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 854.64404296875,
+            "y": 103.7110366821289,
+            "width": 302.8304443359375,
+            "height": 221.11489868164062,
+            "right": 1157.4744873046875,
+            "bottom": 324.82593536376953
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 741.5370483398438,
+            "y": 271.1992492675781,
+            "width": 411.00921630859375,
+            "height": 281.4615173339844,
+            "right": 1152.5462646484375,
+            "bottom": 552.6607666015625
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 652.4507446289062,
+            "y": 495.6269836425781,
+            "width": 432.65264892578125,
+            "height": 202.82962036132812,
+            "right": 1085.1033935546875,
+            "bottom": 698.4566040039062
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 1142,
+          "y": 842,
+          "width": 44,
+          "height": 44,
+          "right": 1186,
+          "bottom": 886
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": null,
+      "profile": "resize-tall-1200",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390,
+        "dpr": 1
+      },
+      "heroLayout": "compact",
+      "storyLayout": null,
+      "arrivalHeight": 1534,
+      "intro": {
+        "x": 22,
+        "y": 78,
+        "width": 800,
+        "height": 384.1875,
+        "right": 822,
+        "bottom": 462.1875
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 22,
+            "y": 296,
+            "width": 227.875,
+            "height": 57.1875,
+            "right": 249.875,
+            "bottom": 353.1875
+          },
+          "font": 22,
+          "lineHeight": 28.6,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 22,
+              "y": 295,
+              "width": 122.90625,
+              "height": 30,
+              "bottom": 325
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 144.90625,
+              "y": 295,
+              "width": 93.828125,
+              "height": 30,
+              "bottom": 325
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 22,
+              "y": 323.59375,
+              "width": 116.859375,
+              "height": 30,
+              "bottom": 353.59375
+            }
+          ],
+          "lines": [
+            295,
+            323.6
+          ],
+          "lineAdvances": [
+            28.600000000000023
+          ]
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 22,
+            "y": 362.1875,
+            "width": 227.875,
+            "height": 48,
+            "right": 249.875,
+            "bottom": 410.1875
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 22,
+              "y": 363.1875,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 385.1875
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 22,
+              "y": 387.1875,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 409.1875
+            }
+          ],
+          "lines": [
+            363.2,
+            387.2
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 22,
+            "y": 418.1875,
+            "width": 175.734375,
+            "height": 44,
+            "right": 197.734375,
+            "bottom": 462.1875
+          },
+          "font": 17,
+          "lineHeight": 28.05,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 22,
+              "y": 428.15625,
+              "width": 136.734375,
+              "height": 23,
+              "bottom": 451.15625
+            }
+          ],
+          "lines": [
+            428.2
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -387,
+        "y": 548,
+        "width": 900,
+        "height": 900,
+        "right": 513,
+        "bottom": 1448
+      },
+      "face": {
+        "x": -112.5,
+        "right": 312.30000000000007,
+        "y": 714.5,
+        "bottom": 1165.4
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 423.03485107421875,
+            "y": 493.3509826660156,
+            "width": 410.1593017578125,
+            "height": 247.88180541992188,
+            "right": 833.1941528320312,
+            "bottom": 741.2327880859375
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 328.7184143066406,
+            "y": 763.8330688476562,
+            "width": 517.2794189453125,
+            "height": 430.76092529296875,
+            "right": 845.9978332519531,
+            "bottom": 1194.593994140625
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 353.2689208984375,
+            "y": 1214.907958984375,
+            "width": 484.1014404296875,
+            "height": 255.8184814453125,
+            "right": 837.370361328125,
+            "bottom": 1470.7264404296875
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 716,
+          "y": 15,
+          "width": 44,
+          "height": 44,
+          "right": 760,
+          "bottom": 59
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": 31.163482666015625,
+      "profile": "orientation-landscape",
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "heroLayout": "compact",
+      "storyLayout": null,
+      "arrivalHeight": 1128,
+      "intro": {
+        "x": 22,
+        "y": 78,
+        "width": 346,
+        "height": 304.78125,
+        "right": 368,
+        "bottom": 382.78125
+      },
+      "text": [
+        {
+          "q": ".hero-positioning h2",
+          "box": {
+            "x": 22,
+            "y": 216.59375,
+            "width": 346,
+            "height": 57.1875,
+            "right": 368,
+            "bottom": 273.78125
+          },
+          "font": 22,
+          "lineHeight": 28.6,
+          "rects": [
+            {
+              "text": "AI engineer.",
+              "x": 22,
+              "y": 215.59375,
+              "width": 122.90625,
+              "height": 30,
+              "bottom": 245.59375
+            },
+            {
+              "text": "Creative by instinct.",
+              "x": 22,
+              "y": 244.1875,
+              "width": 210.671875,
+              "height": 30,
+              "bottom": 274.1875
+            }
+          ],
+          "lines": [
+            215.6,
+            244.2
+          ],
+          "lineAdvances": [
+            28.599999999999994
+          ]
+        },
+        {
+          "q": ".hero-description",
+          "box": {
+            "x": 22,
+            "y": 282.78125,
+            "width": 302.546875,
+            "height": 48,
+            "right": 324.546875,
+            "bottom": 330.78125
+          },
+          "font": 16,
+          "lineHeight": 24,
+          "rects": [
+            {
+              "text": "AI agents, generative design",
+              "x": 22,
+              "y": 283.78125,
+              "width": 208.484375,
+              "height": 22,
+              "bottom": 305.78125
+            },
+            {
+              "text": "and tools for creative work.",
+              "x": 22,
+              "y": 307.78125,
+              "width": 197.390625,
+              "height": 22,
+              "bottom": 329.78125
+            }
+          ],
+          "lines": [
+            283.8,
+            307.8
+          ],
+          "lineAdvances": [
+            24
+          ]
+        },
+        {
+          "q": ".hero-explore",
+          "box": {
+            "x": 22,
+            "y": 338.78125,
+            "width": 175.734375,
+            "height": 44,
+            "right": 197.734375,
+            "bottom": 382.78125
+          },
+          "font": 17,
+          "lineHeight": 28.05,
+          "rects": [
+            {
+              "text": "Explore the work",
+              "x": 22,
+              "y": 348.75,
+              "width": 136.734375,
+              "height": 23,
+              "bottom": 371.75
+            }
+          ],
+          "lines": [
+            348.8
+          ],
+          "lineAdvances": []
+        }
+      ],
+      "photo": {
+        "x": -184.46875,
+        "y": 469,
+        "width": 429,
+        "height": 429,
+        "right": 244.53125,
+        "bottom": 898
+      },
+      "face": {
+        "x": -53.62375,
+        "right": 148.86425000000003,
+        "y": 548.365,
+        "bottom": 763.2940000000001
+      },
+      "faceCollisions": [],
+      "cards": [
+        {
+          "name": "Preview Daily Smith",
+          "box": {
+            "x": 181.7947235107422,
+            "y": 413.4353942871094,
+            "width": 194.21263122558594,
+            "height": 181.97128295898438,
+            "right": 376.0073547363281,
+            "bottom": 595.4066772460938
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Creative Studio",
+          "box": {
+            "x": 136.09584045410156,
+            "y": 616.146728515625,
+            "width": 247.2931365966797,
+            "height": 278.27789306640625,
+            "right": 383.38897705078125,
+            "bottom": 894.4246215820312
+          },
+          "font": 16
+        },
+        {
+          "name": "Preview Slide Design",
+          "box": {
+            "x": 149.84872436523438,
+            "y": 915.606689453125,
+            "width": 227.30792236328125,
+            "height": 147.9189453125,
+            "right": 377.1566467285156,
+            "bottom": 1063.525634765625
+          },
+          "font": 16
+        }
+      ],
+      "control": {
+        "box": {
+          "x": 262,
+          "y": 15,
+          "width": 44,
+          "height": 44,
+          "right": 306,
+          "bottom": 59
+        },
+        "hit": true
+      },
+      "overflow": 0,
+      "portraitSquare": true,
+      "compactArtworkGap": 30.654144287109375,
+      "profile": "orientation-portrait",
+      "failures": []
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "sourceHashes": {
+    "src/app/c-responsive.css": "0bcc69ce2ae1d3fb2d7b7a553dad66b795cdf8dacedd06587b52bf508e00c940",
+    "src/app/c-fidelity.css": "30b00d40e97f2969e94c5d0dd636d1b295fabb51692b7272f934c4cc7027f673",
+    "src/app/page.tsx": "ca34bce2945d8164beaff4fca19bf61e51d28186368549086fe6ea367dc5e44a",
+    "src/components/cosmic/experience.tsx": "0836cb49e6567a6f12d593121f3d75cfd2734cb72b406b6e81c9362988f6fa82",
+    "src/components/cosmic/hero-composition.ts": "413deea572938623caab5a54ae6c2eb4d3152000d03d8539f347ef816b0fbaf8"
+  },
+  "rendererScope": "Chromium geometry/text/pointer checks with WebGL disabled; celestial visual fidelity excluded."
+}

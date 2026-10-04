@@ -1,6 +1,6 @@
 # Huy Nguyen — portfolio direction v3
 
-Status: **reviewable design proposal**, 2026-10-02. The current production source is unchanged. The accepted logo is unchanged. Huy’s latest feedback reopens the previous storyboard, palette execution, imagery, content hierarchy and motion; v2 is history, not the acceptance target for this revision.
+Status: **rejected visual direction**, 2026-10-02. Huy subsequently rejected the imagery, colors and presentation as generic and less creative than the previous design. The recommendation below is historical and withdrawn; see `../v4/` for the next visual exploration. The current production source is unchanged. The accepted logo is unchanged. Huy’s latest feedback reopens the previous storyboard, palette execution, imagery, content hierarchy and motion; v2 is history, not the acceptance target for this revision.
 
 ## 1. Outcome and constraints
 

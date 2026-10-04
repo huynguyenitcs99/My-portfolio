@@ -1,0 +1,357 @@
+{
+  "base": "http://127.0.0.1:3040",
+  "sourceHashes": {
+    "src/components/cosmic/experience.tsx": "43be92873fad3fcabf921af79541d6230da906455c5db2a7fa828be56ed9fbc5",
+    "src/components/cosmic/hero-composition.ts": "69590b83300798ad428c385cd48b34b70d11072f986e19a124f8ed9edaaf8e95",
+    "src/app/c-responsive.css": "0bcc69ce2ae1d3fb2d7b7a553dad66b795cdf8dacedd06587b52bf508e00c940",
+    "src/app/page.tsx": "ca34bce2945d8164beaff4fca19bf61e51d28186368549086fe6ea367dc5e44a"
+  },
+  "initial": [
+    {
+      "name": "Daily Smith",
+      "bounds": {
+        "x": 1411.656005859375,
+        "y": 136.0577850341797,
+        "width": 248.0186767578125,
+        "height": 38.074249267578125,
+        "top": 136.0577850341797,
+        "right": 1659.6746826171875,
+        "bottom": 174.1320343017578,
+        "left": 1411.656005859375
+      },
+      "cardBounds": {
+        "x": 1380.321044921875,
+        "y": 122.43366241455078,
+        "width": 479.9620361328125,
+        "height": 292.2584228515625,
+        "top": 122.43366241455078,
+        "right": 1860.2830810546875,
+        "bottom": 414.6920852661133,
+        "left": 1380.321044921875
+      },
+      "opacity": 1,
+      "inert": false,
+      "inViewport": true,
+      "fullyVisible": true,
+      "candidates": [
+        {
+          "x": 1473.6606750488281,
+          "y": 149.38377227783204,
+          "hit": "Preview Daily Smith",
+          "valid": true
+        },
+        {
+          "x": 1473.6606750488281,
+          "y": 160.80604705810546,
+          "hit": "Preview Daily Smith",
+          "valid": true
+        },
+        {
+          "x": 1535.6653442382812,
+          "y": 149.38377227783204,
+          "hit": "Preview Daily Smith",
+          "valid": true
+        },
+        {
+          "x": 1535.6653442382812,
+          "y": 160.80604705810546,
+          "hit": "Preview Daily Smith",
+          "valid": true
+        },
+        {
+          "x": 1597.6700134277344,
+          "y": 149.38377227783204,
+          "hit": "Preview Daily Smith",
+          "valid": true
+        },
+        {
+          "x": 1597.6700134277344,
+          "y": 160.80604705810546,
+          "hit": "Preview Daily Smith",
+          "valid": true
+        }
+      ],
+      "scrollY": 0,
+      "heroHeight": 1399,
+      "heroLayout": "wide",
+      "storyLayout": "retained"
+    },
+    {
+      "name": "Creative Studio",
+      "bounds": {
+        "x": 1179.0560302734375,
+        "y": 452.39263916015625,
+        "width": 245.84375,
+        "height": 57.60089111328125,
+        "top": 452.39263916015625,
+        "right": 1424.8997802734375,
+        "bottom": 509.9935302734375,
+        "left": 1179.0560302734375
+      },
+      "cardBounds": {
+        "x": 1123.7877197265625,
+        "y": 436.2997131347656,
+        "width": 653.4105224609375,
+        "height": 404.0018615722656,
+        "top": 436.2997131347656,
+        "right": 1777.1982421875,
+        "bottom": 840.3015747070312,
+        "left": 1123.7877197265625
+      },
+      "opacity": 1,
+      "inert": false,
+      "inViewport": true,
+      "fullyVisible": true,
+      "candidates": [
+        {
+          "x": 1240.5169677734375,
+          "y": 472.5529510498047,
+          "hit": "Preview Creative Studio",
+          "valid": true
+        },
+        {
+          "x": 1240.5169677734375,
+          "y": 489.8332183837891,
+          "hit": "Preview Creative Studio",
+          "valid": true
+        },
+        {
+          "x": 1301.9779052734375,
+          "y": 472.5529510498047,
+          "hit": "Preview Creative Studio",
+          "valid": true
+        },
+        {
+          "x": 1301.9779052734375,
+          "y": 489.8332183837891,
+          "hit": "Preview Creative Studio",
+          "valid": true
+        },
+        {
+          "x": 1363.4388427734375,
+          "y": 472.5529510498047,
+          "hit": "Preview Creative Studio",
+          "valid": true
+        },
+        {
+          "x": 1363.4388427734375,
+          "y": 489.8332183837891,
+          "hit": "Preview Creative Studio",
+          "valid": true
+        }
+      ],
+      "scrollY": 0,
+      "heroHeight": 1399,
+      "heroLayout": "wide",
+      "storyLayout": "retained"
+    },
+    {
+      "name": "Slide Design",
+      "bounds": {
+        "x": 1075.6358642578125,
+        "y": 869.845947265625,
+        "width": 105.26513671875,
+        "height": 34.0413818359375,
+        "top": 869.845947265625,
+        "right": 1180.9010009765625,
+        "bottom": 903.8873291015625,
+        "left": 1075.6358642578125
+      },
+      "cardBounds": {
+        "x": 1041.7459716796875,
+        "y": 855.8837890625,
+        "width": 689.66455078125,
+        "height": 293.19677734375,
+        "top": 855.8837890625,
+        "right": 1731.4105224609375,
+        "bottom": 1149.08056640625,
+        "left": 1041.7459716796875
+      },
+      "opacity": 1,
+      "inert": false,
+      "inViewport": false,
+      "fullyVisible": false,
+      "candidates": [],
+      "scrollY": 0,
+      "heroHeight": 1399,
+      "heroLayout": "wide",
+      "storyLayout": "retained"
+    }
+  ],
+  "results": [
+    {
+      "name": "Creative Studio",
+      "passed": true,
+      "state": {
+        "name": "Creative Studio",
+        "bounds": {
+          "x": 1179.0560302734375,
+          "y": 452.39263916015625,
+          "width": 245.84375,
+          "height": 57.60089111328125,
+          "top": 452.39263916015625,
+          "right": 1424.8997802734375,
+          "bottom": 509.9935302734375,
+          "left": 1179.0560302734375
+        },
+        "cardBounds": {
+          "x": 1123.7877197265625,
+          "y": 436.2997131347656,
+          "width": 653.4105224609375,
+          "height": 404.0018615722656,
+          "top": 436.2997131347656,
+          "right": 1777.1982421875,
+          "bottom": 840.3015747070312,
+          "left": 1123.7877197265625
+        },
+        "opacity": 1,
+        "inert": false,
+        "inViewport": true,
+        "fullyVisible": true,
+        "candidates": [
+          {
+            "x": 1240.5169677734375,
+            "y": 472.5529510498047,
+            "hit": "Preview Creative Studio",
+            "valid": true
+          },
+          {
+            "x": 1240.5169677734375,
+            "y": 489.8332183837891,
+            "hit": "Preview Creative Studio",
+            "valid": true
+          },
+          {
+            "x": 1301.9779052734375,
+            "y": 472.5529510498047,
+            "hit": "Preview Creative Studio",
+            "valid": true
+          },
+          {
+            "x": 1301.9779052734375,
+            "y": 489.8332183837891,
+            "hit": "Preview Creative Studio",
+            "valid": true
+          },
+          {
+            "x": 1363.4388427734375,
+            "y": 472.5529510498047,
+            "hit": "Preview Creative Studio",
+            "valid": true
+          },
+          {
+            "x": 1363.4388427734375,
+            "y": 489.8332183837891,
+            "hit": "Preview Creative Studio",
+            "valid": true
+          }
+        ],
+        "scrollY": 0,
+        "heroHeight": 1399,
+        "heroLayout": "wide",
+        "storyLayout": "retained"
+      },
+      "point": {
+        "x": 1240.5169677734375,
+        "y": 472.5529510498047,
+        "hit": "Preview Creative Studio",
+        "valid": true
+      },
+      "active": "Close project preview",
+      "restored": "Preview Creative Studio"
+    },
+    {
+      "name": "Slide Design",
+      "passed": true,
+      "state": {
+        "name": "Slide Design",
+        "bounds": {
+          "x": 522.0546875,
+          "y": 378.9296875,
+          "width": 115.28125,
+          "height": 23,
+          "top": 378.9296875,
+          "right": 637.3359375,
+          "bottom": 401.9296875,
+          "left": 522.0546875
+        },
+        "cardBounds": {
+          "x": 505.0546875,
+          "y": 365.9296875,
+          "width": 909.890625,
+          "height": 401.140625,
+          "top": 365.9296875,
+          "right": 1414.9453125,
+          "bottom": 767.0703125,
+          "left": 505.0546875
+        },
+        "opacity": 1,
+        "inert": false,
+        "inViewport": true,
+        "fullyVisible": true,
+        "candidates": [
+          {
+            "x": 550.875,
+            "y": 386.9796875,
+            "hit": "Preview Slide Design",
+            "valid": true
+          },
+          {
+            "x": 550.875,
+            "y": 393.8796875,
+            "hit": "Preview Slide Design",
+            "valid": true
+          },
+          {
+            "x": 579.6953125,
+            "y": 386.9796875,
+            "hit": "Preview Slide Design",
+            "valid": true
+          },
+          {
+            "x": 579.6953125,
+            "y": 393.8796875,
+            "hit": "Preview Slide Design",
+            "valid": true
+          },
+          {
+            "x": 608.515625,
+            "y": 386.9796875,
+            "hit": "Preview Slide Design",
+            "valid": true
+          },
+          {
+            "x": 608.515625,
+            "y": 393.8796875,
+            "hit": "Preview Slide Design",
+            "valid": true
+          }
+        ],
+        "scrollY": 4439,
+        "heroHeight": 1399,
+        "heroLayout": "wide",
+        "storyLayout": "retained"
+      },
+      "point": {
+        "x": 550.875,
+        "y": 386.9796875,
+        "hit": "Preview Slide Design",
+        "valid": true
+      },
+      "active": "Close project preview",
+      "restored": "Preview Slide Design"
+    }
+  ],
+  "errors": [],
+  "pause": {
+    "hit": "Pause ambient motion",
+    "playPresent": true
+  },
+  "sourceHashesAfter": {
+    "src/components/cosmic/experience.tsx": "43be92873fad3fcabf921af79541d6230da906455c5db2a7fa828be56ed9fbc5",
+    "src/components/cosmic/hero-composition.ts": "69590b83300798ad428c385cd48b34b70d11072f986e19a124f8ed9edaaf8e95",
+    "src/app/c-responsive.css": "0bcc69ce2ae1d3fb2d7b7a553dad66b795cdf8dacedd06587b52bf508e00c940",
+    "src/app/page.tsx": "ca34bce2945d8164beaff4fca19bf61e51d28186368549086fe6ea367dc5e44a"
+  },
+  "sourceUnchanged": true
+}

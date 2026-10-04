@@ -1,14 +1,20 @@
 import { Composition } from "remotion";
-import { BrandStudy } from "./brand-study";
+import {
+  BrandStudy,
+  STUDY_DURATION,
+  STUDY_FPS,
+  STUDY_WIDTH,
+  STUDY_HEIGHT,
+} from "./brand-study";
 export function RemotionRoot() {
   return (
     <Composition
       id="NekomataBrandStudy"
       component={BrandStudy}
-      durationInFrames={300}
-      fps={30}
-      width={1000}
-      height={620}
+      durationInFrames={STUDY_DURATION}
+      fps={STUDY_FPS}
+      width={STUDY_WIDTH}
+      height={STUDY_HEIGHT}
     />
   );
 }

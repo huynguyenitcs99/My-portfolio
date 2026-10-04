@@ -1,3 +1,4 @@
+import { ActionIcon } from "@/components/action-icon";
 import Link from "next/link";
 export default function NotFound() {
   return (
@@ -10,7 +11,7 @@ export default function NotFound() {
       </h1>
       <p>Let’s get you back to the work.</p>
       <Link className="pill-link" href="/">
-        Back to Huy’s portfolio ↗
+        Back to Huy’s portfolio <ActionIcon />
       </Link>
     </main>
   );

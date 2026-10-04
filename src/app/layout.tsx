@@ -4,26 +4,24 @@ import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { MotionProvider } from "@/components/motion-provider";
 import "./globals.css";
-import "./storyboard.css";
 
-const playfair = localFont({
-  src: "../../public/fonts/PlayfairLatin.woff2",
-  weight: "700 900",
-  variable: "--font-playfair",
+const display = localFont({
+  src: "../../public/fonts/Sora.ttf",
+  weight: "100 800",
+  variable: "--font-display",
   display: "swap",
 });
-const handwritten = localFont({
-  src: "../../public/fonts/CaveatLatin.woff2",
-  variable: "--font-handwritten",
+const body = localFont({
+  src: "../../public/fonts/Manrope.ttf",
+  weight: "200 800",
+  variable: "--font-body",
   display: "swap",
-  preload: false,
 });
-
-const inter = localFont({
-  src: "../../public/fonts/InterLatin.woff2",
-  variable: "--font-inter",
+const signature = localFont({
+  src: "../../public/fonts/Barlow-Black.ttf",
+  weight: "900",
+  variable: "--font-signature",
   display: "swap",
-  weight: "100 900",
 });
 export const metadata: Metadata = {
   metadataBase: new URL("https://huynguyenitcs99.vercel.app"),
@@ -32,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s · Huy Nguyen",
   },
   description:
-    "AI agents, generative design and real engineering. Huy Nguyen, AI Engineer at Vulcan Labs, builds the intelligence behind useful creative tools.",
+    "AI agents, generative design and real engineering. Explore the work and creative world of Huy Nguyen.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
@@ -44,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image" },
 };
-export const viewport: Viewport = { themeColor: "#F2EEE7" };
+export const viewport: Viewport = { themeColor: "#091019" };
 
 export default function RootLayout({
   children,
@@ -52,10 +50,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${inter.variable} ${playfair.variable} ${handwritten.variable}`}
-    >
+    <html lang="en" className={`${display.variable} ${body.variable} ${signature.variable}`}>
       <body>
         <a className="skip-link" href="#main">
           Skip to content

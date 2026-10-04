@@ -1,4 +1,5 @@
 "use client";
+import { ActionIcon } from "@/components/action-icon";
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -38,14 +39,16 @@ export function Navigation() {
       </noscript>
       <header className="site-header">
         <Link href="/" className="brand" aria-label="HN — Huy Nguyen home">
-          <Nekomata size={43} />
-          <span>HN</span>
+          <Nekomata size={50} />
+          <span>Huy Nguyen</span>
         </Link>
         <nav className="header-links" aria-label="Primary navigation">
           <Link href="/#work">Work</Link>
-          <Link href="/#playground">Playground</Link>
+          <Link href="/#playground">Play</Link>
           <Link href="/#about">About</Link>
-          <Link href="/#contact">Contact</Link>
+          <Link href="/#contact">
+            Let’s talk <ActionIcon />
+          </Link>
         </nav>
         <button
           ref={button}
@@ -89,7 +92,7 @@ export function Navigation() {
         }}
       >
         <div className="nav-surface">
-          <p className="eyebrow">A little curiosity goes a long way.</p>
+          <p className="menu-note">A little curiosity goes a long way.</p>
           <nav aria-label="All sections">
             {links.map((link, index) => (
               <Link
@@ -99,9 +102,10 @@ export function Navigation() {
                 href={link.href}
                 onClick={() => setOpen(false)}
               >
-                <small>{link.number}</small>
                 {link.label}
-                <span aria-hidden="true">↗</span>
+                <span aria-hidden="true">
+                  <ActionIcon />
+                </span>
               </Link>
             ))}
           </nav>
@@ -112,7 +116,7 @@ export function Navigation() {
               aria-label="Close navigation"
               onClick={() => setOpen(false)}
             >
-              Close <span aria-hidden="true">×</span>
+              Close <ActionIcon name="close" />
             </button>
           </div>
         </div>

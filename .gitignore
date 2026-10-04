@@ -38,3 +38,11 @@ next-env.d.ts
 /test-results/
 /docs/design/previews/*.json
 /.cache/
+
+# Nested design prototype dependencies and Impeccable local engine
+**/node_modules/
+.agents/skills/impeccable/scripts/bin/
+.impeccable/review/
+.impeccable/hook.cache.json
+.impeccable/hook.pending.json
+.impeccable/config.local.json

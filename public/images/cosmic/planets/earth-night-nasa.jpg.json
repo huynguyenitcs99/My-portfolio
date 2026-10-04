@@ -1,0 +1,7 @@
+{
+  "origin": "https://eoimages.gsfc.nasa.gov/images/imagerecords/79000/79765/dnb_land_ocean_ice.2012.3600x1800.jpg",
+  "source": "NASA Earth Observatory / Black Marble 2012, 3600\u00d71800 global composite. Sourced texture, not generated.",
+  "intent": "Fine city-light detail for the art-directed C Earth shader. Astronomy imagery is scene illustration, not portfolio product evidence.",
+  "retrieved": "2026-10-03",
+  "prompt": "NASA Earth Observatory / Black Marble 2012, 3600\u00d71800 global composite. Sourced texture, not generated. Origin: https://eoimages.gsfc.nasa.gov/images/imagerecords/79000/79765/dnb_land_ocean_ice.2012.3600x1800.jpg This is sourced/pre-existing media; no generation prompt is asserted."
+}

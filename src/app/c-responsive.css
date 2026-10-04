@@ -1,0 +1,127 @@
+/* C's common composition basis. Image proportions never follow viewport height. */
+main .cosmic-experience { --hero-scale: calc(100vw / 1536px); --proof-height: max(240px,16vw); --arrival-height: max(100svh,66.6667vw); }
+main .cosmic-experience .cosmic-stage { width: 100%; height: var(--arrival-height); margin-bottom: calc(-1 * var(--arrival-height)); }
+main .cosmic-experience .identity-chapter { height: var(--arrival-height); min-height: 0; overflow: visible; }
+main .cosmic-experience .identity-copy { top: calc(85px * var(--hero-scale)); }
+main .cosmic-experience .hero-portrait { width: var(--portrait-side,50vw); height: var(--portrait-side,50vw); left: -5.6%; bottom: var(--proof-height); }
+main .cosmic-experience .hero-portrait img { object-fit: contain; }
+main .cosmic-experience .hero-description { line-height: 1.5; }
+main .cosmic-experience .hero-positioning h2 { text-wrap: wrap; }
+main .cosmic-experience .hero-explore { white-space: nowrap; min-height: 44px; }
+main .cosmic-experience .orbit-project { background: linear-gradient(130deg,#1d2530e8,#090e16f0 62%); border: 1px solid #d7dce0bb; box-shadow: inset 0 1px 0 #f3e8db59,0 18px 44px #01040770; }
+main .cosmic-experience .orbit-project-0 { width: 24.3%; left: var(--hero-card-x-0,85vw); top: var(--hero-card-y-0,23svh); }
+main .cosmic-experience .orbit-project-1 { width: 32.8%; left: var(--hero-card-x-1,78vw); top: var(--hero-card-y-1,50svh); }
+main .cosmic-experience .orbit-project-2 { width: 35.5%; left: var(--hero-card-x-2,76vw); top: var(--hero-card-y-2,71svh); }
+main .cosmic-experience .orbit-caption small { font-size: 14px; line-height: 1.35; }
+main .cosmic-experience .orbit-contribution { display: block; color: #d2d6de; font-size: 12px; line-height: 1.4; font-style: italic; padding: 0 16px 10px; }
+main .cosmic-experience .orbit-project-2 .project-art { aspect-ratio: calc(4.8 - var(--card-focus,0)*2.1); }
+main .cosmic-experience .stage-controls { position: fixed; z-index: 65; top: auto; bottom: 14px; left: auto; right: 14px; width: auto; padding: 0; }
+main .cosmic-experience .stage-controls button { width: 44px; height: 44px; padding: 10px; border-radius: 50%; display: flex; justify-content: center; background: #101c2de8; }
+main .cosmic-experience .stage-controls .action-icon { width: 20px; height: 20px; }
+main .cosmic-experience .stage-controls .motion-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+main .cosmic-experience .arrival-proof { height: auto; min-height: max(240px,16vw); border-top: 0; padding: 18px 4.17vw 24px; overflow: visible; background: #0d151f; }
+main .cosmic-experience .arrival-horizon { position: absolute; left: 0; width: 100%; height: 76px; top: -47px; pointer-events: none; overflow: visible; transform: scaleY(calc(1 - .24 * var(--intro-progress,0))); transform-origin: bottom; }
+main .cosmic-experience .horizon-surface { fill: #0d151f; }
+main .cosmic-experience .horizon-halo { fill: none; stroke: #72acdf; stroke-width: 8; opacity: .19; filter: blur(4px); }
+main .cosmic-experience .horizon-edge { fill: none; stroke: url(#horizon-light); stroke-width: 1.3; }
+main .cosmic-experience .arrival-proof-copy h2 { font-size: clamp(26px,2.5vw,40px); }
+main .cosmic-experience .arrival-proof-copy > .proof-sequence { margin: 0 0 8px; color: #c8e1f8; font-size: 16px; }
+main .cosmic-experience .arrival-proof-copy > span:not(.proof-sequence) { font-size: 13px; line-height: 1.5; margin-top: 14px; }
+main .cosmic-experience .arrival-proof-flow .project-art { overflow: visible; }
+main .cosmic-experience .arrival-proof-flow { position: relative; }
+main .cosmic-experience .arrival-proof-copy,main .cosmic-experience .arrival-proof-flow { position: relative; z-index: 1; }
+main .cosmic-experience .arrival-horizon { z-index: 0; }
+main .cosmic-experience .proof-transfer { position: absolute; top: 40%; width: 16px; height: 16px; color: #c7d7e8; }
+main .cosmic-experience .proof-transfer .action-icon { width: 16px; height: 16px; }
+main .cosmic-experience .proof-transfer-one { left: 29.7%; }
+main .cosmic-experience .proof-transfer-two { left: 61.2%; }
+main .cosmic-experience .arrival-proof-flow .art-stage { overflow: visible; }
+main .cosmic-experience .arrival-proof-flow .art-reference-wall { transform: perspective(900px) rotateY(-4deg) rotateZ(-1deg); }
+main .cosmic-experience .arrival-proof-flow .art-guideline-panel { transform: perspective(900px) rotateY(4deg) rotateZ(1deg); }
+main .cosmic-experience .arrival-proof-flow .art-menu-output { transform: perspective(1000px) rotateY(-3deg); }
+main .cosmic-experience .arrival-proof-flow .art-menu-cover { transform: rotateY(-7deg); }
+main .cosmic-experience .arrival-proof-flow .art-menu-page { transform: rotateY(7deg); }
+main .cosmic-experience .arrival-proof-flow .art-path-flow { opacity: 1; }
+body .site-header { mix-blend-mode: screen; background: linear-gradient(#060b1194,transparent); pointer-events: none; }
+body .site-header a,body .site-header button { pointer-events: auto; }
+body .brand .nekomata { mix-blend-mode: screen; }
+body .header-links > a { min-height: 44px; display: inline-flex; align-items: center; }
+
+/* Compact is an intrinsic composition: copy finishes before the artwork begins. */
+@media (max-width: 1199px) {
+ main .cosmic-experience { --arrival-height: max(1100px,160vw); }
+ body .site-header { padding: 14px 22px; }
+ body .header-links { display: none; }
+ body .menu-toggle { display: block; }
+ main .cosmic-experience .cosmic-stage { position: absolute; margin-bottom: 0; }
+ main .cosmic-experience .identity-copy { top: 78px; left: 22px; width: calc(100% - 44px); }
+ main .cosmic-experience .hero-name { height: min(34vw,212px); }
+ main .cosmic-experience .hero-row-huy .hero-name-ink { font-size: min(27vw,160px); }
+ main .cosmic-experience .hero-row-nguyen .hero-name-ink { font-size: min(23.5vw,140px); }
+ main .cosmic-experience .hero-name > .hero-row-nguyen { top: min(17.5vw,110px); }
+ main .cosmic-experience .hero-positioning { margin: 6px 0 0; }
+ main .cosmic-experience .hero-positioning h2 { font-size: 22px; line-height: 1.3; }
+ main .cosmic-experience .hero-description { margin: 9px 0 0; font-size: 16px; line-height: 1.5; }
+ main .cosmic-experience .hero-explore { margin: 8px 0 0; font-size: 17px; }
+ main .cosmic-experience .hero-portrait { width: var(--portrait-side,110vw); height: var(--portrait-side,110vw); left: calc(var(--portrait-side,110vw) * -.43); top: var(--portrait-top,430px); bottom: auto; mask-image: linear-gradient(#000 0 90%,transparent); }
+ main .cosmic-experience .orbit-project { left: auto; right: 20px; margin-top: 0; transform: perspective(1200px) rotateY(-4deg) rotate(4deg); }
+ main .cosmic-experience .orbit-project-0 { width: min(47%,400px); top: var(--hero-card-y-0,420px); }
+ main .cosmic-experience .orbit-project-1 { width: min(57%,510px); top: var(--hero-card-y-1,610px); transform: perspective(1200px) rotateY(-4deg) rotate(6deg); }
+ main .cosmic-experience .orbit-project-2 { width: min(55%,490px); top: var(--hero-card-y-2,880px); transform: perspective(1200px) rotateY(-4deg) rotate(7deg); }
+ main .cosmic-experience .orbit-caption strong { font-size: 16px; }
+ main .cosmic-experience .orbit-caption small { font-size: 14px; line-height: 1.35; }
+ main .cosmic-experience .orbit-contribution { font-size: 12px; padding-inline: 10px; }
+ main .cosmic-experience .orbit-project-2 .project-art { aspect-ratio: 3.2; }
+ main .cosmic-experience .stage-controls { position: absolute; top: 15px; right: 84px; bottom: auto; }
+ main .cosmic-experience .arrival-proof { display: none; }
+ main .cosmic-experience .hero-bottom { bottom: 14px; left: 22px; right: 22px; display: flex; font-size: 12px; }
+ main .cosmic-experience .project-chapter { position: relative; padding: 56px 22px; background: linear-gradient(145deg,#0d1a2cee,#08101bec); }
+ main .cosmic-experience .project-chapter::before { content: ''; position: absolute; top: -18px; left: 0; width: 100%; height: 36px; border-top: 1px solid #8eb8d266; border-radius: 50% 50% 0 0; background: #0c1726; pointer-events: none; }
+ main .cosmic-experience .chapter-copy { display: block; position: relative; width: 100%; top: auto; }
+ main .cosmic-experience .chapter-copy .chapter-mobile-art { display: block; width: 100%; margin: 24px 0; }
+ main .cosmic-experience .chapter-copy h2 { margin-bottom: 18px; }
+ main .cosmic-experience .chapter-meta { flex-wrap: wrap; }
+ main .cosmic-experience .chapter-copy .contribution { margin-top: 14px; }
+}
+
+/* Font enlargement is a layout input, even on a physically wide display. */
+main .cosmic-experience[data-hero-layout="compact"] .cosmic-stage { position: absolute; margin-bottom: 0; }
+main .cosmic-experience[data-hero-layout="compact"] .identity-copy { top: 78px; left: 22px; width: calc(100% - 44px); }
+main .cosmic-experience[data-hero-layout="compact"] .hero-name { height: min(34vw,212px); }
+main .cosmic-experience[data-hero-layout="compact"] .hero-name > span { left: 0; top: 0; width: 100%; height: auto; transform: none; }
+main .cosmic-experience[data-hero-layout="compact"] .hero-name > .hero-row-nguyen { top: min(17.5vw,110px); }
+main .cosmic-experience[data-hero-layout="compact"] .hero-row-huy .hero-name-ink { font-size: min(27vw,160px); transform: scale(.9,1) translate(-.0726496em,-.1068376em); }
+main .cosmic-experience[data-hero-layout="compact"] .hero-row-nguyen .hero-name-ink { font-size: min(23.5vw,140px); transform: scale(.98,.98) translate(-.0365854em,-.1829268em); }
+main .cosmic-experience[data-hero-layout="compact"] .hero-positioning { margin: 6px 0 0; max-width: 720px; }
+main .cosmic-experience[data-hero-layout="compact"] .hero-description { margin: 9px 0 0; width: 31ch; max-width: 100%; }
+main .cosmic-experience[data-hero-layout="compact"] .hero-explore { margin: 8px 0 0; }
+main .cosmic-experience[data-hero-layout="compact"] .hero-portrait { width: var(--portrait-side); height: var(--portrait-side); left: calc(var(--portrait-side) * -.43); top: var(--portrait-top); bottom: auto; mask-image: linear-gradient(#000 0 90%,transparent); }
+main .cosmic-experience[data-hero-layout="compact"] .orbit-project { left: auto; right: 20px; transform: perspective(1200px) rotateY(-4deg) rotate(4deg); }
+main .cosmic-experience[data-hero-layout="compact"] .orbit-project-0 { width: min(47%,400px); top: var(--hero-card-y-0); }
+main .cosmic-experience[data-hero-layout="compact"] .orbit-project-1 { width: min(57%,510px); top: var(--hero-card-y-1); transform: perspective(1200px) rotateY(-4deg) rotate(6deg); }
+main .cosmic-experience[data-hero-layout="compact"] .orbit-project-2 { width: min(55%,490px); top: var(--hero-card-y-2); transform: perspective(1200px) rotateY(-4deg) rotate(7deg); }
+main .cosmic-experience[data-hero-layout="compact"] .orbit-project-1 .project-art { aspect-ratio: 1.6; }
+main .cosmic-experience[data-hero-layout="compact"] .orbit-project-2 .project-art { aspect-ratio: 3.2; }
+main .cosmic-experience[data-hero-layout="compact"] .arrival-proof { display: none; }
+main .cosmic-experience[data-hero-layout="compact"] .stage-controls { position: absolute; top: 15px; right: 84px; bottom: auto; }
+
+/* Native-flow reading keeps the same hierarchy when a retained frame cannot fit. */
+@media (min-width: 1200px) {
+ main .cosmic-experience[data-hero-layout="compact"] .stage-controls { position: fixed; top: auto; right: 14px; bottom: 14px; }
+ main .cosmic-experience[data-story-layout="flow"] .project-chapter,
+ main .cosmic-experience[data-reduced="true"] .project-chapter,
+ main .cosmic-experience:not([data-enhanced="true"]) .project-chapter { display: block; }
+ main .cosmic-experience[data-story-layout="flow"] .chapter-copy,
+ main .cosmic-experience[data-reduced="true"] .chapter-copy,
+ main .cosmic-experience:not([data-enhanced="true"]) .chapter-copy { position: relative; top: auto; width: 100%; display: grid; grid-template-columns: 1fr 1fr; column-gap: 5vw; }
+ main .cosmic-experience[data-story-layout="flow"] .chapter-copy > :not(.chapter-mobile-art),
+ main .cosmic-experience[data-reduced="true"] .chapter-copy > :not(.chapter-mobile-art),
+ main .cosmic-experience:not([data-enhanced="true"]) .chapter-copy > :not(.chapter-mobile-art) { grid-column: 1; grid-row: auto; }
+ main .cosmic-experience[data-story-layout="flow"] .chapter-mobile-art,
+ main .cosmic-experience[data-reduced="true"] .chapter-mobile-art,
+ main .cosmic-experience:not([data-enhanced="true"]) .chapter-mobile-art { display: block; width: 100%; grid-column: 2; grid-row: 1/8; align-self: center; }
+}
+main .cosmic-experience .about-signal { mask-image: linear-gradient(#000 0 88%,transparent); }
+main .cosmic-experience .foundation-project { background: linear-gradient(145deg,#192b3a66,#07121ecc); border-color: #adc5dd66; }
+main .cosmic-experience .engineering-section,main .cosmic-experience .playground-section { position: relative; }
+main .cosmic-experience .engineering-section::before,main .cosmic-experience .playground-section::before { content: ''; position: absolute; top: -18px; left: 0; width: 100%; height: 36px; border-top: 1px solid #718ea855; border-radius: 50% 50% 0 0; pointer-events: none; }

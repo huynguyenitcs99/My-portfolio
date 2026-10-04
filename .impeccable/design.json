@@ -1,0 +1,588 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-03T08:14:14.070337+00:00",
+  "title": "Design System: Huy Nguyen — Direction C",
+  "extensions": {
+    "colorMeta": {
+      "space": {
+        "role": "neutral",
+        "displayName": "Space"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Graphite surface"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Silver ink"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted silver"
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Interface blue"
+      },
+      "solar": {
+        "role": "secondary",
+        "displayName": "Restrained Sun warmth"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Quiet line"
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Keyboard focus blue"
+      },
+      "link": {
+        "role": "primary",
+        "displayName": "Reading link blue"
+      },
+      "link-hover": {
+        "role": "primary",
+        "displayName": "Light link hover"
+      },
+      "action-surface": {
+        "role": "primary",
+        "displayName": "Blue action surface"
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Blue action hover"
+      },
+      "preview-surface": {
+        "role": "neutral",
+        "displayName": "Preview surface",
+        "purpose": "Upper stop of the satin arrival/focus frame gradient in c-responsive.css."
+      },
+      "preview-low": {
+        "role": "neutral",
+        "displayName": "Preview gradient low",
+        "purpose": "Lower stop of the same satin frame gradient."
+      },
+      "preview-edge": {
+        "role": "neutral",
+        "displayName": "Preview silver edge",
+        "purpose": "One-pixel arrival/focus frame border."
+      },
+      "preview-contribution": {
+        "role": "neutral",
+        "displayName": "Mini arrival contribution",
+        "purpose": "Creative mini arrival footer ink; primary page contribution remains 16px."
+      },
+      "ambient-surface": {
+        "role": "neutral",
+        "displayName": "Ambient control surface",
+        "purpose": "Independent 44px hero Pause control fill."
+      },
+      "horizon-surface": {
+        "role": "neutral",
+        "displayName": "Curved horizon surface",
+        "purpose": "Wide SVG satin horizon and Creative continuation surface."
+      },
+      "horizon-halo": {
+        "role": "secondary",
+        "displayName": "Curved horizon halo",
+        "purpose": "Wide satin curve halo; source opacity .19 remains a separate property."
+      },
+      "proof-sequence": {
+        "role": "neutral",
+        "displayName": "Creative sequence ink",
+        "purpose": "Readable wide Creative continuation sequence number."
+      },
+      "proof-transfer": {
+        "role": "neutral",
+        "displayName": "Creative transfer arrows",
+        "purpose": "Labeled mechanism transfer-arrow ink in the wide continuation."
+      },
+      "header-shade": {
+        "role": "neutral",
+        "displayName": "Header gradient shade",
+        "purpose": "Local header gradient stop with screen blending."
+      },
+      "mask-opaque": {
+        "role": "neutral",
+        "displayName": "Opaque mask stop",
+        "purpose": "Alpha coverage stop in portrait masks; not a visible painted surface."
+      },
+      "compact-reading-surface": {
+        "role": "neutral",
+        "displayName": "Compact chapter surface",
+        "purpose": "Upper stop of compact normal-flow chapter background."
+      },
+      "compact-reading-edge": {
+        "role": "neutral",
+        "displayName": "Compact curved edge",
+        "purpose": "Shallow compact chapter curve border."
+      },
+      "engineering-edge": {
+        "role": "neutral",
+        "displayName": "Engineering media edge",
+        "purpose": "Preserved real-media foundation frame border."
+      },
+      "study-poster-title": {
+        "role": "neutral",
+        "displayName": "Wide study poster title",
+        "purpose": "Wide semantic poster heading ink."
+      },
+      "study-poster-edge": {
+        "role": "neutral",
+        "displayName": "Wide study poster edge",
+        "purpose": "Wide Creative poster artwork frame border."
+      },
+      "study-phase-edge": {
+        "role": "neutral",
+        "displayName": "Study caption edge",
+        "purpose": "Semantic phase region top border."
+      },
+      "study-phase-copy": {
+        "role": "neutral",
+        "displayName": "Study contribution ink",
+        "purpose": "Readable 16px/1.5 phase contribution copy outside the Player."
+      },
+      "study-control-edge": {
+        "role": "neutral",
+        "displayName": "Study phase control edge",
+        "purpose": "Unselected phase-button border."
+      },
+      "study-control-surface": {
+        "role": "neutral",
+        "displayName": "Study phase control surface",
+        "purpose": "Unselected phase-button fill."
+      },
+      "study-control-ink": {
+        "role": "neutral",
+        "displayName": "Study phase control ink",
+        "purpose": "Unselected phase-button text."
+      },
+      "study-control-selected": {
+        "role": "secondary",
+        "displayName": "Selected study phase",
+        "purpose": "Selected phase-button fill; focus continues to use the shared blue outline."
+      },
+      "study-image-edge": {
+        "role": "neutral",
+        "displayName": "Compact study image edge",
+        "purpose": "Compact poster and Remotion object frame border."
+      },
+      "study-object-surface": {
+        "role": "neutral",
+        "displayName": "Compact study object surface",
+        "purpose": "Compact Remotion source/brief/editable-layer card fill."
+      },
+      "study-brief-ink": {
+        "role": "neutral",
+        "displayName": "Compact brief row ink",
+        "purpose": "Depicted priorities/follow-ups inside the compact brief object."
+      },
+      "study-conversation": {
+        "role": "secondary",
+        "displayName": "Compact conversation fill",
+        "purpose": "Depicted conversation object fill."
+      },
+      "study-guideline-paper": {
+        "role": "secondary",
+        "displayName": "Compact guideline paper",
+        "purpose": "Warm paper within the depicted Visual DNA guideline."
+      },
+      "study-guideline-ink": {
+        "role": "neutral",
+        "displayName": "Compact guideline ink",
+        "purpose": "Dark text within the depicted paper guideline."
+      },
+      "study-swatch-dark": {
+        "role": "secondary",
+        "displayName": "Compact guideline dark swatch",
+        "purpose": "Local dark swatch inside the illustrative guideline."
+      },
+      "study-swatch-blue": {
+        "role": "secondary",
+        "displayName": "Compact guideline blue swatch",
+        "purpose": "Local blue swatch inside the illustrative guideline."
+      },
+      "study-swatch-warm": {
+        "role": "secondary",
+        "displayName": "Compact guideline warm swatch",
+        "purpose": "Local warm swatch inside the illustrative guideline."
+      },
+      "study-guideline-line": {
+        "role": "neutral",
+        "displayName": "Compact guideline layout line",
+        "purpose": "Alpha layout mark inside the illustrative guideline."
+      },
+      "study-edit-caret": {
+        "role": "secondary",
+        "displayName": "Compact editable caret",
+        "purpose": "Caret cue within the depicted editable-text layer."
+      },
+      "study-progress-track": {
+        "role": "neutral",
+        "displayName": "Compact study progress track",
+        "purpose": "Three local frame-driven phase progress tracks."
+      },
+      "study-progress-fill": {
+        "role": "secondary",
+        "displayName": "Compact study progress fill",
+        "purpose": "Frame-driven phase progress indicator inside the compact composition."
+      }
+    },
+    "typographyMeta": {
+      "display-huy": {
+        "displayName": "Projected HUY base",
+        "purpose": "Sora 800 for H/U in the restored upper C plane: 15.234375vw/1 wide, min(27vw,160px) compact; original inner ink normalization and responsive outer projection. Only upper Y has a scoped glyph replacement."
+      },
+      "display-y": {
+        "displayName": "Upper Y repair",
+        "purpose": "Existing Barlow Black 900 only for the upper Y: 1.042857143em cap match (730/700), centered .630958905em inline slot preserving .658em parent advance, line-height 0, no child transform/stroke; shared satin text clip."
+      },
+      "display-nguyen": {
+        "displayName": "Projected NGUYEN",
+        "purpose": "Complete Barlow Black 900 lower row: 10.6770833vw/1 wide, min(23.5vw,140px) compact; restored ink normalization and opposite C projection."
+      },
+      "header-name": {
+        "displayName": "Header identity",
+        "purpose": "Manrope 500/20px with 20px logo gap; 17px with 10px gap at 800px and below."
+      },
+      "hero-role": {
+        "displayName": "Hero positioning",
+        "purpose": "Manrope 600/20–27px wide; 22px/1.3 below 1200px. Computed browser description text above 22px independently selects compact hero geometry."
+      },
+      "headline": {
+        "displayName": "Chapter heading",
+        "purpose": "Manrope 750/36–66px in the fixed retained reading envelope;36px mobile."
+      },
+      "title": {
+        "displayName": "Reading-route title",
+        "purpose": "Quieter Sora work/case title vocabulary."
+      },
+      "section-heading": {
+        "displayName": "Section heading",
+        "purpose": "Manrope 750/38–70px;36px mobile."
+      },
+      "proof-heading": {
+        "displayName": "Creative continuation heading",
+        "purpose": "Manrope 750/clamp(26px,2.5vw,40px) in the intrinsic wide Creative continuation."
+      },
+      "preview-title": {
+        "displayName": "Project caption title",
+        "purpose": "Manrope 700/16–20px wide; 16px at 1199px and below. Arrival subtitles are 14px/1.35, and Creative contribution is 12px/1.4; all caption/footer glyphs are measured for fit."
+      },
+      "evidence-title": {
+        "displayName": "Engineering title",
+        "purpose": "Manrope 700/26px inside retained real-media frames."
+      },
+      "contact-heading": {
+        "displayName": "Compact contact",
+        "purpose": "Manrope 750/27–38px, 27px mobile within person copy."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Manrope 16px/1.65 general page content and navigation; semantic motion-study phase copy uses 16px/1.5 outside the Player."
+      },
+      "chapter-body": {
+        "displayName": "Chapter description",
+        "purpose": "Manrope 17px/1.5;16px compact desktop/mobile."
+      },
+      "art-note": {
+        "displayName": "Concept/evidence note",
+        "purpose": "Manrope 14px/1.5 outside illustrative mechanisms."
+      },
+      "ambient-control": {
+        "displayName": "Ambient control",
+        "purpose": "Manrope 13px vocabulary; the hero Pause control has a 44px independent hit area and a visually hidden accessible label."
+      },
+      "body-reading": {
+        "displayName": "Case reading",
+        "purpose": "19px/1.8 in 800px column;17px/1.75 mobile."
+      },
+      "artifact-brand": {
+        "displayName": "Concept menu brand",
+        "purpose": "Georgia only inside authored fictional menu artwork."
+      },
+      "artifact-code": {
+        "displayName": "Concept JSONL",
+        "purpose": "ui-monospace/SFMono-Regular/Consolas only inside the illustrative JSONL strip."
+      },
+      "label": {
+        "displayName": "Role and status",
+        "purpose": "Readable factual 16px contribution/status outside miniature artwork."
+      },
+      "hero-role-compact": {
+        "displayName": "Compact hero positioning",
+        "purpose": "Actual 22px/1.3 role below 1200px; browser font enlargement remains an independent geometry input."
+      },
+      "arrival-contribution": {
+        "displayName": "Mini arrival contribution",
+        "purpose": "Measured 12px/1.4 italic Creative arrival footer; compact scene metadata also uses 12px. Primary page contribution/status/body and motion phase captions remain 16px."
+      },
+      "study-poster-wide": {
+        "displayName": "Wide study poster heading",
+        "purpose": "Observed wide poster heading clamp; 24px is its authored endpoint."
+      },
+      "study-poster-compact": {
+        "displayName": "Compact study poster heading",
+        "purpose": "Observed compact poster heading clamp; 28px is its authored endpoint."
+      },
+      "study-canvas-heading": {
+        "displayName": "Compact composition heading",
+        "purpose": "Authored heading at the 420×360 Remotion composition basis; Player scaling determines its rendered size. Semantic phase headings/copy remain outside the Player."
+      }
+    },
+    "shadows": [
+      {
+        "name": "preview-frame",
+        "value": "inset 0 1px 0 #f3e8db59, 0 18px 44px #01040770",
+        "purpose": "Local satin highlight and depth of arrival/focused previews with a 1px silver edge."
+      },
+      {
+        "name": "engineering-frame",
+        "value": "0 20px 36px #01040750",
+        "purpose": "Retained engineering media in the shared frame family."
+      },
+      {
+        "name": "integrated-contact",
+        "value": "0 20px 44px #02060966",
+        "purpose": "Compact contact within the person scene."
+      },
+      {
+        "name": "study-container",
+        "value": "0 25px 70px #00050c66",
+        "purpose": "Personal study container."
+      },
+      {
+        "name": "daily-brief",
+        "value": "0 2.4cqw 5cqw #00000055",
+        "purpose": "Local depth of the concept brief."
+      },
+      {
+        "name": "visual-dna",
+        "value": "0 2.5cqw 4cqw #00000055",
+        "purpose": "Local depth of the warm-ivory guideline artifact."
+      },
+      {
+        "name": "menu",
+        "value": "-1.3cqw 2cqw 3cqw #00000055",
+        "purpose": "Local concept menu cover depth."
+      },
+      {
+        "name": "study-art-frame",
+        "value": "0 14px 48px #00000035",
+        "purpose": "Remotion 920 × 290 wide mechanism frame."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ordered-arrival-track",
+        "value": "80s",
+        "purpose": "Wide previews share one measured ordered track. Arrival-width clone caption/footer Range rectangles feed heroTextEnvelopes() for both iterative initial fit and travel; fit includes full clearance-fade padding. Actual rotation, signature/ordinary reading boxes, first curved horizon reading limit, entry/exit and clearance fades govern visibility. Creative uses its projected full frame/footer span. Hover/focus, Pause and preview selection stop ambient time. A short ultrawide opening may place Slide below the fold."
+      },
+      {
+        "name": "scroll-interpolation",
+        "value": "t * t * (3 - 2 * t), t clamped to [0,1]",
+        "purpose": "Reversible native-scroll acquisition, copy lifecycle, workflow, and departure."
+      },
+      {
+        "name": "retained-reading-envelope",
+        "value": "180svh chapter; fixed top 10svh / left 4.5vw / width 91vw",
+        "purpose": "Enhanced retained desktop copy with separate opacity windows; semantic headings/prose remain available, invisible envelopes block pointer hits, and hidden inline links leave focus."
+      },
+      {
+        "name": "focused-workflow",
+        "value": "chapter start +0.1 to +0.65 viewport heights",
+        "purpose": "Daily convergence, Creative extraction/spread, and Slide editable-depth explanation."
+      },
+      {
+        "name": "adaptive-focus",
+        "value": "Daily 78% / Creative 89% / Slide 82% caps; 32px gap/bottom clearance; focused art ratio 2.7",
+        "purpose": "Actual copy/caption height constrains width and center. Compact hero, height below 720px, or any fitted frame under 640px selects native flow; resize restores retained placement before remeasurement and clears stale flow suppression."
+      },
+      {
+        "name": "preview-open",
+        "value": "620ms cubic-bezier(.22,1,.36,1)",
+        "purpose": "Native dialog expands from source bounds."
+      },
+      {
+        "name": "preview-close",
+        "value": "360ms cubic-bezier(.4,0,.2,1)",
+        "purpose": "Dialog reverses toward current trigger bounds."
+      },
+      {
+        "name": "study-interpolation",
+        "value": "cubic-bezier(0.2,0.8,0.2,1)",
+        "purpose": "Frame-driven 540-frame/30fps mechanisms. Desktop preserves 1000×620 and 920×290 authored frames; at 700px and below a 420×360 composition shares the same Player, semantic phase captions and at least 44px controls. Reduced motion waits for explicit Play; offscreen/hidden tabs pause."
+      },
+      {
+        "name": "evidence-image-hover",
+        "value": "550ms cubic-bezier(0.22,1,0.36,1)",
+        "purpose": "Modest 1.035 scale on retained engineering media."
+      },
+      {
+        "name": "work-anchor",
+        "value": "start +8svh; scroll-margin-top −90px",
+        "purpose": "Native Work anchor lands at the readable first-chapter beat."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "art-container",
+        "value": "320px"
+      },
+      {
+        "name": "compact-proof-art",
+        "value": "600px"
+      },
+      {
+        "name": "narrow-mobile",
+        "value": "420px"
+      },
+      {
+        "name": "compact-reading-type",
+        "value": "800px"
+      },
+      {
+        "name": "tablet-upper-bound",
+        "value": "1100px"
+      },
+      {
+        "name": "wide-desktop",
+        "value": "1800px"
+      },
+      {
+        "name": "short-desktop-height",
+        "value": "720px"
+      },
+      {
+        "name": "minimum-focused-width",
+        "value": "640px"
+      },
+      {
+        "name": "compact-hero-and-navigation",
+        "value": "1199px",
+        "purpose": "Width-based compact hero and native menu; portrait remains square and opening contains measured copy/card geometry."
+      },
+      {
+        "name": "enlarged-text-hero",
+        "value": "computed description font-size >22px",
+        "purpose": "Independent compact geometry selection on a physically wider viewport."
+      },
+      {
+        "name": "compact-motion-study",
+        "value": "700px",
+        "purpose": "420×360 composition with semantic phase captions and at least 44px controls; the existing Player retains frame and manual pause."
+      }
+    ],
+    "radiusMeta": {
+      "study-phase-control": {
+        "displayName": "Phase controls",
+        "purpose": "Local radius of the 44px study phase buttons."
+      },
+      "study-object": {
+        "displayName": "Compact study objects",
+        "purpose": "Compact poster image and Remotion object frame radius."
+      },
+      "dialog-enter": {
+        "displayName": "Preview entry radius",
+        "purpose": "Native dialog opening-animation source radius."
+      },
+      "dialog-motion": {
+        "displayName": "Preview animation radius",
+        "purpose": "Native dialog opening-animation destination radius; the static dialog retains its 20px source style."
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Case-study action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The blue filled action in a focused project preview.",
+      "html": "<a class=\"ds-case-action\" href=\"/work/creative-studio\">Explore the case study <svg viewBox=\"0 0 24 24\" width=\"21\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+      "css": ".ds-case-action{display:inline-flex;align-items:center;gap:20px;padding:13px 22px;border:1px solid #7694b688;border-radius:40px;color:#dae7fa;background:#14253e;font-family:var(--font-body),sans-serif;font-size:16px;line-height:1.65;text-decoration:none}.ds-case-action:hover{background:#20406b}.ds-case-action:focus-visible{outline:2px solid #83b5ff;outline-offset:6px}"
+    },
+    {
+      "name": "Text control",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "The transparent Play/Pause and close-control vocabulary.",
+      "html": "<button class=\"ds-text-control\" type=\"button\">Play <svg viewBox=\"0 0 24 24\" width=\"21\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m7 4 13 8-13 8Z\"/></svg></button>",
+      "css": ".ds-text-control{display:inline-flex;align-items:center;gap:10px;padding:10px 2px;background:transparent;border:0;color:var(--ink);font-family:var(--font-body),sans-serif;font-size:16px;line-height:1.65;cursor:pointer}.ds-text-control:disabled{cursor:default;opacity:.65}.ds-text-control:focus-visible{outline:2px solid #83b5ff;outline-offset:6px}"
+    },
+    {
+      "name": "Inline case link",
+      "kind": "button",
+      "refersTo": "link-inline",
+      "description": "An accessible case link attached to semantic chapter copy; retained desktop synchronizes its fixed reading envelope and excludes the link from focus only while copy is absent.",
+      "html": "<a class=\"ds-inline-link\" href=\"/work/daily-smith\">Inside Daily Smith <svg viewBox=\"0 0 24 24\" width=\"21\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+      "css": ".ds-inline-link{display:inline-flex;align-items:center;gap:15px;padding:10px 0;font-family:var(--font-body),sans-serif;font-size:16px;line-height:1.65;font-weight:600;color:#91bdff;text-decoration:none}.ds-inline-link:hover{color:#d2e4ff}.ds-inline-link:focus-visible{outline:2px solid #83b5ff;outline-offset:6px}"
+    },
+    {
+      "name": "Inline release status",
+      "kind": "custom",
+      "refersTo": "status",
+      "description": "Descriptive status text and dot, without a filled badge or interaction.",
+      "html": "<span class=\"ds-status\">Released · Chat Smith</span>",
+      "css": ".ds-status{display:inline-flex;align-items:center;gap:7px;color:#abc8ee;font-family:var(--font-body),sans-serif;font-size:16px;line-height:1.4}.ds-status::before{content:\"\";background:#68a1f5;width:5px;height:5px;border-radius:50%;flex:none}"
+    },
+    {
+      "name": "Desktop navigation links",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Wide desktop links paired with exact Nekomata and Manrope header identity; links have 44px minimum hit height. At 1199px and below the source uses its 48px native menu-dialog trigger.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary navigation\"><a href=\"/#work\">Work</a><a href=\"/#playground\">Playground</a><a href=\"/#about\">About</a><a href=\"/#contact\">Let’s talk <svg viewBox=\"0 0 24 24\" width=\"21\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a></nav>",
+      "css": ".ds-nav{display:flex;gap:29px;align-items:center;color:var(--ink);font-family:var(--font-body),sans-serif;font-size:16px;line-height:1.65}.ds-nav>a{min-height:44px;display:inline-flex;align-items:center;color:inherit;text-decoration:none;transition:color 160ms}.ds-nav>a:hover{color:#85b6ff}.ds-nav>a:last-child{border:1px solid #cad7e780;border-radius:50px;padding:4px 18px;display:flex;gap:12px;align-items:center}.ds-nav>a:focus-visible{outline:2px solid #83b5ff;outline-offset:6px}"
+    },
+    {
+      "name": "Project preview caption",
+      "kind": "card",
+      "refersTo": "project-preview",
+      "description": "Caption-only excerpt; source ProjectArt and Creative contribution footer continue beneath it. Wide arrival widths 24.3%/32.8%/35.5%; compact caps min(47%,400px)/min(57%,510px)/min(55%,490px). Measured focus caps 78%/89%/82% fit actual copy/caption height. Ordered 80-second arrival geometry measures rotated glyphs/footers; Creative uses full projected span. Source retains distinct project paths and mechanisms. This base satin fill has local focus-responsive Creative/Slide overrides.",
+      "html": "<button class=\"ds-project-preview\" type=\"button\" aria-label=\"Preview Daily Smith\"><span class=\"ds-preview-caption\"><span><strong>Daily Smith</strong><small>Your daily brief. AI pipeline &amp; agent layer.</small></span><span class=\"ds-preview-arrow\"><svg viewBox=\"0 0 24 24\" width=\"21\" height=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 12h18m-7-7 7 7-7 7\"/></svg></span></span></button>",
+      "css": ".ds-project-preview{padding:0;border:1px solid #d7dce0bb;border-radius:15px;text-align:left;background:linear-gradient(130deg,#1d2530e8,#090e16f0 62%);color:var(--ink);overflow:hidden;cursor:pointer;box-shadow:inset 0 1px 0 #f3e8db59,0 18px 44px #01040770}.ds-preview-caption{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:12px 16px 5px}.ds-preview-caption strong{display:block;font-family:var(--font-body),sans-serif;font-size:clamp(16px,1.25vw,20px);font-weight:700;line-height:1.15;letter-spacing:-.02em}.ds-preview-caption small{display:block;color:#ceccd0;font-family:var(--font-body),sans-serif;font-size:14px;line-height:1.35;font-style:italic;margin-top:4px}.ds-preview-arrow{border:1px solid #d9d2c766;width:29px;height:29px;border-radius:50%;display:grid;place-items:center;flex:none;transition:background 180ms,border-color 180ms}.ds-project-preview:hover .ds-preview-arrow{background:#1a4e9e;border-color:#77adff}.ds-project-preview:focus-visible{outline:2px solid #83b5ff;outline-offset:6px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Engineering meets imagination",
+    "overview": "The selected C references establish graphite space, substantial silver lettering, blue interaction, a sharp portrait with warm rim light, and a shared celestial environment. The exact two-tailed Nekomata links this world to Huy. Project mechanisms occupy dark, lit frames; their imagery contributes color within the same environment.\n\nThis record describes the corrected implementation source. The user approved C and subsequently requested correction of the name, overlapping scroll copy, repeated transitions, and celestial materials. The visual authority is `docs/research/2026-10-03-concept-reset/mockups/c-name.png`, `c-mobile.png`, and `c-storyboard.png`; `PRODUCT.md` owns factual authority. This document does not record user approval of the corrected build or a passed visual gate. The latest responsive repair retains that type and replaces fixed hero geometry with an adaptive composition. Current source and component evidence are recorded here and under `docs/design/c-responsive-v3/`; the earlier native-scroll and type-restoration records retain their historical scope.",
+    "keyCharacteristics": [
+      "Oppositely projected satin-silver name rows: Sora 800 H/U, scoped Barlow 900 upper Y, and Barlow 900 NGUYEN.",
+      "Manrope reading text and home mechanism headings; quieter Sora headings on reading routes.",
+      "A shared graphite, silver, blue, and celestial-light material family.",
+      "A square width-based portrait, intrinsic compact opening, measured ordered preview track, and curved satin reading edges.",
+      "Measured focus geometry, separate reading/departure windows, and three distinct mechanisms.",
+      "Native scrolling, complete static alternatives, and declared concept-art provenance."
+    ],
+    "rules": [
+      {
+        "name": "The Blue Interface Rule",
+        "body": "Keep blue attached to interaction and mechanism paths; keep scene light and subject colors local to their objects.",
+        "section": "colors"
+      },
+      {
+        "name": "The Identity Scale Rule",
+        "body": "Preserve C’s two projected name planes and satin material; scope glyph repair to the upper Y. Keep explanatory headings and reading copy outside the row transforms.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mechanism Depth Rule",
+        "body": "Keep depicted objects spatial and contribution copy directly readable on the page.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the exact Nekomata and Huy's identity, rightward gaze, open zip hoodie, and neck headphones.",
+      "**Do** use the three approved C mockups as visual authority and `PRODUCT.md` as factual authority.",
+      "**Do** keep contribution, status, and concept/evidence provenance readable outside miniature art.",
+      "**Do** preserve scroll, keyboard/dialog behavior, static content, and recovery paths while correcting fidelity."
+    ],
+    "donts": [
+      "**Don't** flatten or replace the approved name planes while repairing a single glyph.",
+      "**Don't** present generated collateral as product evidence or invent capability, release, customer, or outcome claims.",
+      "**Don't** use repeated generic transitions or artwork microtext in place of distinct mechanisms and readable contribution.",
+      "**Don't** claim current visual acceptance, approval of the corrected build, or closed gates from this source record."
+    ],
+    "verificationBoundary": "docs/design/c-responsive-v3/remotion-verification.json preserves nine bounded local Chromium component checks with zero recorded page errors. Source records describe adaptive portrait/arrival/footer geometry and responsive motion; final complete-cycle acceptance and matching delivery remain separate. Automatic hero comparison remains OPEN. No whole-site SHIP or real Safari/iOS/Firefox validation is claimed.",
+    "detectorAdvisories": "The saved docs/design/c-responsive-v3/detector.json records 46 advisories from one seven-target integration run: 36 color, 6 font-size and 4 radius occurrences, with no primary findings. The actual scoped finishes, 12px mini arrival contribution, 22px compact role, 24/28px poster endpoints, and study/dialog-animation radii are documented in DESIGN.md frontmatter and matching sidecar metadata. Primary page contribution/status/body and semantic motion phase copy remain 16px. The saved report remains unchanged; no detector rerun or advisory-clearance/visual-gate claim is made."
+  }
+}

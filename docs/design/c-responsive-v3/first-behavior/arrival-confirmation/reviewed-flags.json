@@ -1,0 +1,80 @@
+{
+  "confirmedIssues": 0,
+  "rawFlags": [
+    {
+      "profile": "desktop",
+      "second": 48,
+      "issues": [
+        {
+          "type": "caption-reading",
+          "card": "Preview Slide Design",
+          "text": "In development.",
+          "char": ".",
+          "reading": "hero-name-ink",
+          "readingChars": "n",
+          "box": {
+            "char": ".",
+            "left": 1066.3038330078125,
+            "right": 1071.848388671875,
+            "top": 208.15501403808594,
+            "bottom": 226.9605255126953,
+            "width": 5.5445556640625,
+            "height": 18.805511474609375
+          },
+          "key": "caption-reading|Preview Slide Design|In development.|hero-name-ink"
+        }
+      ],
+      "review": "No covered painted ink. Caption Range includes empty descent; actual screenshot and 4x glyph-detail crop show clear subtitle above silver N."
+    },
+    {
+      "profile": "laptop",
+      "second": 48,
+      "issues": [
+        {
+          "type": "caption-reading",
+          "card": "Preview Slide Design",
+          "text": "In development.",
+          "char": "m",
+          "reading": "hero-name-ink",
+          "readingChars": "n",
+          "box": {
+            "char": "m",
+            "left": 930.869384765625,
+            "right": 944.0476684570312,
+            "top": 183.04989624023438,
+            "bottom": 202.81236267089844,
+            "width": 13.17828369140625,
+            "height": 19.762466430664062
+          },
+          "key": "caption-reading|Preview Slide Design|In development.|hero-name-ink"
+        }
+      ],
+      "review": "No covered painted ink. Caption Range includes empty descent; actual screenshot and 4x glyph-detail crop show clear subtitle above silver N."
+    },
+    {
+      "profile": "short",
+      "second": 48,
+      "issues": [
+        {
+          "type": "caption-reading",
+          "card": "Preview Slide Design",
+          "text": "In development.",
+          "char": "m",
+          "reading": "hero-name-ink",
+          "readingChars": "n",
+          "box": {
+            "char": "m",
+            "left": 874.0460205078125,
+            "right": 887.8938598632812,
+            "top": 170.2863006591797,
+            "bottom": 190.41319274902344,
+            "width": 13.84783935546875,
+            "height": 20.12689208984375
+          },
+          "key": "caption-reading|Preview Slide Design|In development.|hero-name-ink"
+        }
+      ],
+      "review": "No covered painted ink. Caption Range includes empty descent; actual screenshot and 4x glyph-detail crop show clear subtitle above silver N."
+    }
+  ]
+}

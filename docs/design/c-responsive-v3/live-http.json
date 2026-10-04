@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "path": "/",
+      "status": 401,
+      "expected_content": false
+    },
+    {
+      "path": "/work/daily-smith",
+      "status": 401,
+      "expected_content": false
+    },
+    {
+      "path": "/work/creative-studio",
+      "status": 401,
+      "expected_content": false
+    },
+    {
+      "path": "/work/slide-design",
+      "status": 401,
+      "expected_content": false
+    }
+  ],
+  "scope": "Headless HTTP attempt with the connector-provided site header; all paths returned401 before expected HTML. This does not verify live routing or the signed-in browser rendering.",
+  "limitation": "Deployment/version/audience are verified by Sites backend. The native signed-in browser is a separate auth context; no sharing changes were made to bypass it."
+}

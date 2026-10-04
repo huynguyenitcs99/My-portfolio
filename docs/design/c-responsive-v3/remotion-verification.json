@@ -1,0 +1,184 @@
+{
+  "checks": [
+    {
+      "name": "390px readable Daily Smith",
+      "details": {
+        "height": 734.59375,
+        "heading": 25.68365478515625,
+        "controls": [
+          {
+            "text": "Daily",
+            "width": 97.328125,
+            "height": 44
+          },
+          {
+            "text": "Creative",
+            "width": 97.34375,
+            "height": 44
+          },
+          {
+            "text": "Slide",
+            "width": 97.328125,
+            "height": 44
+          },
+          {
+            "text": "Play",
+            "width": 84,
+            "height": 46.390625
+          }
+        ],
+        "canvas": {
+          "x": 23,
+          "y": 95.421875,
+          "width": 344,
+          "height": 294.84375,
+          "top": 95.421875,
+          "right": 367,
+          "bottom": 390.265625,
+          "left": 23
+        },
+        "copy": "16px",
+        "overflow": false
+      }
+    },
+    {
+      "name": "390px readable Creative Studio",
+      "details": {
+        "height": 734.59375,
+        "heading": 25.68365478515625,
+        "controls": [
+          {
+            "text": "Daily",
+            "width": 97.328125,
+            "height": 44
+          },
+          {
+            "text": "Creative",
+            "width": 97.34375,
+            "height": 44
+          },
+          {
+            "text": "Slide",
+            "width": 97.328125,
+            "height": 44
+          },
+          {
+            "text": "Play",
+            "width": 84,
+            "height": 46.390625
+          }
+        ],
+        "canvas": {
+          "x": 23,
+          "y": 95.421875,
+          "width": 344,
+          "height": 294.84375,
+          "top": 95.421875,
+          "right": 367,
+          "bottom": 390.265625,
+          "left": 23
+        },
+        "copy": "16px",
+        "overflow": false
+      }
+    },
+    {
+      "name": "390px readable Slide Design",
+      "details": {
+        "height": 734.59375,
+        "heading": 51.3673095703125,
+        "controls": [
+          {
+            "text": "Daily",
+            "width": 97.328125,
+            "height": 44
+          },
+          {
+            "text": "Creative",
+            "width": 97.34375,
+            "height": 44
+          },
+          {
+            "text": "Slide",
+            "width": 97.328125,
+            "height": 44
+          },
+          {
+            "text": "Play",
+            "width": 84,
+            "height": 46.390625
+          }
+        ],
+        "canvas": {
+          "x": 23,
+          "y": 95.421875,
+          "width": 344,
+          "height": 294.84375,
+          "top": 95.421875,
+          "right": 367,
+          "bottom": 390.265625,
+          "left": 23
+        },
+        "copy": "16px",
+        "overflow": false
+      }
+    },
+    {
+      "name": "Phase changes preserve widget height and downstream layout",
+      "details": [
+        734.59375,
+        734.59375,
+        734.59375
+      ]
+    },
+    {
+      "name": "390\u2192701\u2192390 preserves selected phase, frame and manual pause",
+      "details": null
+    },
+    {
+      "name": "320px fits with readable text and44px controls",
+      "details": {
+        "height": 756.984375,
+        "heading": 40.9141845703125,
+        "controls": [
+          {
+            "w": 74,
+            "h": 44
+          },
+          {
+            "w": 74,
+            "h": 44
+          },
+          {
+            "w": 74,
+            "h": 44
+          },
+          {
+            "w": 84,
+            "h": 46.390625
+          }
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "name": "Actual playback advances and loop synchronizes semantic phase",
+      "details": null
+    },
+    {
+      "name": "Offscreen pause/resume and manual-pause persistence",
+      "details": null
+    },
+    {
+      "name": "Reduced motion keeps responsive poster and semantic content until explicit Play",
+      "details": null
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "/tmp/huy-motion-mobile/mobile-daily-smith.png",
+    "/tmp/huy-motion-mobile/mobile-creative-studio.png",
+    "/tmp/huy-motion-mobile/mobile-slide-design.png",
+    "/tmp/huy-motion-mobile/mobile-reduced-poster.png"
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "desktop",
+    "data": {
+      "overflow": false,
+      "creativeOpacity": "1",
+      "creativeBox": {
+        "x": 916.501953125,
+        "y": 338.4417724609375,
+        "w": 524.1015625,
+        "h": 339.99652099609375
+      },
+      "logoBlend": "normal",
+      "proofMarker": {
+        "text": "02 /",
+        "rect": {
+          "x": 64.046875,
+          "y": 909.140625,
+          "width": 408.28125,
+          "height": 22.390625,
+          "top": 909.140625,
+          "right": 472.328125,
+          "bottom": 931.53125,
+          "left": 64.046875
+        }
+      }
+    }
+  },
+  {
+    "slideCopy": {
+      "opacity": "1",
+      "heading": "From an imageto editable elements.",
+      "rect": {
+        "x": 69.109375,
+        "y": 102.390625,
+        "width": 1397.75,
+        "height": 237.421875,
+        "top": 102.390625,
+        "right": 1466.859375,
+        "bottom": 339.8125,
+        "left": 69.109375
+      }
+    }
+  },
+  {
+    "name": "mobile",
+    "data": {
+      "overflow": false,
+      "creativeOpacity": "1",
+      "creativeBox": {
+        "x": 136.09584045410156,
+        "y": 616.146728515625,
+        "w": 247.2931365966797,
+        "h": 278.27789306640625
+      },
+      "logoBlend": "normal",
+      "proofMarker": {
+        "text": "02 /",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "commit_sha": "32c7d364a51f6cba651d5ce175593ce5bd201e69",
+  "version_number": 8,
+  "project_id": "appgprj_6ac062d418bc81919355195be1e2a44c",
+  "version_id": "appgprj_6ac062d418bc81919355195be1e2a44c~appgver_3f7e18c184c48191ad118ef4b9113c53",
+  "deployment_id": "appgdep_6ac0b9df0fdc819183498c750e0f0704",
+  "status": "succeeded",
+  "url": "https://huy-nekomata-review.dnekomata.chatgpt.site/?v=32c7d36",
+  "audience": {
+    "mode": "custom",
+    "users": 1,
+    "groups": 0,
+    "external_visitors": 0
+  },
+  "adaptation_verified": true,
+  "full_C_fidelity_gate": "OPEN",
+  "browser_open_request": "queued",
+  "real_Safari_iOS_Firefox_tested": false,
+  "live_http": "unverified: headless HTTP401",
+  "published_source_sha_verified": true
+}

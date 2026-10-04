@@ -1,7 +1,8 @@
+import { ActionIcon } from "@/components/action-icon";
 import Image from "next/image";
 import Link from "next/link";
 import type { Project } from "@/content/projects";
-import { AgentArtwork, MenuArtwork, SlideArtwork } from "./artwork";
+import { ProjectArt } from "@/components/cosmic/project-art";
 
 export function ProjectGrid({ projects }: { projects: Project[] }) {
   return (
@@ -20,22 +21,18 @@ export function ProjectGrid({ projects }: { projects: Project[] }) {
                 fill
                 sizes="(max-width: 700px) 92vw, 30vw"
               />
-            ) : project.slug === "creative-studio" ? (
-              <MenuArtwork compact />
-            ) : project.slug === "daily-smith" ? (
-              <AgentArtwork compact />
             ) : (
-              <SlideArtwork compact />
+              <ProjectArt slug={project.slug} />
             )}
             <span className="tile-arrow" aria-hidden="true">
-              ↗
+              <ActionIcon />
             </span>
           </div>
+          <h3>{project.title}</h3>
           <div className="tile-meta">
             <span>{project.eyebrow}</span>
             <span>{project.status}</span>
           </div>
-          <h3>{project.title}</h3>
           <p>{project.summary}</p>
         </Link>
       ))}

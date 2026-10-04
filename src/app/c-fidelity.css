@@ -1,0 +1,248 @@
+/* The selected C is a measured composition, including its silver material and light. */
+body .site-header { padding: 14px 4vw; }
+body .brand { font-family: var(--font-body),sans-serif; font-size: 20px; font-weight: 500; letter-spacing: -.025em; gap: 20px; }
+body .header-links { gap: 29px; }
+body .header-links > a:last-child { padding: 4px 18px; }
+main .identity-copy { left: 31.185%; top: 8.3%; width: 50%; }
+main .hero-name { position: relative; width: 46vw; height: 16.9921875vw; line-height: 1; }
+main .hero-name > span { position: absolute; display: block; margin: 0; transform-origin: 0 0; letter-spacing: 0; }
+main .hero-name > .hero-row-huy { left: 0; top: 0; width: 25.9765625vw; height: 11.1979167vw; transform: matrix3d(1.409836066,.070668474,0,var(--huy-projection,.001027158),0,1,0,0,0,0,1,0,0,0,0,1); }
+main .hero-name > .hero-row-nguyen { left: 4.5572917vw; top: 9.1796875vw; width: 34.2447917vw; height: 7.7473958vw; transform: matrix3d(.760683761,-.057034221,0,var(--nguyen-projection,-.000454974),0,.747899160,0,0,0,0,1,0,0,var(--name-drop,30),0,1); }
+main .hero-name .hero-name-ink { display: block; width: max-content; line-height: 1; letter-spacing: 0; transform-origin: 0 0; color: #e2dfdc; font-weight: 800; }
+main .hero-row-huy .hero-name-ink { font-family: var(--font-display),sans-serif; font-size: 15.234375vw; transform: scale(.791437503,1.005847953) translate(-1.1067708vw,-1.6276042vw); }
+main .hero-row-nguyen .hero-name-ink { font-family: var(--font-signature),sans-serif; font-size: 10.6770833vw; font-weight: 900; transform: scale(.868634554,1.008474576) translate(-.390625vw,-1.953125vw); }
+@supports (background-clip: text) {
+ main .hero-name .hero-name-ink { background-image: url('/images/cosmic/silver-surface-c.webp'); background-size: 100% 100%; background-clip: text; -webkit-background-clip: text; color: transparent; }
+}
+/* A continuous Y fork, optically fitted to the existing Sora cap and advance.
+   Keep it in the parent's text paint so the shared satin mask remains intact. */
+main .hero-row-huy .hero-y { display: inline-block; width: .630958905em; font-family: var(--font-signature),sans-serif; font-size: 1.042857143em; font-weight: 900; line-height: 0; text-align: center; }
+main .hero-positioning { margin-left: 4.3vw; margin-top: 8px; max-width: 430px; }
+main .hero-positioning h2 { font-family: var(--font-body),sans-serif; font-size: clamp(20px,1.5625vw,27px); letter-spacing: 0; line-height: 1.35; font-weight: 600; }
+main .hero-description { margin-top: 11px; margin-left: 4.17vw; max-width: 32ch; font-size: 16px; line-height: 24px; color: #b9b9c1; }
+main .hero-explore { margin: 12px 0 0 4.17vw; font-size: 18px; gap: 14px; color: #2586ff; font-weight: 700; }
+main .hero-explore .action-icon { width: 25px; height: 25px; }
+main .hero-portrait { width: 50%; height: 70%; left: -5.6%; bottom: 24%; }
+main .hero-portrait img { object-fit: cover; object-position: left top; }
+main .star-field { opacity: .83; }
+main .scene-vignette { background: radial-gradient(ellipse at 1% 22%,#ffc77c30,transparent 32%),radial-gradient(ellipse at 57% 55%,#2140643a,transparent 54%),linear-gradient(0deg,#091019d0,transparent 21%); }
+main .chapter-reading-scrim { background: linear-gradient(0deg,#08111e33,transparent 63%),linear-gradient(90deg,#08111e99,transparent 70%); }
+main .orbit-project { background: #0b111beF; border: 1.5px solid #e9e1d9bd; border-radius: 15px; box-shadow: 0 16px 42px #01040770; --overview: 1; }
+main .orbit-caption { padding: 12px 16px 5px; }
+main .orbit-caption strong { font-family: var(--font-body),sans-serif; font-size: clamp(16px,1.25vw,20px); font-weight: 700; line-height: 1.15; }
+main .orbit-caption small { color: #ceccd0; font-size: 16px; line-height: 1.3; font-style: italic; margin-top: 4px; }
+main .round-arrow { width: 29px; height: 29px; border-color: #d9d2c766; }
+main .orbit-project .project-art { aspect-ratio: calc(2.6 + var(--card-focus,0)*.1); background: transparent; }
+main .orbit-project-0 .project-art { aspect-ratio: calc(2.4 + var(--card-focus,0)*.3); }
+main .orbit-project-2 .project-art { aspect-ratio: calc(7.1 - var(--card-focus,0)*4.4); }
+main .stage-controls { justify-content: flex-end; bottom: calc(24svh * (1 - var(--intro-progress,0)) + 8px); }
+main .stage-controls button { font-size: 13px; padding: 6px 11px; background: #0c1620d9; border-color: #c1cbd04a; }
+main .arrival-proof { background: linear-gradient(110deg,#111820ee,#09111fee); border-top-color: #bfcde599; gap: 2.1vw; padding-inline: 4.17vw; }
+main .arrival-proof-copy { width: 29%; }
+main .arrival-proof-copy h2 { font-family: var(--font-body),sans-serif; font-size: clamp(26px,2.60417vw,42px); font-weight: 750; line-height: 1.03; }
+main .arrival-proof-copy p { color: #cdcbd1; margin-top: 10px; font-size: 16px; line-height: 1.45; }
+main .arrival-proof-copy > span { color: #a9b8d0; margin-top: 15px; font-size: 16px; }
+main .arrival-proof-flow { display: block; flex: 1; min-width: 0; --overview: 1; }
+main .arrival-proof-flow .project-art { width: 100%; height: 15.3svh; min-height: 143px; max-height: 180px; aspect-ratio: auto; background: transparent; }
+main .arrival-proof-flow .art-stage { background: transparent; }
+main .proof-flow-labels { display: flex; gap: 4%; font-size: 12px; line-height: 1.5; margin-top: 6px; color: #bfc6d5; }
+main .proof-flow-labels span { flex: 1; }
+main .identity-chapter { overflow: clip; }
+main .work-anchor { position: relative; top: 8svh; scroll-margin-top: -90px; }
+main .project-chapter { display: block; min-height: 180svh; padding: 10svh 4.5vw; }
+main .chapter-copy { position: sticky; top: 10svh; width: 100%; max-width: none; display: grid; grid-template-columns: 1.1fr 1fr; column-gap: 9vw; row-gap: 10px; }
+main .chapter-copy h2 { grid-column: 1; grid-row: 1/3; font-family: var(--font-body),sans-serif; font-size: clamp(36px,3.8vw,66px); font-weight: 750; line-height: 1.03; margin: 0; }
+main .chapter-copy h2 em { color: #ece9e7; }
+main .chapter-meta { grid-column: 1; grid-row: 3; font-size: 16px; }
+main .contribution { grid-column: 1; grid-row: 4; margin: 0; }
+main .contribution strong { color: #85b9ff; }
+main .chapter-description { grid-column: 2; grid-row: 1/3; margin: 0; font-size: 17px; line-height: 1.5; max-width: 46ch; }
+main .chapter-result { grid-column: 2; grid-row: 3/5; font-size: 16px; max-width: 46ch; }
+main .chapter-copy .inline-link { grid-column: 2; grid-row: 5; margin: 0; padding-block: 4px; }
+main .chapter-copy .art-note { grid-column: 1; grid-row: 5; margin: 0; font-size: 14px; }
+main .flow-steps { display: none; }
+main .engineering-section { background: #07101bc9; padding-block: 90px; }
+main .section-intro { margin-bottom: 38px; gap: 36px; }
+main .section-intro h2 { font-family: var(--font-body),sans-serif; font-size: clamp(38px,4.2vw,70px); font-weight: 750; }
+main .section-intro > p { font-size: 17px; max-width: 46ch; }
+main .foundation-list { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; }
+main .foundation-project, main .foundation-project:first-child { grid-column: auto; display: block; padding: 16px 16px 24px; border: 1px solid #b9c9de80; border-radius: 14px; background: #0c1523ec; box-shadow: 0 20px 36px #01040750; }
+main .foundation-image { aspect-ratio: 1.6; border-radius: 7px; }
+main .foundation-copy { padding-right: 0; padding-top: 20px; }
+main .foundation-copy h3 { font-family: var(--font-body),sans-serif; font-size: 26px; margin-bottom: 12px; }
+main .foundation-copy p { font-size: 16px; }
+main .foundation-role { font-size: 16px; margin-top: 18px; padding-right: 35px; }
+main .foundation-arrow, main .foundation-project:first-child .foundation-arrow { width: 29px; height: 29px; right: 16px; bottom: 20px; }
+main .playground-section { background: #0a1420bb; padding-block: 90px; }
+main .motion-study { border-color: #c6d0d69c; box-shadow: 0 25px 70px #00050c66; }
+main .study-controls { background: #101a26; }
+main .about-section { background: transparent; min-height: 820px; padding-block: 100px; }
+main .about-section::before { background: linear-gradient(90deg,#08101e10,#08101e55); }
+main .about-signal { left: -2%; width: 43%; height: 88%; }
+main .about-signal > img { object-fit: contain; }
+main .about-copy { width: 55%; max-width: 820px; }
+main .about-copy h2 { font-family: var(--font-body),sans-serif; font-size: clamp(36px,3.7vw,60px); font-weight: 750; margin-bottom: 14px; line-height: 1.05; }
+main .about-copy p { font-size: 17px; line-height: 1.55; margin-block: 15px; }
+main .about-copy > p:nth-of-type(2) { display: none; }
+main .about-copy > .inline-link { margin-bottom: 14px; }
+main .about-mark { display: none; }
+main .about-copy .contact-section { position: relative; background: #0b1421ed; border: 1.5px solid #bfced794; border-radius: 15px; padding: 26px; box-shadow: 0 20px 44px #02060966; }
+main .contact-section h2 { font-family: var(--font-body),sans-serif; font-size: clamp(27px,2.3vw,38px); padding-right: 46px; }
+main .contact-section h2 br { display: none; }
+main .contact-section em { color: inherit; }
+main .contact-orb { width: 35px; height: 35px; background: transparent; border-color: #b9c9de66; }
+main .contact-orb .action-icon { width: 20px; height: 20px; }
+main .contact-details { margin-top: 20px; display: block; }
+main .email-link { font-size: clamp(16px,1.65vw,25px); }
+main .contact-details > div { margin-top: 20px; gap: 16px; }
+main .contact-details > div a { flex: 1; font-size: 16px; border: 1px solid #879ca955; border-radius: 7px; padding: 8px 14px; justify-content: space-between; }
+main .closing-work { display: flex; gap: 16px; margin-top: 18px; }
+main .closing-work > a { position: relative; height: 110px; flex: 1; overflow: hidden; border: 1px solid #9eafc06e; border-radius: 10px; background: #101b2b; display: flex; align-items: center; justify-content: space-around; }
+main .closing-work img { object-fit: cover; }
+main .closing-work .nekomata { object-fit: contain; }
+main .closing-reference { width: 100%; height: 100%; background: url('/images/cosmic/reference-board-c.webp') center/cover; }
+@media (max-width: 1100px) and (min-width: 1200px) {
+ main .hero-positioning h2 { font-size: 17px; }
+ main .hero-description { font-size: 16px; line-height: 22px; }
+ main .chapter-copy { column-gap: 4vw; }
+ main .chapter-description, main .chapter-result { font-size: 16px; }
+ main .arrival-proof-copy > span { font-size: 16px; }
+ main .arrival-proof-copy p { font-size: 16px; }
+}
+@media (max-width: 1199px) {
+ body .site-header { padding: 16px 22px; }
+ body .brand { gap: 10px; font-size: 17px; }
+ main .cosmic-experience { --arrival-height: max(960px,108svh); }
+ main .identity-chapter { min-height: 960px; }
+ main .identity-copy { top: 80px; left: 22px; width: calc(100% - 44px); }
+ main .hero-name { width: 100%; height: 34vw; }
+ main .hero-name > .hero-row-huy,main .hero-name > .hero-row-nguyen { left: 0; top: 0; width: 100%; height: auto; margin: 0; transform: none; }
+ main .hero-name > .hero-row-nguyen { top: 17.5vw; }
+ main .hero-row-huy .hero-name-ink { font-size: 27vw; transform: scale(.9,1) translate(-.0726496em,-.1068376em); }
+ main .hero-row-nguyen .hero-name-ink { font-size: 23.5vw; transform: scale(.98,.98) translate(-.0365854em,-.1829268em); }
+ main .hero-positioning { margin: 10px 0 0; max-width: none; }
+ main .hero-positioning h2 { font-size: 22px; line-height: 1.25; }
+ main .hero-description { margin: 12px 0 0; width: 31ch; max-width: 100%; font-size: 16px; line-height: 23px; }
+ main .hero-explore { margin: 10px 0 0; font-size: 17px; }
+ main .hero-portrait { left: -47%; top: 380px; bottom: auto; width: 110%; height: 560px; }
+ main .hero-portrait img { object-fit: cover; object-position: left top; }
+ main .orbit-project { width: 53%; right: 2%; }
+ main .orbit-project-0 { top: 380px; width: 47%; }
+ main .orbit-project-1 { top: 550px; width: 57%; }
+ main .orbit-project-2 { top: 795px; width: 55%; }
+ main .orbit-caption { padding: 10px 10px 3px; gap: 5px; }
+ main .orbit-caption strong,main .orbit-caption small { font-size: 16px; }
+ main .orbit-caption small { line-height: 1.25; }
+ main .orbit-project-1 .project-art { aspect-ratio: 1.6; }
+ main .orbit-project-2 .project-art { aspect-ratio: 3.2; }
+ main .round-arrow { width: 25px; height: 25px; }
+ main .stage-controls { bottom: 10px; }
+ main .arrival-proof { display: none; }
+ main .project-chapter { padding: 55px 22px; background: #0a1520; gap: 26px; }
+ main .chapter-copy { position: relative; top: auto; display: block; }
+ main .chapter-copy h2 { font-size: 36px; margin-bottom: 18px; }
+ main .chapter-meta { margin-bottom: 9px; }
+ main .chapter-description { font-size: 16px; margin-top: 16px; }
+ main .chapter-result { margin-top: 16px; }
+ main .chapter-copy .inline-link { margin-top: 12px; padding-block: 8px; }
+ main .chapter-copy .art-note { margin-top: 4px; }
+ main .chapter-mobile-art { border: 1.5px solid #c2d0de9c; box-shadow: 0 20px 35px #01050b50; }
+ main .engineering-section,main .playground-section { padding: 60px 22px; background: #09121e; }
+ main .section-intro { display: block; margin-bottom: 30px; }
+ main .section-intro h2 { font-size: 36px; }
+ main .section-intro > p { margin-top: 18px; font-size: 16px; }
+ main .foundation-list { display: flex; flex-direction: column; gap: 22px; }
+ main .foundation-copy h3 { font-size: 26px; }
+ main .foundation-project,main .foundation-project:first-child { display: block; padding: 14px 14px 20px; }
+ main .about-section { display: block; padding: 450px 22px 55px; min-height: 0; background: url('/images/cosmic/starfield-c.webp') center/cover; }
+ main .about-signal { top: 0; bottom: auto; height: 450px; width: 100%; left: -13%; }
+ main .about-copy { width: 100%; max-width: none; }
+ main .about-copy h2 { font-size: 36px; }
+ main .about-copy p { font-size: 16px; }
+ main .about-copy .contact-section { padding: 20px; }
+ main .contact-section h2 { font-size: 27px; }
+ main .contact-orb { width: 30px; height: 30px; }
+ main .contact-details > div { gap: 10px; }
+ main .contact-details > div a { padding: 7px 10px; }
+ main .closing-work { gap: 10px; }
+ main .closing-work > a { height: 80px; }
+}
+/* Later chapters share the backdrop while keeping their own controls above it. */
+main .cosmic-stage { pointer-events: none; }
+main .stage-controls button { pointer-events: auto; }
+main .engineering-section,main .playground-section,main .about-section { z-index: 3; }
+main .playground-section button { pointer-events: auto; }
+main .hero-name .hero-name-ink { filter: grayscale(.85) brightness(1.06); }
+@media (max-width: 1199px) {
+ main .project-chapter { min-height: 0; }
+ main .about-signal { position: absolute; top: 0; margin-top: 0; }
+ main .contact-section h2 { padding-bottom: 0; }
+ main .contact-orb { left: auto; right: 0; top: 0; bottom: auto; }
+}
+
+main .playground-section .section-intro h2 { font-family: var(--font-body),sans-serif; font-size: clamp(38px,4.2vw,70px); }
+@media(max-width:1199px) { main .playground-section .section-intro h2 { font-size:36px; } }
+@media (min-width: 1200px) {
+ main .chapter-copy { isolation: isolate; }
+ main .chapter-copy::before { content: ''; position: absolute; inset: -25px -20px; z-index: -1; mask-image: linear-gradient(transparent,#000 25px,#000 calc(100% - 25px),transparent); background: linear-gradient(90deg,transparent 28%,#08111eb8 55%,#08111eb8 92%,transparent); pointer-events: none; }
+}
+
+body .site-header { mix-blend-mode: screen; }
+
+/* A common orbital frame carries three different mechanisms, rather than three reveals. */
+@media (min-width: 1200px) and (prefers-reduced-motion: no-preference) {
+ main .cosmic-experience[data-enhanced="true"][data-story-layout="retained"] .project-chapter .chapter-copy { position: fixed; top: 10svh; left: 4.5vw; width: 91vw; }
+ main .cosmic-experience[data-enhanced="true"][data-story-layout="retained"] .chapter-01 .chapter-copy h2 { clip-path: inset(0 calc((1 - var(--copy-enter,1)) * 100%) 0 0); }
+ main .cosmic-experience[data-enhanced="true"][data-story-layout="retained"] .chapter-02 .chapter-copy h2 { clip-path: inset(calc((1 - var(--copy-enter,1)) * 100%) 0 0); }
+ main .cosmic-experience[data-enhanced="true"][data-story-layout="retained"] .chapter-03 .chapter-copy h2 { clip-path: inset(0 0 calc((1 - var(--copy-enter,1)) * 100%) 0); }
+ main .cosmic-experience[data-story-layout="retained"] .orbit-project-1 { background: rgb(11 17 23 / calc(.94 - var(--card-focus,0) * .12)); }
+ main .cosmic-experience[data-story-layout="retained"] .orbit-project-1 { margin-top: 0; }
+ main .cosmic-experience[data-story-layout="retained"] .orbit-project-2 { background: rgb(8 14 23 / calc(.94 - var(--card-focus,0) * .22)); }
+
+ /* Daily: the source signals converge, the brief resolves, then a conversation opens. */
+ main .orbit-project .art-daily-smith.art-wide .art-email-source { transform: translateY(calc((1 - var(--art-stage-one)) * -1.3cqw)) perspective(65cqw) rotateY(calc((1 - var(--art-stage-one)) * -8deg)); }
+ main .orbit-project .art-daily-smith.art-wide .art-calendar-source { transform: translateY(calc((1 - var(--art-stage-one)) * 1.3cqw)) perspective(65cqw) rotateY(calc((1 - var(--art-stage-one)) * -8deg)); }
+ main .orbit-project .art-daily-smith.art-wide .art-brief-panel { clip-path: inset(0 calc((1 - var(--art-stage-one)) * 88%) 0 0 round 1.3cqw); transform: translateX(calc((1 - var(--art-stage-one)) * -2cqw)); }
+ main .orbit-project .art-daily-smith.art-wide .art-brief-priority { --priority-in: clamp(0,calc((var(--workflow,1) - .24) * 5),1); opacity: var(--priority-in); transform: translateY(calc((1 - var(--priority-in)) * .7cqw)); }
+ main .orbit-project .art-daily-smith.art-wide .art-brief-priority:nth-child(2) { --priority-in: clamp(0,calc((var(--workflow,1) - .30) * 5),1); }
+ main .orbit-project .art-daily-smith.art-wide .art-brief-priority:nth-child(3) { --priority-in: clamp(0,calc((var(--workflow,1) - .36) * 5),1); }
+ main .orbit-project .art-daily-smith.art-wide .art-brief-priority:nth-child(4) { --priority-in: clamp(0,calc((var(--workflow,1) - .42) * 5),1); }
+ main .orbit-project .art-daily-smith.art-wide .art-conversation-panel { clip-path: inset(0 0 calc((1 - var(--art-stage-two)) * 100%) 0 round 1.3cqw); transform: none; opacity: var(--art-stage-two); }
+
+ /* Creative: scattered references settle; the physical guideline is extracted; a spread unfolds. */
+ main .orbit-project .art-creative-studio.art-wide .art-reference-grid { overflow: visible; }
+ main .orbit-project .art-creative-studio.art-wide .art-reference-grid .art-reference-sample { --scatter-x: -1; --scatter-y: -1; --scatter-r: -5; transform: translate(calc((1 - var(--art-stage-one)) * var(--scatter-x) * 1.8cqw),calc((1 - var(--art-stage-one)) * var(--scatter-y) * 1.2cqw)) rotate(calc((1 - var(--art-stage-one)) * var(--scatter-r) * 1deg)); }
+ main .orbit-project .art-creative-studio.art-wide .art-reference-grid .art-reference-sample:nth-child(2) { --scatter-x: 0; --scatter-y: -1.6; --scatter-r: 4; }
+ main .orbit-project .art-creative-studio.art-wide .art-reference-grid .art-reference-sample:nth-child(3) { --scatter-x: 1; --scatter-y: -.7; --scatter-r: 7; }
+ main .orbit-project .art-creative-studio.art-wide .art-reference-grid .art-reference-sample:nth-child(4) { --scatter-x: -1.2; --scatter-y: 1; --scatter-r: 3; }
+ main .orbit-project .art-creative-studio.art-wide .art-reference-grid .art-reference-sample:nth-child(5) { --scatter-x: 0; --scatter-y: 1.5; --scatter-r: -4; }
+ main .orbit-project .art-creative-studio.art-wide .art-reference-grid .art-reference-sample:nth-child(6) { --scatter-x: 1; --scatter-y: 1; --scatter-r: -7; }
+ main .orbit-project .art-creative-studio.art-wide .art-guideline-panel { clip-path: inset(0 calc((1 - var(--art-stage-one)) * 100%) 0 0 round .6cqw); transform: perspective(90cqw) rotateY(calc((1 - var(--art-stage-one)) * -18deg)); opacity: 1; }
+ main .orbit-project .art-creative-studio.art-wide .art-menu-output { transform: none; opacity: var(--art-stage-two); }
+ main .orbit-project .art-creative-studio.art-wide .art-menu-cover { transform: rotateY(calc(-7deg - (1 - var(--art-stage-two)) * 32deg)); }
+ main .orbit-project .art-creative-studio.art-wide .art-menu-page { transform: rotateY(calc(7deg - (1 - var(--art-stage-two)) * 88deg)); opacity: var(--art-stage-two); }
+
+ /* Slide: object depth opens while the raster source remains anchored. */
+ main .orbit-project .art-slide-design.art-wide .art-slide-image-plane { transform: translateX(calc(5.5cqw * var(--art-slide-split))) translateZ(calc(1.2cqw * var(--art-slide-split))) rotateY(calc(-8deg - 18deg * var(--art-slide-split))); }
+ main .orbit-project .art-slide-design.art-wide .art-slide-text-plane { transform: translateX(calc(-6cqw * var(--art-slide-split))) translateY(calc(2.3cqw * var(--art-slide-split))) translateZ(calc(4cqw * var(--art-slide-split))) rotateY(calc(-8deg - 18deg * var(--art-slide-split))); }
+ main .orbit-project .art-slide-design.art-wide .art-editable-text { clip-path: inset(0 0 calc((1 - var(--art-stage-one)) * 100%) 0); }
+}
+
+/* Short landscape viewports keep readable content in native flow. */
+@media (min-width: 1200px) {
+ main .cosmic-experience[data-story-layout="flow"] .cosmic-stage { position: absolute; width: 100%; }
+ main .cosmic-experience[data-story-layout="flow"] .project-chapter { display: flex; min-height: auto; padding-block: 70px; gap: 35px; background: #091019; align-items: center; }
+ main .cosmic-experience[data-story-layout="flow"] .chapter-copy { position: relative; top: auto; display: block; width: 48%; }
+ main .cosmic-experience[data-story-layout="flow"] .chapter-mobile-art { display: block; width: 48%; order: 1; }
+ main .cosmic-experience[data-story-layout="flow"] .chapter-copy h2 { margin-bottom: 20px; }
+ main .cosmic-experience[data-story-layout="flow"] .chapter-description,main .cosmic-experience[data-story-layout="flow"] .chapter-result { margin-top: 15px; }
+ main .cosmic-experience[data-story-layout="flow"] .chapter-copy .inline-link { margin-top: 15px; }
+ main .cosmic-experience[data-reduced="true"] .project-chapter { display: flex; }
+ main .cosmic-experience[data-reduced="true"] .chapter-copy { position: relative; top: auto; display: block; }
+ main .cosmic-experience[data-reduced="true"] .chapter-description, main .cosmic-experience[data-reduced="true"] .chapter-result { margin-top: 16px; }
+ main .cosmic-experience:not([data-enhanced="true"]) .cosmic-stage { position: absolute; width: 100%; }
+ main .cosmic-experience:not([data-enhanced="true"]) .project-chapter { display: flex; min-height: auto; padding-block: 90px; gap: 40px; background: #091019; align-items: center; }
+ main .cosmic-experience:not([data-enhanced="true"]) .chapter-copy { position: relative; top: auto; display: block; width: 45%; }
+ main .cosmic-experience:not([data-enhanced="true"]) .chapter-mobile-art { display: block; width: 50%; order: 1; }
+ main .cosmic-experience:not([data-enhanced="true"]) .chapter-description, main .cosmic-experience:not([data-enhanced="true"]) .chapter-result { margin-top: 16px; }
+}

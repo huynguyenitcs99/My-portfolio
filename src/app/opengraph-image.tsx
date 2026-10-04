@@ -6,8 +6,8 @@ export default function Image() {
   return new ImageResponse(
     <div
       style={{
-        background: "#F2EEE7",
-        color: "#2E2723",
+        background: "#09131b",
+        color: "#f6f3eb",
         width: "100%",
         height: "100%",
         display: "flex",
@@ -17,20 +17,20 @@ export default function Image() {
       }}
     >
       <div style={{ fontSize: 17, letterSpacing: 4, marginBottom: 30 }}>
-        AI ENGINEER AT VULCAN LABS
+        ENGINEERING × IMAGINATION
       </div>
       <div
         style={{
           fontSize: 108,
           fontWeight: 700,
-          letterSpacing: -7,
+          letterSpacing: -4,
           lineHeight: 1,
         }}
       >
         HUY NGUYEN
       </div>
-      <div style={{ fontSize: 45, marginTop: 35, color: "#705461" }}>
-        AI engineer. Creative builder.
+      <div style={{ fontSize: 45, marginTop: 35, color: "#acd6ec" }}>
+        AI engineer. Creative by instinct.
       </div>
       <div style={{ fontSize: 21, marginTop: 55 }}>
         Agents / Generative design / Creative tools

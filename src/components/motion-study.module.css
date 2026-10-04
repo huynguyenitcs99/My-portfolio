@@ -1,0 +1,161 @@
+.canvas.canvas {
+  aspect-ratio: 1000 / 620;
+}
+
+.phase {
+  padding: 22px 26px;
+  background: #0d1825;
+  border-top: 1px solid #9eb3ca33;
+  color: #ebe9e6;
+  font-family: var(--font-body), sans-serif;
+}
+
+.phaseHeader {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+/* All phases contribute to the row size, so playback never shifts the page. */
+.phaseContent {
+  display: grid;
+}
+
+.phasePanel {
+  grid-area: 1 / 1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.phasePanel[data-current="true"] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.phaseHeader strong {
+  font-size: 19px;
+  line-height: 1.3;
+}
+
+.phaseHeader span {
+  color: #91bdff;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.phase p {
+  margin: 12px 0 0;
+  max-width: 75ch;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #c9d2de;
+}
+
+.phase .mechanism {
+  color: #b4bcc8;
+}
+
+.phaseButtons {
+  display: flex;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.phaseButtons button {
+  flex: 1;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid #7994b355;
+  border-radius: 8px;
+  background: #111e30;
+  color: #cdd8e8;
+  font: inherit;
+  font-size: 16px;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.phaseButtons button[aria-pressed="true"] {
+  color: #ebe9e6;
+  background: #1b3a60;
+  border-color: #83b5ff;
+}
+
+.phaseButtons button:focus-visible {
+  outline: 2px solid #83b5ff;
+  outline-offset: 3px;
+}
+
+.controls.controls .playButton {
+  min-height: 44px;
+  min-width: 84px;
+  padding: 10px 12px;
+  justify-content: center;
+}
+
+.compactPoster {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .canvas.canvas {
+    aspect-ratio: 420 / 360;
+  }
+
+  .compactPoster {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    gap: 16px;
+    margin: 0;
+  }
+
+  .compactPoster figcaption {
+    font-family: var(--font-body), sans-serif;
+    font-size: clamp(20px, 4.9vw, 28px);
+    font-weight: 750;
+    line-height: 1.15;
+    color: #ebe9e6;
+  }
+
+  .compactPoster img {
+    flex: 1;
+    width: 100%;
+    min-height: 0;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid #b5c3d180;
+  }
+
+  .phase {
+    padding: 20px 18px;
+  }
+
+  .phaseHeader {
+    display: block;
+  }
+
+  .phaseHeader span {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .phaseButtons button {
+    padding-inline: 8px;
+  }
+
+  .controls.controls {
+    flex-wrap: wrap;
+    padding: 17px 18px;
+    align-items: center;
+  }
+
+  .controls > div {
+    flex: 1 1 180px;
+    min-width: 0;
+  }
+}

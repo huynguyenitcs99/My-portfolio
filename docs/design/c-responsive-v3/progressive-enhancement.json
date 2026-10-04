@@ -1,0 +1,574 @@
+{
+  "url": "http://127.0.0.1:3040",
+  "renderer": "Chromium; WebGL deliberately disabled. Touch gestures are synthetic CDP inputs, not real Safari hardware.",
+  "noJs": [
+    {
+      "viewport": {
+        "width": 1536,
+        "height": 1024
+      },
+      "overflow": 0,
+      "heroLayout": null,
+      "universe": null,
+      "portrait": {
+        "x": -86.015625,
+        "y": 10.25,
+        "width": 768,
+        "height": 768,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "loaded": true
+      },
+      "cards": [
+        {
+          "label": "Preview Daily Smith",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "label": "Preview Creative Studio",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "label": "Preview Slide Design",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        }
+      ],
+      "chapters": [
+        {
+          "id": "daily-smith",
+          "title": "Context becomesclarity.",
+          "copy": {
+            "x": 69.109375,
+            "y": 1114,
+            "width": 1397.78125,
+            "height": 449.703125,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "art": {
+            "x": 806.390625,
+            "y": 1115.390625,
+            "width": 660.5,
+            "height": 446.921875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "link": "/work/daily-smith"
+        },
+        {
+          "id": "creative-studio",
+          "title": "One visual language,carried through.",
+          "copy": {
+            "x": 69.109375,
+            "y": 1743.703125,
+            "width": 1397.78125,
+            "height": 449.703125,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "art": {
+            "x": 806.390625,
+            "y": 1745.09375,
+            "width": 660.5,
+            "height": 446.921875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "link": "/work/creative-studio"
+        },
+        {
+          "id": "slide-design",
+          "title": "From an imageto editable elements.",
+          "copy": {
+            "x": 69.109375,
+            "y": 2373.40625,
+            "width": 1397.78125,
+            "height": 449.703125,
+            "display": "grid",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "art": {
+            "x": 806.390625,
+            "y": 2374.796875,
+            "width": 660.5,
+            "height": 446.921875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "link": "/work/slide-design"
+        }
+      ],
+      "dialog": false,
+      "links": [
+        {
+          "text": "Inside Daily Smith",
+          "href": "/work/daily-smith",
+          "x": 69.109375,
+          "y": 1498.3125,
+          "width": 660.484375,
+          "height": 34.390625,
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "text": "Inside Creative Studio",
+          "href": "/work/creative-studio",
+          "x": 69.109375,
+          "y": 2128.015625,
+          "width": 660.484375,
+          "height": 34.390625,
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "text": "Inside Slide Design",
+          "href": "/work/slide-design",
+          "x": 69.109375,
+          "y": 2757.71875,
+          "width": 660.484375,
+          "height": 34.390625,
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1"
+        }
+      ],
+      "profile": "desktop",
+      "nativeCleanRouteProbe": {
+        "url": "http://127.0.0.1:3040/work/daily-smith/",
+        "heading": "Directory listing for /work/daily-smith/",
+        "mainVisible": false,
+        "overflow": 0,
+        "isApplicationPage": false
+      },
+      "exportedCaseHtml": {
+        "url": "http://127.0.0.1:3040/work/daily-smith.html",
+        "status": 200,
+        "heading": "Daily Smith.",
+        "mainVisible": true,
+        "overflow": 0
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": 0,
+      "heroLayout": null,
+      "universe": null,
+      "portrait": {
+        "x": -184.46875,
+        "y": 430,
+        "width": 429,
+        "height": 429,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "loaded": true
+      },
+      "cards": [
+        {
+          "label": "Preview Daily Smith",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "label": "Preview Creative Studio",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "label": "Preview Slide Design",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        }
+      ],
+      "chapters": [
+        {
+          "id": "daily-smith",
+          "title": "Context becomesclarity.",
+          "copy": {
+            "x": 22,
+            "y": 1157,
+            "width": 346,
+            "height": 685.53125,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "art": {
+            "x": 22,
+            "y": 1339.9375,
+            "width": 346,
+            "height": 234.421875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "link": "/work/daily-smith"
+        },
+        {
+          "id": "creative-studio",
+          "title": "One visual language,carried through.",
+          "copy": {
+            "x": 22,
+            "y": 1955.53125,
+            "width": 346,
+            "height": 738.3125,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "art": {
+            "x": 22,
+            "y": 2164.859375,
+            "width": 346,
+            "height": 234.421875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "link": "/work/creative-studio"
+        },
+        {
+          "id": "slide-design",
+          "title": "From an imageto editable elements.",
+          "copy": {
+            "x": 22,
+            "y": 2806.84375,
+            "width": 346,
+            "height": 749,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "art": {
+            "x": 22,
+            "y": 3026.859375,
+            "width": 346,
+            "height": 234.421875,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "link": "/work/slide-design"
+        }
+      ],
+      "dialog": false,
+      "links": [
+        {
+          "text": "Inside Daily Smith",
+          "href": "/work/daily-smith",
+          "x": 22,
+          "y": 1775.140625,
+          "width": 171.21875,
+          "height": 42.390625,
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "text": "Inside Creative Studio",
+          "href": "/work/creative-studio",
+          "x": 22,
+          "y": 2626.453125,
+          "width": 204.234375,
+          "height": 42.390625,
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "text": "Inside Slide Design",
+          "href": "/work/slide-design",
+          "x": 22,
+          "y": 3488.453125,
+          "width": 179.59375,
+          "height": 42.390625,
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1"
+        }
+      ],
+      "profile": "mobile",
+      "nativeCleanRouteProbe": {
+        "url": "http://127.0.0.1:3040/work/daily-smith/",
+        "heading": "Directory listing for /work/daily-smith/",
+        "mainVisible": false,
+        "overflow": 0,
+        "isApplicationPage": false
+      },
+      "exportedCaseHtml": {
+        "url": "http://127.0.0.1:3040/work/daily-smith.html",
+        "status": 200,
+        "heading": "Daily Smith.",
+        "mainVisible": true,
+        "overflow": 0
+      }
+    }
+  ],
+  "webglUnavailable": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": 0,
+    "heroLayout": "compact",
+    "universe": "unavailable",
+    "portrait": {
+      "x": -184.46875,
+      "y": 469,
+      "width": 429,
+      "height": 429,
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "1",
+      "loaded": true
+    },
+    "cards": [
+      {
+        "label": "Preview Daily Smith",
+        "x": 181.7947235107422,
+        "y": 413.4353942871094,
+        "width": 194.21263122558594,
+        "height": 181.97128295898438,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "label": "Preview Creative Studio",
+        "x": 136.09584045410156,
+        "y": 616.146728515625,
+        "width": 247.2931365966797,
+        "height": 278.27789306640625,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "label": "Preview Slide Design",
+        "x": 149.84872436523438,
+        "y": 915.606689453125,
+        "width": 227.30792236328125,
+        "height": 147.9189453125,
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ],
+    "chapters": [
+      {
+        "id": "daily-smith",
+        "title": "Context becomesclarity.",
+        "copy": {
+          "x": 22,
+          "y": 1185,
+          "width": 346,
+          "height": 685.53125,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "art": {
+          "x": 22,
+          "y": 1367.9375,
+          "width": 346,
+          "height": 234.421875,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "link": "/work/daily-smith"
+      },
+      {
+        "id": "creative-studio",
+        "title": "One visual language,carried through.",
+        "copy": {
+          "x": 22,
+          "y": 1983.53125,
+          "width": 346,
+          "height": 738.3125,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "art": {
+          "x": 22,
+          "y": 2192.859375,
+          "width": 346,
+          "height": 234.421875,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "link": "/work/creative-studio"
+      },
+      {
+        "id": "slide-design",
+        "title": "From an imageto editable elements.",
+        "copy": {
+          "x": 22,
+          "y": 2834.84375,
+          "width": 346,
+          "height": 749,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "art": {
+          "x": 22,
+          "y": 3054.859375,
+          "width": 346,
+          "height": 234.421875,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "link": "/work/slide-design"
+      }
+    ],
+    "dialog": false,
+    "links": [
+      {
+        "text": "Inside Daily Smith",
+        "href": "/work/daily-smith",
+        "x": 22,
+        "y": 1803.140625,
+        "width": 171.21875,
+        "height": 42.390625,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "text": "Inside Creative Studio",
+        "href": "/work/creative-studio",
+        "x": 22,
+        "y": 2654.453125,
+        "width": 204.234375,
+        "height": 42.390625,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      },
+      {
+        "text": "Inside Slide Design",
+        "href": "/work/slide-design",
+        "x": 22,
+        "y": 3516.453125,
+        "width": 179.59375,
+        "height": 42.390625,
+        "display": "inline-flex",
+        "visibility": "visible",
+        "opacity": "1"
+      }
+    ]
+  },
+  "touch": [
+    {
+      "sample": "tap-Daily",
+      "modalOpen": true,
+      "title": "Daily Smith"
+    },
+    {
+      "sample": "Escape-close",
+      "modalOpen": false
+    },
+    {
+      "sample": "touch-close-button",
+      "modalOpen": false
+    },
+    {
+      "sample": "touch-backdrop-close",
+      "modalOpen": false
+    },
+    {
+      "sample": "vertical-swipe-project",
+      "before": 0,
+      "after": 165,
+      "modalOpen": false
+    },
+    {
+      "sample": "vertical-swipe-Player",
+      "before": 5393,
+      "after": 5558,
+      "modalOpen": false,
+      "playerLoaded": true
+    },
+    {
+      "sample": "native-clean-route-return",
+      "case": "http://127.0.0.1:3040/work/daily-smith/",
+      "returned": "http://127.0.0.1:3040/",
+      "modalOpen": false,
+      "caseRendered": false,
+      "note": "Local SimpleHTTP directory listing; only return-to-home modal closure was established by this sample."
+    },
+    {
+      "sample": "exported-case-html-browser-back",
+      "case": "http://127.0.0.1:3040/work/daily-smith.html",
+      "caseHeading": "Daily Smith.",
+      "caseStatus": 200,
+      "returned": "http://127.0.0.1:3040/",
+      "modalOpen": false
+    }
+  ],
+  "errors": [],
+  "failures": [],
+  "hostLimitations": [
+    {
+      "server": "Python SimpleHTTP at 3040",
+      "finding": "This server does not resolve clean export paths to .html. /work/daily-smith redirects to an RSC directory listing. Native clean-URL route availability is not certified by this local check. Explicit exported HTML is verified below."
+    }
+  ],
+  "errorScope": "errors records uncaught page exceptions in the JavaScript-enabled touch/WebGL-unavailable test; expected WebGL renderer console diagnostics are not part of that count.",
+  "noJsScope": "Semantic homepage and explicit exported .html case pages are verified. Clean-URL routing on local Python SimpleHTTP is not verified and the directory-listing probes are preserved as a host limitation. Interactive JS-only menu/player controls are outside the noJS scope.",
+  "sourceHashes": {
+    "src/app/c-responsive.css": "0bcc69ce2ae1d3fb2d7b7a553dad66b795cdf8dacedd06587b52bf508e00c940",
+    "src/components/cosmic/experience.tsx": "a3a981c38c6e81770206a6e7b7647a14d191906a149f5d31c0291daf543d2ff7",
+    "src/components/study-player.tsx": "04da6d9f06d2823226fbaaf8bd04f10a71dbebd6b2672fec047058a1f9d3e7d4",
+    "src/components/motion-study.tsx": "c5ca5a527d969cf50061950ec20afe25a16f47625c116b64f39230fcc82c995e"
+  }
+}
